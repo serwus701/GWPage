@@ -24,3 +24,31 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Stylowanie paska przewijania */
+::-webkit-scrollbar {
+  width: 6px;
+  /* Zmniejsza szerokość paska */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Tło paska przewijania */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  /* Kolor paska */
+  border-radius: 3px;
+  /* Zaokrąglenie paska */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+  /* Widoczniejszy kolor po najechaniu */
+}
+
+/* Usunięcie strzałek (tylko WebKit) */
+::-webkit-scrollbar-button {
+  display: none;
+}

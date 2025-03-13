@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 {/*import { useState } from "react";*/ }
 import { useState, useEffect } from "react";
 
@@ -119,7 +120,7 @@ export default function Home() {
               <div className="flex items-center w-full gap-x-6">
                 {/* Linki */}
                 <nav className="flex space-x-6 justify-start font-bold">
-                  <a href="#" className="hover:underline">MARKI</a>
+                  <Link href="/brands" className="hover:underline">MARKI</Link>
                   <a href="#" className="hover:underline">HISTORIE</a>
                   <a href="#" className="hover:underline">OUTLET</a>
                 </nav>

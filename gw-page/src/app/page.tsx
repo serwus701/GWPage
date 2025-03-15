@@ -10,10 +10,13 @@ import Slider1 from "./component/slider2";
 import Carousel1 from "./component/carousel1";
 import Carousel2 from "./component/carousel2";
 import Carousel3 from "./component/carousel3";
+import {useTranslation} from "react-i18next";
+import '../utils/translations/i18n'
 
 export default function Home() {
   const [language, setLanguage] = useState<string>("PL");
   const [currency, setCurrency] = useState<string>("PLN");
+  const {t} = useTranslation()
 
   return (
     <>
@@ -36,7 +39,7 @@ export default function Home() {
           <div className="flex items-center space-x-4 pr-32">
 
             <a href="#" className="flex items-center space-x-2 hover:underline">
-              <span>ZALOGUJ SIĘ</span>
+              <span>{t('homepage.login')}</span>
               <img src="/user.svg" alt="Logowanie" className="w-6 h-6" />
             </a>
             <div className="mx-4">|</div>

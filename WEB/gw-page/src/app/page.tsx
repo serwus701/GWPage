@@ -3,51 +3,9 @@
 import Link from "next/link";
 {/*import { useState } from "react";*/ }
 import { useState, useEffect } from "react";
-
-
-
-function Slider() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const slides = [
-    { type: "logo" },
-    { type: "video", src: "/videos/video1.mp4" },
-    { type: "video", src: "/videos/video2.mp4" }
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000); // Przesuwa slajd co 5 sekund
-    return () => clearInterval(interval);
-  }, []);
-
-  return (
-
-    <div className="relative w-screen h-screen  overflow-hidden">
-      <div
-        className="flex transition-transform duration-1000"
-        style={{ width: `${slides.length * 100}%`, transform: `translateX(-${currentSlide * (100 / slides.length)}%)` }}>
-        {/* Pierwszy slajd - Logo */}
-        <div className="w-screen h-screen flex items-center justify-center bg-gray-800 flex-shrink-0">
-          <h1 className="text-7xl text-white font-bold">Galeria Wnętrza</h1>
-        </div>
-
-        {/* Pozostałe slajdy - Filmy */}
-        {slides.map((slide, index) =>
-          slide.type === "video" ? (
-            <div key={index} className="sm:w-screen h-screen flex-shrink-0">
-              <video autoPlay loop muted className="w-screen h-screen object-cover">
-                <source src={slide.src} type="video/mp4" />
-              </video>
-            </div>
-          ) : null
-        )}
-      </div>
-    </div>
-  );
-}
-
-
+import Footer from "./component/footer";
+import Slider from "./component/slider1";
+import Carousel from "./component/carousel";
 
 export default function Home() {
   const [language, setLanguage] = useState<string>("PL");
@@ -87,7 +45,9 @@ export default function Home() {
               <option className="bg-white text-black hover:bg-white" value="EUR">EUR</option>
               <option className="bg-white text-black hover:bg-white" value="USD">USD</option>
             </select>
+
             <div className="mx-4">|</div>
+
             <select
               className="bg-black text-gray-400 border-none p-1 rounded appearance focus:outline-none focus:ring-0"
               value={language}
@@ -103,7 +63,7 @@ export default function Home() {
         <div className="w-full bg-gray-50 text-black px-8 flex h-[120px]">
           {/* Lewa sekcja - 1/4 szerokości */}
           <div className="w-1/4 h-full flex justify-end items-center bg-gray-150 p-4">
-            <h1 className=" text-4xl font-serif font-light">Galeria Wnętrza</h1>
+            <Link href="/" className="text-4xl font-serif font-light">Galeria Wnętrza</Link>
           </div>
 
           {/* Prawa sekcja - 3/4 szerokości, podzielona na dwie części */}
@@ -121,8 +81,8 @@ export default function Home() {
                 {/* Linki */}
                 <nav className="flex space-x-6 justify-start font-bold">
                   <Link href="/brands" className="hover:underline">MARKI</Link>
-                  <a href="#" className="hover:underline">HISTORIE</a>
-                  <a href="#" className="hover:underline">OUTLET</a>
+                  <Link href="/stories" className="hover:underline">HISTORIE</Link>
+                  <Link href="/Outlet" className="hover:underline">OUTLET</Link>
                 </nav>
 
                 {/* Pasek wyszukiwania */}
@@ -164,8 +124,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* Sekcja Slidera */}
-      <div className="overflow-auto h-screen pt-[120px]">
+
+      <div className="overflow-y-auto overflow-x-hidden h-screen pt-[120px]">
+
 
 
         <Slider />
@@ -177,25 +138,25 @@ export default function Home() {
 
 
           <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
-            <img src="/domek.svg" className="w-10 h-10 text-black cursor-pointer" />
+            <img src="/domekSuper.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
             <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Dostawa i montaż</h3>
             <p className="text-gray-500 text-center text-sm mt-2">Nasze dostawy sa ubezpieczone i dowożone<br /> przez wykwalifikowane osoby</p>
           </div>
 
-          <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-300 px-4">
-            <p>IKONA</p>
+          <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
+            <img src="/globus.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
             <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Międzynarodowe dostawy</h3>
-            <p className="text-gray-500 text-center text-sm mt-2">Dostarczamy na całym swiecie</p>
+            <p className="text-gray-500 text-center text-sm mt-2">Dostarczamy na całym swiecie</p><br />
           </div>
 
           <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
-            <p>IKONA</p>
+            <img src="/gwarancjaNajjakosci.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
             <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Gwarancja najlepszej jakości</h3>
-            <p className="text-gray-500 text-center text-sm mt-2">Wszystkie nasze produkty są oryginalne</p>
+            <p className="text-gray-500 text-center text-sm mt-2">Wszystkie nasze produkty są oryginalne</p><br />
           </div>
 
-          <div className="w-1/4 flex flex-col items-center justify-center px-4">
-            <p>IKONA</p>
+          <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
+            <img src="/oficjalnyDealer.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
             <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Oficjalny Dealer</h3>
             <p className="text-gray-500 text-center text-sm mt-2">Jesteśmy oficjalnym przedstawicielem <br /> wszystkich oferowanych przez nas marek</p>
           </div>
@@ -216,8 +177,10 @@ export default function Home() {
           </div>
           {/* Prawa sekcja */}
           <div className="flex-1 min-w-[66.66%] bg-white overflow-hidden flex">
-            <div className="w-full overflow-x-auto flex space-x-4 p-6">
-              {/* Przesuwana zawartość */}
+
+            <Carousel></Carousel>
+            {/*<div className="w-full overflow-x-auto flex space-x-4 p-6">
+              
               <div className="flex space-x-6">
                 <div className="w-[530px] h-[570px] bg-white  flex flex-col items-center justify-center text-xl font-bold block shadow-none transition-shadow duration-300 hover:shadow-[10px_15px_25px_rgba(0,0,0,0.3)] pt-[50px] pb-20 relative">
                   <div className="w-full h-full relative flex items-start justify-center">
@@ -266,7 +229,7 @@ export default function Home() {
                 </div>
 
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
 
@@ -295,6 +258,7 @@ export default function Home() {
         <div className="w-screen h-[673px] bg-gray-00 flex items-start justify-center pt-10">
 
           <div className="w-full overflow-x-auto flex space-x-4 p-6">
+
             {/* Przesuwana zawartość */}
             <div className="flex space-x-6">
               <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block  relative">
@@ -312,7 +276,6 @@ export default function Home() {
                 </div>
               </div>
 
-
               <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block relative">
                 <div className="w-full h-[350] overflow-hidden relative flex items-start justify-center">
                   <img src="/Foto/kanapa2.jpg" alt="kanapa2" className="w-full h-full object-cover" />
@@ -329,7 +292,6 @@ export default function Home() {
                 </div>
               </div>
 
-
               <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block relative">
                 <div className="w-full h-[350] overflow-hidden relative flex items-start justify-center">
                   <img src="/Foto/lampa4.jpg" alt="Fotel" className="w-full h-full object-cover" />
@@ -344,26 +306,26 @@ export default function Home() {
                 <div className="mt-auto">
                   <a href="/nowosci" className="w-80 mt-12 bg-white border-2 border-black text-black text-lg text-center font-normal py-1 px-6 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">VITRA</a>
                 </div>
-
               </div>
+
               <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block relative">
                 <div className="w-full h-[350] overflow-hidden relative flex items-start justify-center">
                   <img src="/Foto/lozko3.jpg" alt="Fotel" className="w-full h-full object-cover" />
                 </div>
-                <div>
-                  <div className="h-[220px] flex flex-col justify-between">
-                    <p className="mt-8 font-serif font-bold text-2xl">Serge Mouille</p>
-                    <p className="font-light text-base">Serge Mouille urodził się w grudniu 1922 w Paryżu. Jego</p>
-                    <p className="font-light text-base"> fascynacja przyrodą została zaszczepiona już w dzieciństwie.</p>
-                    <p className="font-light text-base"> Detale przyrody, które już wtedy zaobserwował stały się znakiem</p>
-                    <p className="font-light text-base"> rozpoznawczym jego dzieł.</p>
-                  </div>
+
+                <div className="h-[220px] flex flex-col justify-between">
+                  <p className="mt-8 font-serif font-bold text-2xl">Serge Mouille</p>
+                  <p className="font-light text-base">Serge Mouille urodził się w grudniu 1922 w Paryżu. Jego</p>
+                  <p className="font-light text-base"> fascynacja przyrodą została zaszczepiona już w dzieciństwie.</p>
+                  <p className="font-light text-base"> Detale przyrody, które już wtedy zaobserwował stały się znakiem</p>
+                  <p className="font-light text-base"> rozpoznawczym jego dzieł.</p>
+
                   <div className="mt-auto">
                     <a href="/nowosci" className="w-90 mt-12 bg-white border-2 border-black text-black text-lg text-center font-normal py-1 px-6 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">SERGE MOUILLE</a>
                   </div>
                 </div>
-
               </div>
+
               <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block relative">
                 <div className="w-full h-[350] overflow-hidden relative flex items-start justify-center">
                   <img src="/Foto/star wars.jpg" alt="Fotel" className="w-full h-full object-cover" />
@@ -380,88 +342,86 @@ export default function Home() {
               </div>
             </div>
           </div>
-
-
         </div>
-        <div className="flex flex-col items-center mt-8">
-          <a href="#" className="underline italic font-serif font-normal text-center text-2xl block underline">
+
+
+
+
+        <div className="flex flex-col items-center mt-8 relative w-full">
+          <a href="#" className="underline italic font-serif font-normal text-center text-2xl block">
             Zobacz wszystkie marki
           </a>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-24 h-[3px] bg-black"></div>
+
         </div>
-
-
-
-
-
 
 
         <div className="w-screen h-[800px] bg-gray-400 flex items-center justify-center">
           <h2 className="text-white text-3xl">Jakiego stylu szukasz dla siebie </h2>
         </div>
-        <div className="w-screen h-[400px] bg-gray-600 flex items-center justify-center">
-          <h2 className="text-white text-3xl">Chcesz nas o cos zapytac?</h2>
+
+
+
+
+
+        <div className="w-screen h-[480px] bg-gray-200 flex flex-col items-center justify-center">
+          {/* Sekcja nagłówka */}
+          <div className="w-full text-center relative">
+            <h2 className="font-serif text-black text-5xl">Chcesz nas o coś zapytać?</h2>
+            {/* Czarna linia na dole nagłówka */}
+            <div className="w-24 h-[8px] bg-black mx-auto mt-12"></div>
+          </div>
+          <div className="w-full h-[250px] bg-gray-200 flex items-center justify-center">
+
+
+            <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
+              <img src="/telefonBig.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
+              <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Zadzwoń</h3>
+              <p className="text-gray-500 text-center text-sm mt-2">Zadwoń do jednego z naszych<br />Opiekunów Klienta<br /><br /></p>
+              <a href="/nowosci" className="mt-12 bg-black text-white text-sm font-normal py-1 px-22 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">OPIEKUN KLIENTA</a>
+
+            </div>
+
+            <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
+              <img src="/koperta.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
+              <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Napisz mail</h3>
+              <p className="text-gray-500 text-center text-sm mt-2">Napisz do nas - z chęcią odpowiemy na<br />Twoje pytania<br /><br /></p>
+              <a href="/nowosci" className="mt-12 bg-black text-white text-sm font-normal py-1 px-22 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">OPIEKUN KLIENTA</a>
+
+            </div>
+
+            <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
+              <img src="/odwiedzNas.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
+              <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Odwiedź nas</h3>
+              <p className="text-gray-500 text-center text-sm mt-2">Przyjedź do naszych showroomów we<br />Wrocławiu,Warszawie lub Poznaniu lub<br />zobacz nas wirtualnie</p>
+              <a href="/nowosci" className="mt-12 bg-black text-white text-sm font-normal py-1 px-22 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">JAK DOJECHAĆ?</a>
+
+            </div>
+
+            <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
+              <img src="/showrooms.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
+              <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Showroomy</h3>
+              <p className="text-gray-500 text-center text-sm mt-2"><br /><br /><br /></p>
+              <a href="/nowosci" className="mt-12 bg-black text-white text-sm font-normall py-1 px-22 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">ZOBACZ SHOWROOMY</a>
+
+            </div>
+          </div>
         </div>
+
+
+
+
+
+
+
+
         <div className="w-screen h-[600px] bg-gray-500 flex items-center justify-center">
           <h2 className="text-white text-3xl">Porada Experta</h2>
         </div>
         <div className="w-screen h-[600px] bg-gray-400 flex items-center justify-center">
-          <h2 className="text-white text-3xl">Ostatnio przegladane</h2>
+          <p>oststnio przegladane</p>
         </div>
-
-
-        <div className="w-screen h-[300px] bg-gray-300 flex flex-col pl-50 pr-5">
-          {/* Górna 60% */}
-          <div className="h-[70%] flex items-start pt-8 w-full">
-            <div className="w-1/3 flex flex-col items-start font-bold px-10 gap-y-3">
-              <span className="text-lg">O GALERII WNĘTRZA</span>
-              <a href="#" className="text-lg font-light text-black hover:text-gray-500">O NAS</a>
-              <a href="#" className="text-lg font-light text-black hover:text-gray-500">MARKI</a>
-              <a href="#" className="text-lg font-normal text-black hover:text-gray-500">SHOWROOMY</a>
-              <a href="#" className="text-lg font-normal text-black hover:text-gray-500">JAK DOJECHAĆ</a>
-              <a href="#" className="text-lg font-normal text-black hover:text-gray-500">KONTAKT</a>
-            </div>
-
-
-            <div className="w-1/3 flex flex-col items-start font-bold px-10 gap-y-3">
-              <span className="text-lg">INFORMACJE</span>
-              <a href="#" className="text-lg font-normal text-black hover:text-gray-500">POLITYKA PRYWATNOSCI I COOKIES</a>
-              <a href="#" className="text-lg font-normal text-black hover:text-gray-500">REGULAMIN</a>
-            </div>
-
-
-            <div className="w-1/3 flex flex-col items-start font-bold px-10 gap-y-3">
-              <span className="text-lg">DOŁĄCZ</span>
-              <a href="#" className="text-lg font-normal text-black hover:text-gray-500">INSTAGRAM</a>
-              <a href="#" className="text-lg font-normal text-black hover:text-gray-500">FACEBOOK</a>
-              <a href="#" className="text-lg font-normal text-black hover:text-gray-500">LINKEDIN</a>
-            </div>
-          </div>
-        </div>
-        {/* Dolna 40% */}
-        <div className="h-[30%]  bg-gray-300 flex flex-col items-center justify-start pt-4 w-full">
-          <div className="w-[130px] h-[5px] bg-black mb-10"></div>
-          <h2 className="font-normall text-black text-lg mb-10 text-center">NAJNOWSZE TRENDY, INSPIRACJE I WIĘCEJ:</h2>
-
-          <div className="flex items-center">
-            <input
-              type="Twój adres e-mail"
-              placeholder="Wpisz swój adres e-mail"
-              className="px-4 py-2 bg-white border border-gray-300 w-100 text-black " />
-            <button className="px-6 py-2 bg-gray-100 text-black  border border-gray-300 w-60 hover:text-gray-300 transition-all duration-700">
-              SUBSKRYBUJ
-            </button>
-          </div>
-        </div>
-
-
-
-
-        <div className="w-screen h-[80px] bg-[#2a2a2a] flex items-center justify-center">
-          <img src="/facebook2.svg" alt="facebook" className="w-6 h-6" />
-          <h2 className="text-white text-3xl">Stopka</h2>
-        </div>
-      </div >
+        <Footer></Footer>
+      </div>
 
 
     </>

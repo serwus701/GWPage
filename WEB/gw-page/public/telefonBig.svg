@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48.924" height="48.893" viewBox="0 0 50 50">
+  <g id="telefon2" transform="translate(1 1)">
+    <path stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke="#000" fill="none" 
+          d="M15.75,20.807l3.19,-6.217a3.145,3.145 0 0 0 -0.575,-3.664l-8.5,-8.5a3.149,3.149 0 0 0 -4.453,0l-0.06,0.06a13.168,13.168 0 0 0 -1.1,17.352a137.178,137.178 0 0 0 24.771,24.782a13.261,13.261 0 0 0 17.479,-1.1a3.149,3.149 0 0 0 0,-4.453l-8.5,-8.5a3.149,3.149 0 0 0 -3.662,-0.575l-6.219,3.19a136.872,136.872 0 0 1 -12.371,-12.375z"/>
+    
+    <path stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke="#000" fill="none" 
+          d="M30.686,2.763a27.821,27.821 0 0 1 15.739,15.005"/>
+
+    <path stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke="#000" fill="none" 
+          d="M30.688,11.715a19.7,19.7 0 0 1 6.523,6.059"/>
+  </g>
+</svg>

@@ -7,6 +7,7 @@ import Footer from "./component/footer";
 import Slider from "./component/slider1";
 import Carousel from "./component/carousel";
 import Slider1 from "./component/slider2";
+import Carousel1 from "./component/carousel1";
 
 export default function Home() {
   const [language, setLanguage] = useState<string>("PL");
@@ -211,9 +212,10 @@ export default function Home() {
         </div>
 
 
-        <div className="w-screen h-[800px] bg-gray-300
-         flex items-center justify-center">
-          <h2 className="text-white text-3xl">Jakiego stylu szukasz dla siebie </h2>
+        <div className="w-screen h-[800px] bg-white
+         flex items-center justify-center shadow-2xl border-b border-gray-500 relative z-10">
+          {/*<h2 className="text-white text-3xl">Jakiego stylu szukasz dla siebie </h2>*/}
+          <Carousel1></Carousel1>
         </div>
 
 

@@ -9,7 +9,7 @@ function Footer() {
                     <div className="w-1/3 flex flex-col items-start font-bold px-10 gap-y-3">
                         <span className="text-lg">O GALERII WNĘTRZA</span>
                         <Link href="/onas" className="text-lg font-light text-black hover:text-gray-500">O NAS</Link>
-                        <a href="#" className="text-lg font-light text-black hover:text-gray-500">MARKI</a>
+                        <a href="/brands" className="text-lg font-light text-black hover:text-gray-500">MARKI</a>
                         <a href="#" className="text-lg font-normal text-black hover:text-gray-500">SHOWROOMY</a>
                         <a href="#" className="text-lg font-normal text-black hover:text-gray-500">JAK DOJECHAĆ</a>
                         <a href="#" className="text-lg font-normal text-black hover:text-gray-500">KONTAKT</a>
@@ -18,15 +18,15 @@ function Footer() {
 
                     <div className="w-1/3 flex flex-col items-start font-bold px-10 gap-y-3">
                         <span className="text-lg">INFORMACJE</span>
-                        <a href="#" className="text-lg font-normal text-black hover:text-gray-500">POLITYKA PRYWATNOSCI I COOKIES</a>
-                        <a href="#" className="text-lg font-normal text-black hover:text-gray-500">REGULAMIN</a>
+                        <a href="/politykaPrywatnosci" className="text-lg font-normal text-black hover:text-gray-500">POLITYKA PRYWATNOSCI I COOKIES</a>
+                        <a href="/regulamin" className="text-lg font-normal text-black hover:text-gray-500">REGULAMIN</a>
                     </div>
 
 
                     <div className="w-1/3 flex flex-col items-start font-bold px-10 gap-y-3">
                         <span className="text-lg">DOŁĄCZ</span>
                         <a href="#" className="text-lg font-normal text-black hover:text-gray-500">INSTAGRAM</a>
-                        <a href="#" className="text-lg font-normal text-black hover:text-gray-500">FACEBOOK</a>
+                        <Link href="https://www.facebook.com/GaleriaWnetrzaWroclaw" className="text-lg font-normal text-black hover:text-gray-500">FACEBOOK</Link>
                         <a href="#" className="text-lg font-normal text-black hover:text-gray-500">LINKEDIN</a>
                     </div>
                 </div>

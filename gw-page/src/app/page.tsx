@@ -6,6 +6,7 @@ import { useState, useEffect } from "react";
 import Footer from "./component/footer";
 import Slider from "./component/slider1";
 import Carousel from "./component/carousel";
+import Slider1 from "./component/slider2";
 
 export default function Home() {
   const [language, setLanguage] = useState<string>("PL");
@@ -138,31 +139,29 @@ export default function Home() {
 
 
           <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
-            <img src="/domekSuper.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
+            <img src="/domekSuper.svg" className="w-10 h-10 text-black cursor-pointer mt-6 transition-transform duration-300 hover:scale-120" />
             <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Dostawa i montaż</h3>
             <p className="text-gray-500 text-center text-sm mt-2">Nasze dostawy sa ubezpieczone i dowożone<br /> przez wykwalifikowane osoby</p>
           </div>
 
           <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
-            <img src="/globus.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
+            <img src="/globus.svg" className="w-10 h-10 text-black cursor-pointer mt-6 transition-transform duration-300 hover:scale-120" />
             <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Międzynarodowe dostawy</h3>
             <p className="text-gray-500 text-center text-sm mt-2">Dostarczamy na całym swiecie</p><br />
           </div>
 
           <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
-            <img src="/gwarancjaNajjakosci.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
+            <img src="/gwarancjaNajjakosci.svg" className="w-10 h-10 text-black cursor-pointer mt-6 transition-transform duration-300 hover:scale-120" />
             <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Gwarancja najlepszej jakości</h3>
             <p className="text-gray-500 text-center text-sm mt-2">Wszystkie nasze produkty są oryginalne</p><br />
           </div>
 
           <div className="w-1/4 flex flex-col items-center justify-center border-r border-gray-200 px-4">
-            <img src="/oficjalnyDealer.svg" className="w-10 h-10 text-black cursor-pointer mt-6" />
+            <img src="/oficjalnyDealer.svg" className="w-10 h-10 text-black cursor-pointer mt-6 transition-transform duration-300 hover:scale-120" />
             <h3 className="text-black text-xl font-serif min-h-[40px] flex items-center justify-center">Oficjalny Dealer</h3>
             <p className="text-gray-500 text-center text-sm mt-2">Jesteśmy oficjalnym przedstawicielem <br /> wszystkich oferowanych przez nas marek</p>
           </div>
         </div>
-
-
 
         {/* zawartość  nowosci */}
         <div className="w-full h-[650px] bg-white flex">
@@ -172,195 +171,50 @@ export default function Home() {
               <h3 className="text-black text-xl font-sans min-h-[40px]">251 NOWE PRODUKTY</h3>
               <h1 className="mt-6 text-black text-5xl font-serif font-bold">Co Nowego</h1>
               <p className="mt-10 text-black text-lg">Bądź na bieżąco z nowymi produktami</p>
-              <a href="/nowosci" className="mt-12 bg-black text-white text-lg font-normal py-1 px-22 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">NOWOŚCI</a>
+              <a href="/nowosci" className="mt-12 bg-black text-white text-lg font-normal py-1 px-22 transition-colors duration-900 hover:bg-gray-500 hover:text-white tracking-[0.2em] inline-block">NOWOŚCI</a>
             </div>
           </div>
           {/* Prawa sekcja */}
           <div className="flex-1 min-w-[66.66%] bg-white overflow-hidden flex">
 
             <Carousel></Carousel>
-            {/*<div className="w-full overflow-x-auto flex space-x-4 p-6">
-              
-              <div className="flex space-x-6">
-                <div className="w-[530px] h-[570px] bg-white  flex flex-col items-center justify-center text-xl font-bold block shadow-none transition-shadow duration-300 hover:shadow-[10px_15px_25px_rgba(0,0,0,0.3)] pt-[50px] pb-20 relative">
-                  <div className="w-full h-full relative flex items-start justify-center">
-                    <a href="/Foto/fotel1.jpg" className="w-[calc(100%-50px)] h-[calc(100%-50px)] ">
-                      <img src="/serce.svg" alt="Heart" className="absolute top-1 end-10 w-6 z-10" />
-                      <img src="/Foto/fotel1.jpg" alt="Fotel" className="w-full h-full object-cover" />
-                    </a>
-                  </div>
-                  <p className="mt-8 text-center">Firma1</p>
-                </div>
-                <div className="w-[530px] h-[570px] bg-white  flex flex-col items-center justify-center text-xl font-bold block shadow-none transition-shadow duration-300 hover:shadow-2xl pt-[50px] pb-20 relative">
-                  <div className="w-full h-full relative flex items-start justify-center">
-                    <a href="/Foto/fotel1.jpg" className="w-[calc(100%-50px)] h-[calc(100%-50px)] ">
-                      <img src="/serce.svg" alt="Heart" className="absolute top-1 end-10 w-6 z-10" />
-                      <img src="/Foto/stol i krzesla.jpg" alt="Fotel" className="w-full h-full object-cover" />
-                    </a>
-                  </div>
-                  <p className="mt-8 text-center">Firma2</p>
-                </div>
-                <div className="w-[530px] h-[570px] bg-white  flex flex-col items-center justify-center text-xl font-bold block shadow-none transition-shadow duration-300 hover:shadow-2xl pt-[50px] pb-20 relative">
-                  <div className="w-full h-full relative flex items-start justify-center">
-                    <a href="/Foto/fotel1.jpg" className="w-[calc(100%-50px)] h-[calc(100%-50px)] ">
-                      <img src="/serce.svg" alt="Heart" className="absolute top-1 end-10 w-6 z-10" />
-                      <img src="/Foto/lozko6.jpg" alt="Fotel" className="w-full h-full object-cover" />
-                    </a>
-                  </div>
-                  <p className="mt-8 text-center">Firma3</p>
-                </div>
-                <div className="w-[530px] h-[570px] bg-white  flex flex-col items-center justify-center text-xl font-bold block shadow-none transition-shadow duration-300 hover:shadow-2xl pt-[50px] pb-20 relative">
-                  <div className="w-full h-full relative flex items-start justify-center">
-                    <a href="/Foto/fotel1.jpg" className="w-[calc(100%-50px)] h-[calc(100%-50px)] ">
-                      <img src="/serce.svg" alt="Heart" className="absolute top-1 end-10 w-6 z-10" />
-                      <img src="/Foto/lozko7.jpg" alt="Fotel" className="w-full h-full object-cover" />
-                    </a>
-                  </div>
-                  <p className="mt-8 text-center">Firma4</p>
-                </div>
-                <div className="w-[530px] h-[570px] bg-white  flex flex-col items-center justify-center text-xl font-bold block shadow-none transition-shadow duration-300 hover:shadow-2xl pt-[50px] pb-20 relative">
-                  <div className="w-full h-full relative flex items-start justify-center">
-                    <a href="/Foto/fotel1.jpg" className="w-[calc(100%-50px)] h-[calc(100%-50px)] ">
-                      <img src="/serce.svg" alt="Heart" className="absolute top-1 end-10 w-6 z-10" />
-                      <img src="/Foto/tron.jpg" alt="Fotel" className="w-full h-full object-cover" />
-                    </a>
-                  </div>
-                  <p className="mt-8 text-center">Firma5</p>
-                </div>
 
-              </div>
-            </div>*/}
           </div>
         </div>
 
+        <div className="w-screen h-[600px] bg-white flex">
 
-
-        <div className="w-screen h-[600px] bg-gray-100 flex items-center justify-center">
-          <img src="/Foto/pano7.webp" alt="pano1" className="w-full h-full object-cover" />
-
-          <div className="w-2/3 h-full bg-gray-400 ">
-
+          <div className="w-2/3 h-full pl-6">
+            <img src="/Foto/pano7.webp" alt="pano1" className="w-full h-full object-cover" />
           </div>
 
-          <div className="w-full flex flex-col items-start">
-            <h3>180 PRODUKTÓW</h3>
-            <h1>B&B Italia</h1>
-            <p>Wybierz dla siebie produkty z kultowej fabryki</p>
-            <p>produkujacej najwyższej jakości meble na swiecie</p>
-            <a href="/nowosci" className="mt-12 bg-black text-white text-lg font-normal py-1 px-22 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">NOWOŚCI</a>
-
-          </div>
-
-
-
-        </div>
-
-        <div className="w-screen h-[673px] bg-gray-00 flex items-start justify-center pt-10">
-
-          <div className="w-full overflow-x-auto flex space-x-4 p-6">
-
-            {/* Przesuwana zawartość */}
-            <div className="flex space-x-6">
-              <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block  relative">
-                <div className="w-full h-[350] overflow-hidden  relative flex items-start justify-center">
-                  <img src="/Foto/fotel2.jpg" alt="Fotel2" className="w-full h-full object-cover" />
-                </div>
-                <div className="h-[220px] flex flex-col justify-between">
-                  <h1 className="mt-8 font-serif font-bold text-2xl">Poliform</h1>
-                  <p className="font-light text-base">Kulturalne i współczesne piękno, ponadczasowa elegancja oraz</p>
-                  <p className="font-light text-base"> ciągłe dążenie do doskonałości technicznej. Unikalność marki</p>
-                  <p className="font-light text-base"> Poliform to kompleksowe, luksusowe rozwiązania do wnętrz.</p>
-                  <div className="mt-auto">
-                    <a href="/nowosci" className="w-80 mt-12 bg-white border-2 border-black text-black text-lg text-center font-normal py-1 px-6  transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">POLIFORM</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block relative">
-                <div className="w-full h-[350] overflow-hidden relative flex items-start justify-center">
-                  <img src="/Foto/kanapa2.jpg" alt="kanapa2" className="w-full h-full object-cover" />
-                </div>
-                <div className="h-[220px] flex flex-col justify-between">
-                  <p className="mt-8 font-serif font-bold text-2xl">Baxter</p>
-                  <p className="font-light text-base">Włoska firma rodzinna posiada korzenie wywodzące się z miłości</p>
-                  <p className="font-light text-base"> do najszlachetniejszych skór i tradycyjnego rzemiosła. Ambitny i</p>
-                  <p className="font-light text-base"> artystyczny Baxter zapoczątkowany przez Luigi i Paolo Bestetti,</p>
-                  <p className="font-light text-base">  opiera swoje kolekcje na osadzonej głęboko w tradycji obróbce skóry.</p>
-                </div>
-                <div className="mt-auto">
-                  <a href="/nowosci" className="w-80 mt-12 bg-white border-2 border-black text-black text-lg text-center font-normal py-1 px-6 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">BAXTER</a>
-                </div>
-              </div>
-
-              <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block relative">
-                <div className="w-full h-[350] overflow-hidden relative flex items-start justify-center">
-                  <img src="/Foto/lampa4.jpg" alt="Fotel" className="w-full h-full object-cover" />
-                </div>
-                <div className="h-[220px] flex flex-col justify-between">
-                  <p className="mt-8 font-serif font-bold text-2xl">Vitra</p>
-                  <p className="font-light text-base">Marka-ikona, która realizuje najbardziej nowatorskie projekty</p>
-                  <p className="font-light text-base">czołowych twórców wzornictwa przemysłowego. Vitra to</p>
-                  <p className="font-light text-base"> znacznie więcej niż marka, to styl życia, otoczenie, które</p>
-                  <p className="font-light text-base"> kształtuje myśli i uczucia. </p>
-                </div>
-                <div className="mt-auto">
-                  <a href="/nowosci" className="w-80 mt-12 bg-white border-2 border-black text-black text-lg text-center font-normal py-1 px-6 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">VITRA</a>
-                </div>
-              </div>
-
-              <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block relative">
-                <div className="w-full h-[350] overflow-hidden relative flex items-start justify-center">
-                  <img src="/Foto/lozko3.jpg" alt="Fotel" className="w-full h-full object-cover" />
-                </div>
-
-                <div className="h-[220px] flex flex-col justify-between">
-                  <p className="mt-8 font-serif font-bold text-2xl">Serge Mouille</p>
-                  <p className="font-light text-base">Serge Mouille urodził się w grudniu 1922 w Paryżu. Jego</p>
-                  <p className="font-light text-base"> fascynacja przyrodą została zaszczepiona już w dzieciństwie.</p>
-                  <p className="font-light text-base"> Detale przyrody, które już wtedy zaobserwował stały się znakiem</p>
-                  <p className="font-light text-base"> rozpoznawczym jego dzieł.</p>
-
-                  <div className="mt-auto">
-                    <a href="/nowosci" className="w-90 mt-12 bg-white border-2 border-black text-black text-lg text-center font-normal py-1 px-6 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">SERGE MOUILLE</a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="w-[530px] h-[570px] bg-white  flex flex-col items-left justify-center text-xl font-bold block relative">
-                <div className="w-full h-[350] overflow-hidden relative flex items-start justify-center">
-                  <img src="/Foto/star wars.jpg" alt="Fotel" className="w-full h-full object-cover" />
-                </div>
-                <div className="h-[220px] flex flex-col justify-between">
-                  <h1 className="mt-8 font-serif font-bold text-2xl">Star Wars</h1>
-                  <p className="font-light text-base">Kulturalne i współczesne piękno, ponadczasowa elegancja oraz</p>
-                  <p className="font-light text-base"> ciągłe dążenie do doskonałości technicznej. Unikalność marki</p>
-                  <p className="font-light text-base"> Poliform to kompleksowe, luksusowe rozwiązania do wnętrz.</p>
-                </div>
-                <div className="mt-auto">
-                  <a href="/nowosci" className="w-80 mt-12 bg-white border-2 border-black text-black text-lg text-center font-normal py-1 px-6  transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block">STAR WARS</a>
-                </div>
-              </div>
-            </div>
+          <div className="w-1/3 flex flex-col items-start justify-center p-8">
+            <h3 className="text-lg font-thin text-black mb-10">180 PRODUKTÓW</h3>
+            <h1 className="text-5xl font-serif font-light">B&B Italia</h1>
+            <p className="text-lg mt-2">Wybierz dla siebie produkty z kultowej fabryki</p>
+            <p className="text-lg mb-12">produkującej najwyższej jakości meble na świecie</p>
+            <a
+              href="/nowosci"
+              className="mt-6  text-black text-lg font-sm py-0 px-20 border-2 border-black transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block"
+            >
+              B&B ITALIA
+            </a>
           </div>
         </div>
+        <Slider1></Slider1>
 
-
-
-
-        <div className="flex flex-col items-center mt-8 relative w-full">
+        <div className="w-screen h-[70px] flex flex-col bg-white items-center mt-8 relative w-full">
           <a href="#" className="underline italic font-serif font-normal text-center text-2xl block">
             Zobacz wszystkie marki
           </a>
-
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[95%] h-[2px] bg-black"></div>
         </div>
 
 
-        <div className="w-screen h-[800px] bg-gray-400 flex items-center justify-center">
+        <div className="w-screen h-[800px] bg-gray-300
+         flex items-center justify-center">
           <h2 className="text-white text-3xl">Jakiego stylu szukasz dla siebie </h2>
         </div>
-
-
-
 
 
         <div className="w-screen h-[480px] bg-gray-200 flex flex-col items-center justify-center">

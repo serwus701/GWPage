@@ -51,7 +51,7 @@ function Slider1() {
 
                             {/* Przycisk pod opisem */}
                             <div className="mt-6">
-                                <a href={slide.link} className="w-80 bg-white border-2 border-black text-black text-lg text-center font-normal  px-6 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block uppercase">
+                                <a href={slide.link} className="w-80 bg-white border-1 border-black text-black text-lg text-center font-normal  px-6 transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block uppercase">
                                     {slide.title}
                                 </a>
                             </div>

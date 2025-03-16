@@ -8,6 +8,8 @@ import Slider from "./component/slider1";
 import Carousel from "./component/carousel";
 import Slider1 from "./component/slider2";
 import Carousel1 from "./component/carousel1";
+import Carousel2 from "./component/carousel2";
+import Carousel3 from "./component/carousel3";
 
 export default function Home() {
   const [language, setLanguage] = useState<string>("PL");
@@ -185,7 +187,7 @@ export default function Home() {
 
         <div className="w-screen h-[600px] bg-white flex">
 
-          <div className="w-2/3 h-full pl-6">
+          <div className="w-2/3 h-full pl-17">
             <img src="/Foto/pano7.webp" alt="pano1" className="w-full h-full object-cover" />
           </div>
 
@@ -196,25 +198,32 @@ export default function Home() {
             <p className="text-lg mb-12">produkującej najwyższej jakości meble na świecie</p>
             <a
               href="/nowosci"
-              className="mt-6  text-black text-lg font-sm py-0 px-20 border-2 border-black transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block"
+              className="mt-6  text-black text-lg font-sm py-0 px-20 border-1 border-black transition-colors duration-700 hover:bg-gray-800 hover:text-white tracking-[0.2em] inline-block"
             >
               B&B ITALIA
             </a>
           </div>
         </div>
-        <Slider1></Slider1>
+        <Carousel2></Carousel2>
+        {/*<Slider1></Slider1>*/}
 
         <div className="w-screen h-[70px] flex flex-col bg-white items-center mt-8 relative w-full">
-          <a href="#" className="underline italic font-serif font-normal text-center text-2xl block">
+          <a href="#" className="underline italic font-serif font-normal text-center text-2xl block hover:no-underline">
             Zobacz wszystkie marki
           </a>
-          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[95%] h-[2px] bg-black"></div>
+          <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[95%] h-[1px] bg-black"></div>
         </div>
+
+        <div className="w-screen bg-white p-4 flex flex-col items-center">
+          <h1 className="text-5xl  font-bold font-serif mt-4">Jakiego stylu szukasz dla siebie?</h1>
+          <p className="text-lg  text-black mt-6">Odkryj nasze produkty sprofilowane dla Ciebie w wybranej stylistyce</p>
+        </div>
+
+
 
 
         <div className="w-screen h-[800px] bg-white
          flex items-center justify-center shadow-2xl border-b border-gray-500 relative z-10">
-          {/*<h2 className="text-white text-3xl">Jakiego stylu szukasz dla siebie </h2>*/}
           <Carousel1></Carousel1>
         </div>
 
@@ -263,18 +272,33 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="w-screen h-[600px] bg-white flex items-center justify-center">
 
+          {/* zawartość  nowosci */}
+          <div className="w-full h-[650px] bg-white flex">
 
+            <div className="w-1/3 flex flex-col bg-white items-center justify-start border-r border-white px-25 pt-40">
+              <div className="w-full flex flex-col items-start">
+                <h3 className="text-black text-xl font-thin font-sans min-h-[40px]">Nasze doswiadczenie<br />Twoja historia</h3>
+                <h1 className="text-black text-5xl font-serif font-normal min-h-[40px] mt-6">Porada eksperta</h1>
+                <p className="mt-8 text-black text-lg">to wsparcie dla Ciebie w realizacji marzen.</p>
+                <p className="mt-8 text-black text-sm font-thin font-sans">Skorzystaj z doswiadczenia naszych ekspertow,<br />fachowego doradztwa w zakresie doboru najlepszych<br />rozwiazan dla twojego Wnetrza</p>
+                <a href="/nowosci" className="mt-12 bg-black text-white text-lg font-normal py-0 px-18 transition-colors duration-900 hover:bg-gray-500 hover:text-white tracking-[0.2em] inline-block">SKORZYSTAJ</a>
+              </div>
+            </div>
+            {/* Prawa sekcja */}
+            <div className="flex-1 min-w-[66.66%] bg-white overflow-hidden flex flex-col items-center justify-center">
 
+              <video autoPlay muted loop className="w-full max-w-[800px] h-auto">
+                <source src="/videos/eksperci.mp4" type="video/mp4" />
+                Twoja przeglądarka nie obsługuje elementu wideo.
+              </video>
+            </div>
 
-
-
-
-        <div className="w-screen h-[600px] bg-gray-500 flex items-center justify-center">
-          <h2 className="text-white text-3xl">Porada Experta</h2>
+          </div>
         </div>
-        <div className="w-screen h-[600px] bg-gray-400 flex items-center justify-center">
-          <p>oststnio przegladane</p>
+        <div className="w-screen h-[800px] bg-gray-400 flex items-center justify-center">
+          <Carousel3></Carousel3>
         </div>
         <Footer></Footer>
       </div>

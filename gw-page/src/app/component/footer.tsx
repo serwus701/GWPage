@@ -25,7 +25,7 @@ function Footer() {
 
                     <div className="w-1/3 flex flex-col items-start font-bold px-10 gap-y-3">
                         <span className="text-lg">DOŁĄCZ</span>
-                        <a href="#" className="text-lg font-normal text-black hover:text-gray-500">INSTAGRAM</a>
+                        <Link href="https://www.instagram.com/galeria_wnetrza/" className="text-lg font-normal text-black hover:text-gray-500">INSTAGRAM</Link>
                         <Link href="https://www.facebook.com/GaleriaWnetrzaWroclaw" className="text-lg font-normal text-black hover:text-gray-500">FACEBOOK</Link>
                         <a href="#" className="text-lg font-normal text-black hover:text-gray-500">LINKEDIN</a>
                     </div>
@@ -50,9 +50,15 @@ function Footer() {
             <div className="w-screen h-[80px] bg-[#2a2a2a] flex items-center justify-between px-70">
                 {/* Sekcja ikon - wyrównana do lewej */}
                 <div className="flex space-x-6">
-                    <img src="/facebookIcon.svg" alt="facebook" className="w-6 h-6" />
+                    <a href="https://www.facebook.com/GaleriaWnetrzaWroclaw" target="_blank" rel="noopener noreferrer">
+                        <img src="/facebookIcon.svg" alt="facebook" className="w-6 h-6" />
+                    </a>
                     <img src="/linkEdlin.svg" alt="linkedin" className="w-6 h-6" />
-                    <img src="/instagram.svg" alt="instagram" className="w-6 h-6" />
+
+                    <a href="https://www.instagram.com/galeria_wnetrza/" target="_blank" rel="noopener noreferrer">
+                        <img src="/instagram.svg" alt="instagram" className="w-6 h-6" />
+                    </a>
+
                 </div>
 
                 {/* Sekcja tekstu - wyrównana do prawej */}

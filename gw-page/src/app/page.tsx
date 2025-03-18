@@ -14,9 +14,8 @@ import {useTranslation} from "react-i18next";
 import '../utils/translations/i18n'
 
 export default function Home() {
-  const [language, setLanguage] = useState<string>("PL");
   const [currency, setCurrency] = useState<string>("PLN");
-  const {t} = useTranslation()
+  const {t,i18n} = useTranslation()
 
   return (
     <>
@@ -57,11 +56,11 @@ export default function Home() {
 
             <select
               className="bg-black text-gray-400 border-none p-1 rounded appearance focus:outline-none focus:ring-0"
-              value={language}
-              onChange={(e) => setLanguage(e.target.value)}
+              value={i18n.language}
+              onChange={(e) => i18n.changeLanguage(e.target.value)}
             >
-              <option className="bg-white text-black" value="PL">POLSKI</option>
-              <option className="bg-white text-black" value="EN">ENGLISH</option>
+              <option className="bg-white text-black" value="pl">POLSKI</option>
+              <option className="bg-white text-black" value="en">ENGLISH</option>
             </select>
           </div>
         </div>

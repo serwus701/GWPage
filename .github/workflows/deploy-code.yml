@@ -7,6 +7,7 @@ on:
 
 jobs:
   deploy:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
@@ -30,5 +31,5 @@ jobs:
           host: ${{ secrets.LIGHTSAIL_HOST }}
           username: ec2-user
           key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
-          source: "build/*"
+          source: "GWPage/gw-page/build/*"
           target: "/var/www/frontend"

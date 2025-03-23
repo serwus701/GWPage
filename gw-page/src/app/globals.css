@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Stylowanie paska przewijania */
+::-webkit-scrollbar {
+  width: 6px;
+  /* Zmniejsza szerokość paska */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Tło paska przewijania */
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  /* Kolor paska */
+  border-radius: 3px;
+  /* Zaokrąglenie paska */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5);
+  /* Widoczniejszy kolor po najechaniu */
+}
+
+/* Usunięcie strzałek (tylko WebKit) */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+@layer utilities {
+  .shadow-custom {
+    position: relative;
+  }
+
+  .shadow-custom::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+    opacity: 0.7;
+    pointer-events: none;
+  }
+}

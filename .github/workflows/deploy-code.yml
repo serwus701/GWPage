@@ -33,5 +33,5 @@ jobs:
           host: ${{ secrets.LIGHTSAIL_HOST }}
           username: ec2-user
           key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
-          source: "gw-page/out/"
+          source: "gw-page/out/*"
           target: "/var/www/frontend"

@@ -10,12 +10,12 @@ import Slider1 from "./component/slider2";
 import Carousel1 from "./component/carousel1";
 import Carousel2 from "./component/carousel2";
 import Carousel3 from "./component/carousel3";
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 import '../utils/translations/i18n'
 
 export default function Home() {
   const [currency, setCurrency] = useState<string>("PLN");
-  const {t,i18n} = useTranslation()
+  const { t, i18n } = useTranslation()
 
   return (
     <>
@@ -69,7 +69,7 @@ export default function Home() {
         <div className="w-full bg-gray-50 text-black px-8 flex h-[120px]">
           {/* Lewa sekcja - 1/4 szerokości */}
           <div className="w-1/4 h-full flex justify-end items-center bg-gray-150 p-4">
-            <Link href="/" className="text-4xl font-serif font-light">Galeria Wnętrza</Link>
+            <Link href="/" className="text-4xl font-serif font-light">Galeria Wnętrza123</Link>
           </div>
 
           {/* Prawa sekcja - 3/4 szerokości, podzielona na dwie części */}

@@ -69,7 +69,7 @@ export default function Home() {
         <div className="w-full bg-gray-50 text-black px-8 flex h-[120px]">
           {/* Lewa sekcja - 1/4 szerokości */}
           <div className="w-1/4 h-full flex justify-end items-center bg-gray-150 p-4">
-            <Link href="/" className="text-4xl font-serif font-light">Galeria Wnętrza123</Link>
+            <Link href="/" className="text-4xl font-serif font-light">Galeria Wnętrza</Link>
           </div>
 
           {/* Prawa sekcja - 3/4 szerokości, podzielona na dwie części */}

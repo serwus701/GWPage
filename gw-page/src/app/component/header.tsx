@@ -1,11 +1,11 @@
-"use client"; // ← Dodaj to na początku pliku!
+"use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import '../../utils/translations/i18n'
+import { useTranslation } from "react-i18next";
 
 const Header = () => {
-  const [language, setLanguage] = useState<string>("PL");
-  const [currency, setCurrency] = useState<string>("PLN");
+  const { t, i18n } = useTranslation()
 
   return (
     <>
@@ -25,26 +25,18 @@ const Header = () => {
           </div>
           <div className="flex items-center space-x-4 pr-32">
             <a href="#" className="flex items-center space-x-2 hover:underline">
-              <span>ZALOGUJ SIĘ</span>
+              <span>{t('homepage.login')}</span>
               <img src="/user.svg" alt="Logowanie" className="w-6 h-6" />
             </a>
             <div className="mx-4">|</div>
             {/* Wybór waluty */}
-            <select
-              className="bg-black text-gray-400 border-none p-1 rounded appearance focus:outline-none focus:ring-0"
-              value={currency}
-              onChange={(e) => setCurrency(e.target.value)}
-            >
-              <option className="bg-white text-black hover:bg-white" value="PLN">PLN</option>
-              <option className="bg-white text-black hover:bg-white" value="EUR">EUR</option>
-              <option className="bg-white text-black hover:bg-white" value="USD">USD</option>
-            </select>
+
             <div className="mx-4">|</div>
             {/* Wybór języka */}
             <select
               className="bg-black text-gray-400 border-none p-1 rounded appearance focus:outline-none focus:ring-0"
-              value={language}
-              onChange={(e) => setLanguage(e.target.value)}
+              value={i18n.language}
+              onChange={(e) => i18n.changeLanguage(e.target.value)}
             >
               <option className="bg-white text-black" value="PL">POLSKI</option>
               <option className="bg-white text-black" value="EN">ENGLISH</option>
@@ -69,7 +61,7 @@ const Header = () => {
               <div className="flex items-center w-full gap-x-6">
                 <nav className="flex space-x-6 justify-start font-bold">
                   <Link href="/brands" className="hover:underline">MARKI</Link>
-                  <Link href="/stories" className="hover:underline">HISTORIE</Link>
+                  <Link href="/news" className="hover:underline">AKTUALNOŚCI</Link>
                   <Link href="/Outlet" className="hover:underline">OUTLET</Link>
                 </nav>
 

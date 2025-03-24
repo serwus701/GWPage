@@ -1,7 +1,11 @@
 # Minimal Path to Awesome
 
 ## Run the Project
-In the main React directory, execute the following command:
+In the main React directory, execute the following commands:
+
+```sh
+npm install
+```
 
 ```sh
 npm run dev

@@ -16,47 +16,43 @@ const Header = () => {
       <header className="fixed top-0 w-full z-50 shadow-2xl border-b border-gray-500 bg-white">
         {/* Pasek kontaktowy tylko MOBILE */}
         <div className="block lg:hidden w-full bg-black text-gray-400 py-2 px-4 md:px-8 flex flex-row justify-between items-center text-sm">
-          <div className="flex items-center space-x-4 md:pl-16">
-            <div className="flex items-center space-x-2">
-              <img src="/sluchawka.svg" alt="Telefon" className="w-4 h-4 filter grayscale brightness-50" />
-              <span>+48 123 456 789</span>
-            </div>
-            <div className="flex items-center space-x-2">
-              <img src="/odwiedzNasWhite.svg" alt="Jak dojechać" className="w-4 h-4" />
-              <span>Jak dojechać</span>
-            </div>
+          {/* Numer telefonu po lewej */}
+          <div className="flex items-center space-x-2 md:pl-16">
+            <img src="/sluchawka.svg" alt="Telefon" className="w-4 h-4 filter grayscale brightness-50" />
+            <span>+48 123 456 789</span>
+          </div>
+
+          {/* Jak dojechać po prawej */}
+          <div className="flex items-center space-x-2">
+            <img src="/odwiedzNasWhite.svg" alt="Jak dojechać" className="w-4 h-4" />
+            <span>Jak dojechać</span>
           </div>
         </div>
 
+
         {/* Pasek kontaktowy - DESKTOP ONLY */}
         <div className="hidden lg:flex w-full bg-black text-gray-400 py-2 px-8 justify-between items-center text-sm">
-          <div className="flex items-center space-x-4 pr-32">
+          {/* Lewa sekcja */}
+          <div className="flex items-center space-x-4 pl-8">
             <div className="flex items-center space-x-2">
               <img src="/sluchawka.svg" alt="Telefon" className="w-4 h-4 filter grayscale brightness-50" />
               <span>+48 123 456 789</span>
-              <div className="mx-4">|</div>
-
-              <div className="flex items-center space-x-2">
-                <span>✉ kontakt@example.com</span>
-              </div>
             </div>
+            <div className="mx-4">|</div>
+            <div className="flex items-center space-x-2">
+              <span>✉ kontakt@example.com</span>
+            </div>
+          </div>
+
+          {/* Prawa sekcja */}
+          <div className="flex items-center space-x-4 pr-8">
             <a href="#" className="flex items-center space-x-2 hover:underline">
               <span>ZALOGUJ SIĘ</span>
               <img src="/user.svg" alt="Logowanie" className="w-6 h-6" />
             </a>
             <div className="mx-4">|</div>
             <select
-              className="bg-black text-gray-400 border-none p-1 rounded appearance focus:outline-none focus:ring-0"
-              value={currency}
-              onChange={(e) => setCurrency(e.target.value)}
-            >
-              <option className="bg-white text-black hover:bg-white" value="PLN">PLN</option>
-              <option className="bg-white text-black hover:bg-white" value="EUR">EUR</option>
-              <option className="bg-white text-black hover:bg-white" value="USD">USD</option>
-            </select>
-            <div className="mx-4">|</div>
-            <select
-              className="bg-black text-gray-400 border-none p-1 rounded appearance focus:outline-none focus:ring-0"
+              className="bg-black text-gray-400 border-none p-1 rounded appearance-none focus:outline-none focus:ring-0"
               value={language}
               onChange={(e) => setLanguage(e.target.value)}
             >
@@ -65,6 +61,7 @@ const Header = () => {
             </select>
           </div>
         </div>
+
 
         {/* Główna nawigacja */}
         <div className="w-full bg-gray-50 text-black px-4 md:px-8 flex flex-col h-auto lg:h-[120px] relative">
@@ -140,16 +137,48 @@ const Header = () => {
           {/* Mobile Menu */}
           {menuOpen && (
             <div className="absolute top-full left-0 w-full bg-white border-t border-gray-300 flex flex-col items-start px-6 py-4 z-40 lg:hidden">
-              <Link href="#" className="py-1">MEBLE</Link>
-              <Link href="#" className="py-1">KUCHNIE</Link>
-              <Link href="#" className="py-1">OFFICE</Link>
-              <Link href="#" className="py-1">OUTDOOR</Link>
-              <Link href="#" className="py-1">DRZWI</Link>
-              <Link href="#" className="py-1">OŚWIETLENIE</Link>
-              <Link href="#" className="py-1">DEKORACJE</Link>
+              <div className="w-full flex justify-between items-center py-1">
+                <Link href="#" className="text-black">MEBLE</Link>
+                <span className="text-black">{'>'}</span>
+              </div>
+              <div className="w-full flex justify-between items-center py-1">
+                <Link href="#" className="py-1">KUCHNIE</Link>
+                <span className="text-black">{'>'}</span>
+              </div>
+              <div className="w-full flex justify-between items-center py-1">
+                <Link href="#" className="py-1">OFFICE</Link>
+                <span className="text-black">{'>'}</span>
+              </div>
+              <div className="w-full flex justify-between items-center py-1">
+                <Link href="#" className="py-1">OUTDOOR</Link>
+                <span className="text-black">{'>'}</span>
+              </div>
+              <div className="w-full flex justify-between items-center py-1">
+                <Link href="#" className="py-1">DRZWI</Link>
+                <span className="text-black">{'>'}</span>
+              </div>
+              <div className="w-full flex justify-between items-center py-1">
+                <Link href="#" className="py-1">OŚWIETLENIE</Link>
+                <span className="text-black">{'>'}</span>
+              </div>
+              <div className="w-full flex justify-between items-center py-1">
+                <Link href="#" className="py-1">DEKORACJE</Link>
+                <span className="text-black">{'>'}</span>
+              </div>
+              {/* Odstęp */}
+              <div className="h-4" />
               <Link href="#" className="py-1">MARKI</Link>
               <Link href="#" className="py-1">AKTUALNOSCI</Link>
               <Link href="#" className="py-1">OUTLET</Link>
+              {/* Odstęp */}
+              <div className="h-4" />
+              <Link href="#" className="py-1">ZALOGUJ SIE</Link>
+              <div className="h-4" />
+              <div className="flex justify-between items-center w-full">
+                <Link href="#" className="py-1">KONTAKT</Link>
+                <Link href="#" className="py-1">PL / EN</Link>
+              </div>
+
             </div>
           )}
         </div>

@@ -1,5 +1,12 @@
 # Minimal Path to Awesome
 
+## Setup Node 18
+for Windows [NVM Downloads](https://github.com/coreybutler/nvm-windows/releases)
+or
+[Node.js Downloads](https://nodejs.org/en/download)
+
+If you use Linux I doubt you need any help
+
 ## Run the Project
 In the main React directory, execute the following commands:
 

@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+
+
 
 :root {
   --background: #ffffff;
@@ -70,3 +73,24 @@ body {
     pointer-events: none;
   }
 }
+
+body {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* 
+body {
+  all: unset;
+  all: revert;
+}
+
+.wp-content {
+  all: initial;
+  font-family: inherit;
+}
+
+.wp-content * {
+  all: unset;
+  all: revert;
+} */

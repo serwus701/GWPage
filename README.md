@@ -1,22 +1,24 @@
 # Minimal Path to Awesome
 
-## Get Docker
-Install Docker by following the official guide: [Docker Install for Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
+## Setup Node 18
+for Windows [NVM Downloads](https://github.com/coreybutler/nvm-windows/releases)
+or
+[Node.js Downloads](https://nodejs.org/en/download)
+
+If you use Linux I doubt you need any help
 
 ## Run the Project
-In the main directory, execute the following command:
+In the main React directory, execute the following commands:
 
 ```sh
-docker-compose up -d --build
+npm install
+```
+
+```sh
+npm run dev
 ```
 
 ## Access the Services
-- **WordPress Server:** [http://localhost:8000/](http://localhost:8000/)
-- **Frontend:** [http://localhost:3000/](http://localhost:3000/)
-
-## Stop the Server
-To stop the server, run:
-
-```sh
-docker-compose down
-```
+- **WordPress Server:** [http://3.68.99.140/wp-admin](http://3.68.99.140/wp-admin)
+- **Local Frontend:** [http://localhost:3000/](http://localhost:3000/)
+- **Prod Frontend:** [http://3.65.86.249/](http://3.65.86.249/)

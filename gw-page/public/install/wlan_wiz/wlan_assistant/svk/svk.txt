@@ -1,0 +1,42 @@
+WA0001,Sprievodca nastavením bezdrôtového zariadenia
+WA0002,1.02
+WA0101,Èakajte, prosím...
+WA0201,Potvrdenie inštalácie
+WA0202,Poèas inštalácie sa automaticky zistia nastavenia bezdrôtového pripojenia poèítaèa alebo bezdrôtového prístupového bodu. Pred pripojením bezdrôtového zariadenia na firemnú sie to nechajte schváli správcom siete.
+WA0203,Všimnite si, e sprievodca vás doèasne odpojí od bezdrôtovej siete, aby sa mohol pripoji na zariadenie.  V tomto èase budete odpojení od všetkıch sieovıch sluieb vrátane pripojenia na internet.
+WA0204,Overené a potvrdené
+WA0301,Detegujú sa existujúce nastavenia bezdrôtovej siete na vašom poèítaèi.
+WA0302,Zistili sa nastavenia bezdrôtovej siete vášho poèítaèa alebo bezdrôtového prístupového bodu.
+WA0303,Zistenı názov bezdrôtovej siete (názov bezdrôtového prístupového bodu/smerovaèa):
+WA0304,SSID:
+WA0305,Chcete pripoji zariadenie na túto bezdrôtovú sie?
+WA0306,Áno, chcem pripoji zariadenie na túto bezdrôtovú sie.
+WA0307,Nie, chcem pripoji zariadenie na inú bezdrôtovú sie.
+WA0401,Povoli bezdrôtové pripojenie
+WA0402,Teraz by ste mali povoli na zariadení prístup k bezdrôtovej sieti prostredníctvom jeho ovládacieho panela. Zobrazí sa ïalšie okno s informáciami, ako to urobi.
+WA0403,Keï na zariadení povolíte bezdrôtové pripojenie, tento sprievodca bude automaticky pokraèova v nastavení.
+WA0404,(*) Ak sa zobrazí obrazovka „Nastavi sieové umiestnenie“, kliknite na poloku „Zruši“.
+WA0501,Odosielajú sa nastavenia......Èakajte, prosím...
+WA0601,Skontrolujte vısledok pripojenia „Nastavenia bezdrôtového pripojenia“.
+WA0602,Zariadenie vytlaèí stránku „WLAN Report“. Na stránke nájdite poloku <Connection> a skontrolujte popis, aby ste mohli overi vısledok pripojenia.
+WA0603,* To môe trva a 2 minúty.
+WA0604,V dole uvedenom zozname vyberte vısledok a kliknite na poloku „Ïalej“.
+WA0605,"Connection : OK"
+WA0606,"Connection : Failed"
+WA4001,Ukonèi inštaláciu
+WA4002,Inštalácia nie je dokonèená.
+WA4003,Ak ukonèíte inštalaènı program, bezdrôtové zariadenie sa nenakonfiguruje.
+WA4004,Ak chcete pokraèova v inštalácii tohto programu, kliknite na poloku „Pokraèova“.
+WA4005,Ak chcete ukonèi inštalaènı program, kliknite na poloku „Ukonèi“.
+WA5001,Nepodarilo sa nájs zariadenie
+WA5002,Chcete to skúsi znovu rovnakım inštalaènım postupom alebo chcete skúsi nieèo iné?
+WA5003,Skúsi znovu
+WA5004,Ak chcete znovu vyskúša rovnakı inštalaènı postup, odporúèame doèasne vypnú všetok bezpeènostnı softvér, ako je brána firewall, ktorı by mohol proces blokova.
+WA5005,Skúsi nieèo iné
+WA5101,Nepodarilo sa pripoji
+WA5102,Inštalátor vám poskytne niektoré monosti alternatívnych spôsobov pripojenia.  Pokraèujte kliknutím na poloku „Ïalej“.
+WA9901,< Naspä
+WA9902,Zruši
+WA9903,Ïalej >
+WA9904,Ukonèi
+WA9905,Pokraèova

@@ -1,0 +1,327 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Rješavanje problema</title>
+
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+<a name="top"></a>
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="550">
+<tr><td colspan=2><span style="font-size: 120%;"><b>Rješavanje problema</b></span>
+</td></tr>
+<tr><td width="30"></td><td>
+Opis problema:<br>
+
+<table border="0" cellspacing="0" cellpadding="4"><tr><td valign="top">
+1.</td><td>
+<a href="#1"><font size="-1">Bežični uređaj se ne može povezati na bežičnu mrežu.  </font></a>
+</td></tr><tr><td valign="top">
+2.</td><td>
+<a href="#2"><font size="-1">Kada pretražuje za bežične mreže, Čarobnjak nije pronašao bežičnu mrežu.  </font>
+</td></tr><tr><td valign="top">
+3.</td><td>
+<a href="#3"><font size="-1">Jačina signala je slaba ili ponekad nema jačine signala.  </font>
+</td></tr><tr><td valign="top">
+4.</td><td><a href="#4">
+<font size="-1">(Primjenjivo je samo korisnicima koji ne koriste USB ili LAN kabel za konfiguraciju njihovih bežičnih uređaja). Napravio sam pogrešku prilikom konfiguracije postavki bežične veze no kada ponovno pokrenem softver Čarobnjaka za bežičnu vezu za unos točnih postavki, Čarobnjak ne može naći uređaj.  
+</font>
+</td></tr><tr><td valign="top">
+5.</td><td>
+<a href="#5">
+<font size="-1">Čarobnjak za bežičnu vezu odnosi se na pristupnu točku. No ne koristim pristupnu točku, koristim bežični usmjernik ili prekidač za povezivanje na bežičnu mrežu.
+</font>
+</td></tr><tr><td valign="top">
+6.</td><td>
+<a href="#6">
+<font size="-1">Ne znam koje postavke bežične mreže koristiti, što bih trebao učiniti?</font>
+
+</td></tr><tr><td valign="top">
+7.</td><td>
+<a href="#7">
+<font size="-1">Konfigurirao sam uređaj za korištenje DHCP poslužitelja. Međutim, uređaj ne prima IP adresu od DHCP poslužitelja. Koristi 169.254.x.x IP adresu.</font>
+
+</td></tr></table>
+
+
+
+
+<hr>
+
+
+
+<a name="1"></a>
+</td></tr>
+
+<tr><td colspan=2 height=30></td><tr>
+
+<tr><td width="30"></td><td>
+
+<b>Opis problema:</b><br>
+
+
+
+<table border="0" cellspacing="0" cellpadding="4"><tr><td valign="top">
+1.</td><td>
+Bežični uređaj se ne može povezati na bežičnu mrežu.
+</td></tr></table>
+
+
+
+
+<br>
+<table border="0" cellspacing="0" cellpadding="4"><tr><td colspan=2>
+<b>Rješenje:</b>
+</td></tr><tr><td width=10></td><td>
+<b><span style="color: #660000;">SSID</span></b><br>
+
+Provjerite jeste li točno unijeli SSID podatke, također vezane za naziv mreže, prilikom konfiguracije bežičnog uređaja. Imajte na umu da su SSID podaci osjetljivi na velika i mala slova. Primjerice, ako je vaš SSID „Bežična Mreža” no prilikom konfiguracije bežičnog uređaja upisali ste ga kao „bežična mreža”, uređaj se neće povezati na mrežu kao B i M ili „Bežična Mreža” ako nema velikih početnih slova.
+
+<br><br>
+<b><span style="color: #660000;">PRISTUPNA ŠIFRA</span></b><br>
+Provjerite jeste li prilikom konfiguracije bežičnog uređaja unijeli točnu WEP/TKIP pristupnu šifru. Upis točne pristupne šifre osigura da sve unijeli točan broj znamenki ovisno o izvorno korištenoj pristupnoj šifri prilikom konfiguracije bežične mreže. U oba slučaja, ako ste unijeli netočne informacije, preporučujemo da postavke mreže na uređaju vratite na tvorničke i ponovno pokrenete softver Čarobnjaka za podešavanje bežične veze. Za više informacija kako resetirati postavke bežičnog uređaja pogledajte dokumentaciju koja je isporučena s bežičnim uređajem.
+
+</td></tr>
+<tr><td colspan=2 ALIGN="right"  VALIGN="bottom" height="45">
+<a href="#top"><span style="font-size: 80%;">natrag na vrh</span></a>
+</td></tr></table>
+
+<hr>
+<!--********************-->
+
+<a name="2"></a>
+</td></tr>
+
+<tr><td colspan=2 height=30></td><tr>
+
+<tr><td width="30"></td><td>
+
+<b>Opis problema:</b><br>
+
+
+
+<table border="0" cellspacing="0" cellpadding="4"><tr><td valign="top">
+2.</td><td>
+Kada pretražuje za bežične mreže, Čarobnjak nije pronašao bežičnu mrežu.  
+</td></tr></table>
+
+
+
+
+<br>
+<table border="0" cellspacing="0" cellpadding="4"><tr><td colspan=2>
+<b>Rješenje:</b>
+</td></tr><tr><td width=10></td><td>
+Ako je bežični uređaj izvan dometa bežične mreže, pomaknite ga bliže pristupnoj točki bežične veze.
+<br>
+<br>
+
+Ako je bežični uređaj unutar raspona bežične mreže, provjerite da li pristupna točka bežične veze ne skriva njezin SSID naziv mreže. Ako skriva svoj SSID naziv mreže, morate ga ručno upisati tijekom konfiguracije bežičnog uređaja. Ako niste sigurni kako ovo provjeriti, obratite se administratoru sustava, davatelju usluge interneta ili proizvođaču pristupne točke bežične veze.
+</td></tr>
+<tr><td colspan=2 ALIGN="right"  VALIGN="bottom" height="45">
+<a href="#top"><span style="font-size: 80%;">natrag na vrh</span></a>
+</td></tr></table>
+
+<hr>
+<!--********************-->
+
+<a name="3"></a>
+</td></tr>
+
+<tr><td colspan=2 height=30></td><tr>
+
+<tr><td width="30"></td><td>
+
+<b>Opis problema:</b><br>
+
+
+
+<table border="0" cellspacing="0" cellpadding="4"><tr><td valign="top">
+3.</td><td>
+Jačina signala je slaba ili ponekad nema jačine signala.
+</td></tr></table>
+
+
+
+
+<br>
+<table border="0" cellspacing="0" cellpadding="4"><tr><td colspan=2>
+<b>Rješenje:</b>
+</td></tr><tr><td width=10></td><td>
+Bežični uređaji su pod utjecajem okruženja u kojem se nalaze, a jačina signala može se mijenjati zbog namještaja, zidova ili podova između bežičnog uređaja i pristupne točke s kojom pokušavate komunicirati. Ako dođe do problema u jačini signala, pokušajte premjestiti bežični uređaj bliže pristupnoj točki radi poboljšanja jačine signala.
+
+</td></tr>
+<tr><td colspan=2 ALIGN="right"  VALIGN="bottom" height="45">
+<a href="#top"><span style="font-size: 80%;">natrag na vrh</span></a>
+</td></tr></table>
+
+<hr>
+<!--********************-->
+
+
+<a name="4"></a>
+</td></tr>
+
+<tr><td colspan=2 height=30></td><tr>
+
+<tr><td width="30"></td><td>
+
+<b>Opis problema:</b><br>
+
+
+
+<table border="0" cellspacing="0" cellpadding="4"><tr><td valign="top">
+4.</td><td>
+(Primjenjivo je samo korisnicima koji ne koriste USB ili LAN kabel za konfiguraciju njihovih bežičnih uređaja). Napravio sam pogrešku prilikom konfiguracije postavki bežične veze no kada ponovno pokrenem softver Čarobnjaka za bežičnu vezu za unos točnih postavki, Čarobnjak ne može naći uređaj.
+</td></tr></table>
+
+
+
+
+<br>
+<table border="0" cellspacing="0" cellpadding="4"><tr><td colspan=2>
+<b>Rješenje:</b>
+</td></tr><tr><td width=10></td><td>
+Moguće je da softver Čarobnjaka nije u mogućnosti pronaći vaš bežični uređaj jer se postavke bežične veze na vašem računalu i uređaju potpuno razlikuju. Pokušajte ponovno postaviti postavke bežične veze na uređaju na tvorničke postavke i ponovno pokrenite čarobnjak.
+<br>
+<br>
+Za više informacija o tome kako resetirati postavke bežične veze uređaja na tvorničke postavke, pogledajte priručnik.
+
+</td></tr>
+<tr><td colspan=2 ALIGN="right"  VALIGN="bottom" height="45">
+<a href="#top"><span style="font-size: 80%;">natrag na vrh</span></a>
+</td></tr></table>
+
+<hr>
+<!--********************-->
+
+
+<a name="5"></a>
+</td></tr>
+
+<tr><td colspan=2 height=30></td><tr>
+
+<tr><td width="30"></td><td>
+
+<b>Opis problema:</b><br>
+
+
+
+<table border="0" cellspacing="0" cellpadding="4"><tr><td valign="top">
+5.</td><td>
+Čarobnjak za bežičnu vezu odnosi se na pristupnu točku. No ne koristim pristupnu točku, koristim bežični usmjernik ili prekidač za povezivanje na bežičnu mrežu.
+</td></tr></table>
+
+
+
+
+<br>
+<table border="0" cellspacing="0" cellpadding="4"><tr><td colspan=2>
+<b>Rješenje:</b>
+</td></tr><tr><td width=10></td><td>
+Koristili smo opći pojam „pristupna točka” radi jednostavnosti. Zamijenite pristupnu točku s odgovarajućim nazivom.
+
+</td></tr>
+<tr><td colspan=2 ALIGN="right"  VALIGN="bottom" height="45">
+<a href="#top"><span style="font-size: 80%;">natrag na vrh</span></a>
+</td></tr></table>
+
+<hr>
+<!--********************-->
+
+
+<a name="6"></a>
+</td></tr>
+
+<tr><td colspan=2 height=30></td><tr>
+
+<tr><td width="30"></td><td>
+
+<b>Opis problema:</b><br>
+
+
+
+<table border="0" cellspacing="0" cellpadding="4"><tr><td valign="top">
+6.</td><td>
+Ne znam koje postavke bežične mreže koristiti, što bih trebao učiniti?
+</td></tr></table>
+
+
+
+
+<br>
+<table border="0" cellspacing="0" cellpadding="4"><tr><td colspan=2>
+<b>Rješenje:</b>
+</td></tr><tr><td width=10></td><td>
+Ako ste netočno konfigurirali postavke bežične veze, uređaj neće pravilno raditi. Obratite se administratoru sustava za točne postavke bežične veze.
+
+</td></tr>
+<tr><td colspan=2 ALIGN="right"  VALIGN="bottom" height="45">
+<a href="#top"><span style="font-size: 80%;">natrag na vrh</span></a>
+</td></tr></table>
+
+<hr>
+<!--********************-->
+
+
+
+
+
+<a name="7"></a>
+</td></tr>
+
+<tr><td colspan=2 height=30></td><tr>
+
+<tr><td width="30"></td><td>
+
+<b>Opis problema:</b><br>
+
+
+
+<table border="0" cellspacing="0" cellpadding="4"><tr><td valign="top">
+7.</td><td>
+Konfigurirao sam uređaj za korištenje DHCP poslužitelja. Međutim, uređaj ne prima IP adresu od DHCP poslužitelja. Koristi 169.254.x.x IP adresu.
+</td></tr></table>
+
+
+
+
+<br>
+<table border="0" cellspacing="0" cellpadding="4"><tr><td colspan=2>
+<b>Rješenje:</b>
+</td></tr><tr><td width=10></td><td>
+Ovo sugerira da bežični uređaj nije u mogućnosti pristupiti bežičnoj mreži i ne može dohvatiti IP adresu iz DHCP poslužitelja. Provjerite jeste li točno upisali postavke bežične mreže u bežičnom uređaju te također provjerite jeste li pristupnu točku konfigurirali tako da omogući pristup bežičnoj mreži.
+
+</td></tr>
+<tr><td colspan=2 ALIGN="right"  VALIGN="bottom" height="45">
+<a href="#top"><span style="font-size: 80%;">natrag na vrh</span></a>
+</td></tr></table>
+
+<hr>
+<!--********************-->
+
+
+
+
+</td></tr>
+</table>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

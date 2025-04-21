@@ -1,0 +1,160 @@
+WS01000010,Èarobnjak za podešavanje bežiènog ureðaja
+WS01000040,2.02
+WS02010010,Dobro došli
+WS02010020,Dobro došli u Èarobnjak za podešavanje bežiène veze
+WS04000010,Konfiguracija IP adrese
+WS04000020,Konfiguriraj IP adresu bežiènog ureðaja
+WS04000030,Automatsko dobivanje IP adrese.
+WS04000050,Postavi statièku IP adresu
+WS04000060,IP adresa
+WS04000070,Maska podmreže
+WS04000080,Pristupnik
+WS05020010,Naziv bežiène mreže
+WS05020020,Konfigurirajte naziv bežiène mreže s kojom æe se dodijeliti ureðaj.
+WS05020030,Naziv (SSID)
+WS05020040,Ovo je Ad-hoc mreža i nema pristupnu toèku.
+WS05020060,Kanal
+WS05030010,Pretraživanje za bežiène mreže...
+WS05040010,Dostupne bežiène mreže
+WS05040020,Odaberite SSID koji ste unaprijed provjerili.
+WS05040040,Naziv (SSID)
+WS05040050,Kanal
+WS05040060,Bežièni naèin rada
+WS05040070,Signal
+WS05040080,Pristupna toèka/bazna stanica
+WS05040090,Ad-hoc mreža
+WS05040100,Ako se SSID (identifikacija vaše pristupne toèke bežiène veze) ne pojavljuje na ovom popisu ili je skrivate, i dalje æete moæi konfigurirati je tako da kliknete na gumb „Napredno”.
+WS05040110,802.11b/g (11 Mb/s/54 Mb/s)
+WS05040120,802.11b (11 Mb/s)
+WS05040130,802.11g (54 Mb/s)
+WS05040140,802.11b/g/n
+WS05040150,802.11n
+WS05060010,PAŽNJA!
+WS05060020,Ova bežièna mreža nije sigurna. Ne koristi sigurnosnu autentifikaciju i šifriranje.
+WS05060030,Želite li nastaviti podešavanje?
+WS05060040,Naziv (SSID):
+WS06000010,Naèin provjere autentifikacije i naèin šifriranja
+WS06000020,Konfigurirajte naèin provjere autentifikacije i naèin šifriranja
+WS06000030,Naèin provjere autentifikacije
+WS06000040,Naèin šifriranja
+WS06000050,Mrežni kljuè
+WS06000070,Naziv (SSID):
+WS06000080,Interni naèin provjere autentifikacije
+WS07000010,Potvrda postavki bežiène mreže
+WS07000020,Kliknite na „Dalje” kako biste poslali sljedeæe postavke na ureðaj
+WS07000060,Naèin komunikacije
+WS07000070,Infrastruktura
+WS07000080,Ad-hoc
+WS07000090,Naziv (SSID)
+WS07000150,Automatski
+WS07000190,IP adresa
+WS07000200,Maska podmreže
+WS07000210,Pristupnik
+WS07000220,Kanal
+WS07000230,Naèin provjere autentifikacije
+WS07000240,Naèin šifriranja
+WS07000270,Promjeni IP adresu
+WS07000280,Interni naèin provjere autentifikacije
+WS08010010,Slanje postavki......prièekajte...
+WS21000010,Autentiènost korisnika
+WS21000020,Konfigurirajte naèin provjere autentifikacije i naèin šifriranja
+WS21000030,Naziv (SSID):
+WS21000040,Autentiènost korisnika
+WS21000050,ID korisnika
+WS21000060,Lozinka korisnika
+WS43000000,Konfiguracija mrežnog kljuèa
+WS43000010,Molimo da upišete sigurnosni mrežni kljuè koji ste ranije provjerili.
+WS43000020,Vaša autentifikacija bežiène mreže i vrsta šifriranja automatski se detektiraju. Trebate samo upisati mrežni kljuè.
+WS44000010,Konfiguracija certifikata
+WS44000020,Konfigurirajte certifikaciju klijenta i certifikaciju za provjeru poslužitelja.
+WS44000030,Naziv (SSID):
+WS44000040,Certifikat klijenta
+WS44000050,Certifikacija za provjeru poslužitelja
+WS44000051,Nema provjere
+WS44000052,CA cert.
+WS44000053,CA cert.+ ID poslužitelja
+WS44000060,ID poslužitelja
+WS46000010,Neuspjelo povezivanje na mrežu.
+WS46000020,Potvrdi sljedeæe i klikni na Ponovi.
+WS46000230,Ne može se otkriti vaša pristupna toèka bežiène veze/usmjernik. (TS-02)
+WS46000240,Pokušajte sljedeæe:
+WS46000250,- Provjerite jeste li odabrali toèni SSID (naziv mreže) i unijeli toèan mrežni kljuè
+WS46000260,- Provjerite da pristupna toèka bežiène veze/usmjernik ne koristi dodatne sigurnosne postavke poput MAC filtriranja adresa
+WS46000270,- Pokušajte pomaknuti ureðaj bliže pristupnoj toèki bežiène veze/usmjerniku.  Kada ste povezani na mrežu, trebate se vratiti na prethodnu lokaciju
+WS46000280,MAC adresa:
+WS46000330,Ureðaj se ne može povezati na pristupnu toèku bežiène veze/usmjernik. (TS-03)
+WS46000340,- Provjerite jeste li odabrali toèni SSID (naziv mreže) i unijeli toèan mrežni kljuè
+WS46000350,- Ako ne znate ovu informaciju, pogledajte dokumentaciju proizvoðaèa ili dobavljaèa pristupne toèke bežiène veze/usmjernika
+WS46000430,Na vašoj pristupnoj toèki bežiène veze/usmjerniku otkriven je nepodržani naèin autentifikacije/šifriranja. (TS-04)
+WS46000440,- Vaša pristupna toèka bežiène veze/usmjernik koristi naèin autentifikacije/šifriranja koji ne podržava ovaj ureðaj. Provjerite da ste odabrali toèan SSID (naziv mreže)
+WS46000530,Specificirani SSID i mrežni kljuè nisu toèni. (TS-05)
+WS46000540,- Provjerite jeste li odabrali toèni SSID (naziv mreže) i unijeli toèan mrežni kljuè
+WS46000630,Specificirana informacija bežiène veze nije toèna. (TS-06)
+WS46000640,- Provjerite naèin autentifikacije/šifriranja koji ste odabrali i provjerite jeste li unijeli toèan mrežni kljuè.
+WS50000010,Potvrda instalacije
+WS50000020,Tijekom instalacije, postavke bežiène veze na vašem raèunalu ili pristupna toèka bežiène veze automatski su detektirani.Prije povezivanja bežiènog ureðaja na korporacijsku mrežu potvrdite s administratorom mreže.
+WS50000030,Provjereno i potvrðeno
+WS51000010,Detektiranje postojeæih postavki bežiène mreže na raèunalu
+WS51000020,Postavke bežiène mreže raèunala i pristupna toèka bežiène veze su detektirani.
+WS51000030,Naziv bežiène mreže detektira (pristupnu toèku bežiène veze/naziv usmjernika):
+WS51000040,SSID:
+WS51000050,Želite li se povezati na bežiènu mrežu korištenjem ovih postavki?
+WS51000060,Da
+WS51000070,Ne
+WS98050010,Nevaljan mrežni kljuè
+WS98050020,(ASCII WEP kljuè)
+WS98050030,Niste toèno unijeli podatak o WEP kljuèu.
+WS98050040,64(40) bit WEP   : "Zdravo"
+WS98050050,128(104) bit WEP : "Wirelesscomms"
+WS98050060,Unesite od 5 do 13 znamenki. Na primjer:
+WS98060010,Nevaljan mrežni kljuè
+WS98060020,(Heks. WEP kljuè)
+WS98060030,Niste toèno unijeli podatak o WEP kljuèu.
+WS98060040,Unesite heksadecimalni podatak od 10 do 26 znamenki. Na primjer:
+WS98060050,64(40) bit WEP   : "71f2234aba"
+WS98060060,128(104) bit WEP   : "71f2234ab56cd709e5412aa3ba"
+WS98070010,Izlaz iz podešavanja
+WS98070020,Podešavanje nije dovršeno.
+WS98070030,Ako prekinete ovaj program za podešavanje, bežièni ureðaj nije konfiguriran.
+WS98070040,Za nastavak ovog programa za podešavanje kliknite na „Nastavi”.
+WS98070050,Za prekid ovog programa za podešavanje kliknite na „Izlaz”.
+WS98100010,Nevaljan mrežni kljuè
+WS98100020,Pristupna šifra je ASCII niz od 8 do 63 znamenke.
+WS98150010,Nevaljan mrežni kljuè
+WS98150020,Niste toèno unijeli mrežni kljuè.Unesite 5 ili 8-63 znamenke ovisno o naèinu sigurnosti.
+WS98150030,Za više informacija pogledajte tekst Pomoæ.
+WS98160010,Pogreška USB veze
+WS98160020,Potvrdite da je USB kabel povezan na ureðaj.
+WS98160030,Potvrdite da je ureðaj ukljuèen.
+WS99010010,OK
+WS99010020,Prekid
+WS99010030,Izlaz
+WS99010040,< Natrag
+WS99010050,Dalje >
+WS99010060,Pomoæ
+WS99010070,Osvježi
+WS99010090,Nastavak
+WS99010100,Napredno
+WS99010130,Gdje je moja SSID?
+WS99010140,Gdje je moj mrežni kljuè?
+WS99010150,Ponovno >
+WS99020100,Otvoren sustav
+WS99020110,Zajednièki kljuè
+WS99020120,WPA/WPA2-PSK
+WS99020160,LEAP
+WS99020170,EAP-FAST
+WS99020180,PEAP
+WS99020190,EAP-TTLS
+WS99020200,Ništa
+WS99020210,WEP
+WS99020220,TKIP
+WS99020230,AES
+WS99020240,CKIP
+WS99020250,TKIP+AES
+WS99020500,EAP-TLS
+WS99030100,NIŠTA
+WS99030110,GTC
+WS99030120,MS-CHAPv2
+WS99030130,CHAP
+WS99030140,MS-CHAP
+WS99030150,PAP

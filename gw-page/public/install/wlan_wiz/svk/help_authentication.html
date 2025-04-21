@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Metóda overovania a režim šifrovania</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Metóda overovania a režim šifrovania</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+Väčšina bezdrôtových sietí používa niektorý typ nastavení zabezpečenia. Tieto nastavenia zabezpečenia definujú overovanie (ako sa zariadenie identifikuje v sieti) a šifrovania (ako sú údaje šifrované pri odosielaní v sieti). Ak pri konfigurácii bezdrôtového zariadenia tieto možnosti nezadáte správne, zariadenie sa nebude môcť pripojiť k bezdrôtovej sieti. Preto pri konfigurácii týchto možností musíte postupovať opatrne. Informácie o podporovaných metódach overovania a šifrovania bezdrôtového zariadenia nájdete nižšie.
+</td></tr>
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Metódy overovania  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+<ul>
+<li>
+Otvorený systém<br>
+Bezdrôtové zariadenia môžu pristupovať do siete bez overovania. <br><br>
+
+<li>
+Zdieľaný kľúč (len v režime Infraštruktúra)<br>
+Všetky zariadenia pristupujúce do bezdrôtovej siete zdieľajú tajný vopred určený kľúč. <br><br>
+<li>
+WPA/WPA2-PSK<br>
+Medzi všetkými zariadeniami, ktoré budú mať prístup k bezdrôtovej sieti, bude zdieľané vopred určené heslo. Táto metóda overenia vám umožní komunikovať bezpečne s využitím silnej metódy šifrovania.  <br>WPA/WPA2-PSK možno využívať iba v bezdrôtových sieťach typu Infraštruktúra.
+<br><br>
+<li>
+LEAP (nie je k dispozícii na niektorých modeloch)<br>
+
+Cisco® LEAP (Light Extensible Authentication Protocol) využíva na overenie ID používateľa a heslo.
+<br><br>
+<li>
+EAP-FAST/PEAP/EAP-TTLS (nie je k dispozícii na niektorých modeloch)<br>
+
+Cisco® EAP-FAST (Extensible Authentication Protocol-Flexible Authentication via Secure Tunneling)/ PEAP (Protected Extensible Authentication Protocol) /EAP-TTLS (Extensible Authentication Protocol-Tunneled Transport Layer Security) využíva pre overenie ID používateľa a heslo. Certifikát servera môžete overiť pomocou certifikátu CA.
+<br><br>
+<li>
+EAP-TLS (nie je k dispozícii na niektorých modeloch)<br>EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) využíva na overenie ID používateľa a certifikát klienta. Môžete tiež overiť SSL certifikát servera pomocou certifikátu CA. <br><br>
+</ul>
+
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Vnútorné metódy overovania (nie je k dispozícii na niektorých modeloch)</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Je potrebné špecifikovať jednu z vnútorných metód overovania, podľa tej, akú ste vybrali.
+<ul>
+<li>
+Žiadne<br>MS-CHAPv2 sa využíva na zabezpečenie a metóda pre protokol EAP-FAST zodpovedá metóde overovania v druhej fáze. 
+<br><br>
+
+<li>
+MS-CHAPv2<br>
+MS-CHAPv2 (Microsoft-Challenge Handshake Authentication Protocol version 2) je interná metóda overovania pre protokoly EAP-FAST/PEAP/EAP-TTLS.<br><br>
+<li>
+GTC<br>
+GTC (Generic Token Card) je interná metóda overovania pre protokoly EAP-FAST/PEAP.<br><br>
+<li>
+MS-CHAP<br>
+MS-CHAP (Microsoft-Challenge Handshake Authentication Protocol) je interná metóda overovania pre protokol EAP-TTLS.<br><br>
+<li>
+CHAP<br>
+CHAP (Challenge Handshake Authentication Protocol) je interná metóda overovania pre protokol EAP-TTLS.<br><br>
+<li>
+PAP<br>
+PAP (Password Authentication Protocol) je interná metóda overovania pre protokol EAP-TTLS.<br><br>
+</ul>
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Metódy šifrovania  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+
+<ul>
+<li>Žiadne<br>
+Nepoužíva sa žiadna metóda šifrovania. <br><br>
+
+<li>WEP (Wired Equivalent Privacy)<br>
+Údaje sa odosielajú a prijímajú s kľúčom zabezpečenia zvoleným používateľom.<br><br>
+<li>TKIP<br>
+TKIP (Temporal Key Integrity Protocol) odstraňuje predpovedateľnosť, na ktorú sa môžu narušitelia spoľahnúť pri využívaní bezpečnostných slabín zapríčinených používaním ručne priradených kľúčov WEP. Kľúče TKIP sú generované automaticky a sú dlhšie ako kľúče WEP<br><br>
+<li>AES<br>
+AES (Rozšírený štandard kódovania) je Wi-Fi® overený štandard silného kódovania.<br><br>
+<li>CKIP<br>
+Pôvodný protokol Key Integrity Protocol pre LEAP od spoločnosti Cisco Systems, Inc.
+</ul>
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

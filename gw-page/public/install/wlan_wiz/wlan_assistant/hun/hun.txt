@@ -1,0 +1,42 @@
+WA0001,Vezetéknélküli eszköz beállítása varázsló
+WA0002,1.01
+WA0101,Kérem, várjon...
+WA0201,Telepítés megerõsítése
+WA0202,A telepítés alatt a számítógép vagy a vezeték nélküli hozzáférési pont vezeték nélküli beállításai automatikusan érzékelésre kerülnek. Mielõtt a vezeték nélküli eszközt vállalati hálózatra csatlakoztatja, kérjen engedélyt a rendszergazdától.
+WA0203,Kérjük, vegye figyelembe, hogy a varázsló átmenetileg lecsatlakoztatja Önt a vezeték nélküli hálózatról annak érdekében, hogy konfigurálni tudja az eszközt.  Ezalatt az idõ alatt elérhetetlen minden hálózati szolgáltatás, beleértve az internetet is.
+WA0204,Ellenõrizve és megerõsítve
+WA0301,Meglévõ vezeték nélküli hálózati beállítások érzékelése a számítógépen
+WA0302,A számítógép vagy a vezeték nélküli hozzáférési pont vezeték nélküli hálózati beállításai érzékelve.
+WA0303,Az érzékelt vezeték nélküli hálózati neve (vezeték nélküli hozzáférési pont/router név):
+WA0304,SSID:
+WA0305,Szeretné az eszközt erre a vezeték nélküli hálózatra csatlakoztatni?
+WA0306,Igen, szeretném az eszközt erre a vezeték nélküli hálózatra csatlakoztatni.
+WA0307,Nem, az eszközt egy másik vezeték nélküli hálózatra szeretném csatlakoztatni.
+WA0401,Vezeték nélküli engedélyezése
+WA0402,Most az eszközön a vezérlõpaneljének használatával engedélyezheti a vezeték nélküli hálózatot. Ennek végrehajtásában egy másik megnyíló ablak nyújt segítséget.
+WA0403,Amikor az eszközön engedélyezi a vezeték nélküli hálózatot, ez a varázsló automatikusan folytatja a beállítást.
+WA0404,(*) Ha a "Hálózati hely beállítása" képernyõ megjelenik, kattintson a "Mégsem" lehetõségre.
+WA0501,Beállítások elküldése......Kérem, várjon...
+WA0601,A "Vezeték nélküli beállítása" eredményeinek ellenõrzése
+WA0602,A "WLAN Report" oldalt kinyomtatja az eszköz. Az oldalon keresse meg a <Connection> részt, és ellenõrizze a csatlakozás eredményeit.
+WA0603,* Ez a nyomtatás maximum 2 percet vesz igénybe.
+WA0604,Válassza ki az eredményt az alábbi listából, majd kattintson a "Tovább" lehetõségre.
+WA0605,"Connection : OK"
+WA0606,"Connection : Failed"
+WA4001,Kilépés a beállításból
+WA4002,A beállítás nincs befejezve.
+WA4003,Ha kilép ebbõl a beállító programból, a vezeték nélküli eszköz konfigurálása megszakad.
+WA4004,A program folytatásához kattintson a "Folytatás" lehetõségre.
+WA4005,A programból történõ kilépéshez kattintson a "Kilépés" lehetõségre.
+WA5001,Az eszköz nem található
+WA5002,Szeretne újrapróbálkozni ugyanezzel a beállítási mûvelettel, vagy valami mással próbálkozik?
+WA5003,Újra próbál
+WA5004,Ha ugyanezt a beállítási mûveletet próbálja újra, javasoljuk, hogy ideiglenesen tiltsa le az olyan biztonsági szoftvereket, mint a tûzfal, mivel ezek blokkolhatják a beállítást.
+WA5005,Valami mással próbálkozom
+WA5101,Csatlakozás sikertelen
+WA5102,A telepítõ lehetõséget biztosít Önnek, hogy más csatlakozási módszerrel próbálkozzon.  A folytatáshoz kattintson a "Tovább" lehetõségre.
+WA9901,< Vissza
+WA9902,Mégse
+WA9903,Tovább >
+WA9904,Kilépés
+WA9905,Folytatás

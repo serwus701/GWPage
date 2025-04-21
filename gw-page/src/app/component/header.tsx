@@ -96,7 +96,7 @@ const Header = () => {
                 <div className="flex items-center w-full gap-x-6">
                   <nav className="flex space-x-6 justify-start font-bold">
                     <Link href="/brands" className="hover:underline">MARKI</Link>
-                    <Link href="/stories" className="hover:underline">HISTORIE</Link>
+                    <Link href="/news" className="hover:underline">AKTUALNOSCI</Link>
                     <Link href="/Outlet" className="hover:underline">OUTLET</Link>
                   </nav>
 

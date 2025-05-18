@@ -1,0 +1,42 @@
+WA0001,Èarovnik za nastavitev brezžiène naprave
+WA0002,1.02
+WA0101,Prosimo, poèakajte ...
+WA0201,Potrditev namestitve
+WA0202,Med namestitvijo se brezžiène nastavitve na vašem raèunalniku ali brezžièni dostopni toèki samodejno zaznajo. Preden brezžièno napravo prikljuèite v omrežje podjetja, dobite potrditev od skrbnika omrežja.
+WA0203,Èarovnik vas bo zaèasno odklopil z brezžiènega omrežja, zato da se lahko poveže na vašo napravo.  Med tem èasom boste vaša povezava z omrežnimi storitvami, vkljuèno z internetom, prekinjena.
+WA0204,Preverjeno in potrjeno
+WA0301,Zaznavanje obstojeèih nastavitev brezžiènega omrežja na vašem raèunalniku
+WA0302,Nastavitve brezžiènega omrežja vašega raèunalnika ali brezžiène dostopne toèke so bile zaznane.
+WA0303,Zaznano ime brezžiènega omrežja (ime brezžiène dostopne toèke/usmerjevalnika):
+WA0304,SSID:
+WA0305,Ali želite povezati napravo v to brezžièno omrežje?
+WA0306,Da, želim povezati napravo v to brezžièno omrežje.
+WA0307,Ne, ne želim povezati naprave v to brezžièno omrežje.
+WA0401,Omogoèi brezžièno omrežje
+WA0402,Sedaj morate omogoèiti brezžièno omrežje na nadzorni plošèi naprave. Odpreti se mora novo okno z nadaljnjimi informacijami o tem, kako to storite.
+WA0403,Ko omogoèite brezžièno omrežje na napravi, bo ta èarovnik samodejno nadaljeval namestitev.
+WA0404,(*) Èe se pojavi zaslon "Nastavi lokacijo omrežja", kliknite "Preklièi".
+WA0501,Oddajanje nastavitev. Prosimo, poèakajte ...
+WA0601,Preverite rezultat povezovanja "Brezžiène namestitve"
+WA0602,Na napravi se bo natisnila stran "WLAN Report". Poišèite <Connection> na strani in preverite opis, da potrdite rezultat povezovanja.
+WA0603,* To tiskanje lahko traja do 2 minuti.
+WA0604,Izberite rezultat na spodnjem seznamu izborov in kliknite "Next".
+WA0605,"Connection : OK"
+WA0606,"Connection : Failed"
+WA4001,Izhod iz namestitve
+WA4002,Namestitev ni dokonèana.
+WA4003,Èe zapustite ta namestitveni program, brezžièna naprava ne bo konfigurirana.
+WA4004,Èe želite nadaljevati z nastavitvenim programom, kliknite "Nadaljuj".
+WA4005,Èe želite zapreti nastavitveni program, kliknite "Izhod".
+WA5001,Naprave ni bilo mogoèe najti
+WA5002,Ali želite poskusiti znova z istim namestitvenim postopkom, ali pa bi radi poskusili kaj drugega?
+WA5003,Poskusi znova
+WA5004,Èe želite še enkrat poskusiti isti namestitveni postopek, priporoèamo, da zaèasno onemogoèite kakršno koli varnostno programsko opremo, kot je požarni zid, ki morda blokira postopek.
+WA5005,Poskusite kaj drugega
+WA5101,Povezovanje ni uspelo
+WA5102,Program za namestitev vam bo ponudil nekaj možnosti, da poskusite drug naèin za vzpostavitev povezave.  Za nadaljevanje kliknite "Naprej".
+WA9901,< Nazaj
+WA9902,Preklièi
+WA9903,Naprej >
+WA9904,Izhod
+WA9905,Nadaljuj

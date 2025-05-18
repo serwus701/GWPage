@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Konfiguracja certyfikatu</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Konfiguracja certyfikatu</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+</td></tr>
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Certyfikat klienta</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Wybierz certyfikat klienta dla uwierzytelniania EAP-TLS. Pamiętaj, że najpierw trzeba skonfigurować certyfikat na stronie „Konfiguruj certyfikat” wewnętrznej witryny WWW (EWS) urządzenia. (Nie trzeba wybierać certyfikatu klienta, jeśli używany jest wyjątek metody uwierzytelniania dla EAP-TLS).
+<br>
+
+
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Weryfikacja certyfikatu serwera</b>
+</td></tr>
+<tr><td width="50"></td><td>Wybierz metodę weryfikacji certyfikatu serwera. Przy używaniu protokołu LEAP nie jest konieczny wybór metody weryfikacji.<ul>
+<li>
+Brak weryfikacji
+<br>
+Certyfikat serwera będzie zaufany bez weryfikacji.
+<br><br>
+
+<li>
+Certyfikat CA
+<br>
+Certyfikat serwera wystawiany przez CA jest weryfikowany za pomocą certyfikatu CA zainstalowanego w urządzeniu. Pamiętaj, że najpierw trzeba skonfigurować certyfikat na stronie „Konfiguruj certyfikat” z wewnętrznej witryny WWW (EWS) urządzenia.
+<br><br>
+
+<li>
+Certyfikat CA i identyfikator serwera
+<br>
+Weryfikacja certyfikatu serwera (wystawianego przez CA za pomocą certyfikatu CA zainstalowanego w urządzeniu) oraz nazwy zwykłej (identyfikatora serwera). Pamiętaj, że najpierw trzeba skonfigurować certyfikat na stronie „Konfiguruj certyfikat” z wewnętrznej witryny WWW (EWS) urządzenia.
+<br><br>
+</ul>
+
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Identyfikator serwera</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Wprowadź identyfikator serwera w celu weryfikacji certyfikatu serwera. Identyfikator jest nazwą zwykłą certyfikatu serwera.
+<br><br>
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Konfiguruj certyfikat</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Jeśli używany jest certyfikat klienta lub certyfikat CA, najpierw trzeba skonfigurować certyfikat na stronie „Konfiguruj certyfikat” z wewnętrznej witryny WWW (EWS) urządzenia.
+<br><br>
+</ul>
+
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

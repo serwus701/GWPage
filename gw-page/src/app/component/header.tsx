@@ -64,7 +64,9 @@ const Header = () => {
 
 
         {/* Główna nawigacja */}
-        <div className="w-full bg-gray-50 text-black px-4 md:px-8 flex flex-col h-auto lg:h-[120px] relative">
+        <div className="w-full bg-gray-50 text-black px-4 md:px-8 flex flex-col h-auto lg:h-[140px] relative">
+
+
 
           {/* Logo i Mobile Menu (tylko mobile) */}
           <div className="w-full lg:hidden h-[85px] flex justify-between items-center p-4">
@@ -79,46 +81,94 @@ const Header = () => {
             </div>
           </div>
 
+
+
           {/* Nawigacja górna i dolna (tylko desktop) */}
-          <div className="hidden lg:flex w-full bg-gray-50 text-black px-8 h-[120px]">
+          <div className="hidden lg:flex w-full bg-white text-black px-8 h-[140px]">
+            <div className="w-full h-full grid grid-rows-2">
+
+              {/* Górna część */}
+              <div className="relative flex justify-center items-center bg-white w-full px-4">
+
+                {/* Logo wyśrodkowane */}
+                <div className="flex justify-center items-center w-full mt-2">
+                  <img src="/foto/xml-shop-logo.webp" alt="Logo" className="h-16 object-contain" />
+                </div>
+
+                {/* Pasek wyszukiwania przesunięty względem logo */}
+                <div className="absolute top-2 left-[64%] flex items-center border bg-gray-200 border-gray-400 rounded px-2 py-1 w-[20%]">
+                  <input
+                    type="text"
+                    placeholder="wyszukaj w naszej bazie..."
+                    className="w-full bg-transparent focus:outline-none px-2"
+                  />
+                  <img src="/lupa.svg" alt="Szukaj" className="w-5 h-5 text-gray-500 cursor-pointer" />
+                </div>
+              </div>
+
+              {/* Dolna część - Główne kategorie */}
+              <div className="flex justify-center items-center bg-white">
+                <nav className="flex flex-wrap gap-x-8 justify-center font-light text-sm text-center">
+                  <Link href="/news" className="hover:font-bold hover:underline">AKTUALNOŚCI</Link>
+                  <Link href="/drzwi" className="hover:font-bold hover:underline">DRZWI</Link>
+                  <Link href="/kuchnie" className="hover:font-bold hover:underline">KUCHNIE</Link>
+                  <Link href="/meble" className="hover:font-bold hover:underline">MEBLE</Link>
+                  <Link href="/oswietlenie" className="hover:font-bold hover:underline">OŚWIETLENIE</Link>
+                  <Link href="/dekoracje" className="hover:font-bold hover:underline">DEKORACJE</Link>
+                  <Link href="/office" className="hover:font-bold hover:underline">OFFICE</Link>
+                  <Link href="/brands" className="hover:font-bold hover:underline">MARKI</Link>
+                  <Link href="/outdoor" className="hover:font-bold hover:underline">OUTDOOR</Link>
+                  <Link href="/Outlet" className="hover:font-bold hover:underline">OUTLET</Link>
+                </nav>
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+
+          {/* Nawigacja górna i dolna (tylko desktop) */}
+          {/*} <div className="hidden lg:flex w-full bg-gray-50 text-black px-8 h-[120px]">
             {/* Logo */}
-            <div className="w-1/4 h-full flex justify-end items-center p-4">
+          {/*<div className="w-1/4 h-full flex justify-end items-center p-4">
               <Link href="/" className="text-4xl font-serif font-light">Galeria Wnętrza</Link>
             </div>
 
             {/* Nawigacja */}
-            <div className="w-3/4 h-full grid grid-rows-2">
+          {/*<div className="w-3/4 h-full grid grid-rows-2">
               {/* Górna część - Linki i wyszukiwanie */}
-              <div className="relative flex justify-center items-center bg-gray-50 w-full px-4">
+          {/*<div className="relative flex justify-center items-center bg-gray-50 w-full px-4">
                 {/* Linia oddzielająca */}
-                <div className="absolute bottom-0 left-0 right-[200px] border-b border-gray-300"></div>
+          {/*<div className="absolute bottom-0 left-0 right-[200px] border-b border-gray-300"></div>
 
                 <div className="flex items-center w-full gap-x-6">
                   <nav className="flex space-x-6 justify-start font-bold">
                     <Link href="/brands" className="hover:underline">MARKI</Link>
-                    <Link href="/stories" className="hover:underline">HISTORIE</Link>
+                    <Link href="/news" className="hover:underline">AKTUALNOSCI</Link>
                     <Link href="/Outlet" className="hover:underline">OUTLET</Link>
                   </nav>
 
                   {/* Pasek wyszukiwania */}
-                  <div className="flex items-center border bg-gray-200 border-gray-400 rounded px-2 py-1 w-3/5">
+          {/*<div className="flex items-center border bg-gray-200 border-gray-400 rounded px-2 py-1 w-3/5">
                     <input
                       type="text"
                       placeholder="komoda..."
                       className="w-full bg-transparent focus:outline-none px-2"
                     />
                     <img src="/lupa.svg" alt="Szukaj" className="w-5 h-5 text-gray-500 cursor-pointer" />
-                  </div>
+                  </div>*/}
 
-                  {/* Ikona serca (ulubione) */}
-                  <a href="#" className="ml-4">
+          {/* Ikona serca (ulubione) */}
+          {/*<a href="#" className="ml-4">
                     <img src="/serce.svg" alt="Ulubione" className="w-10 h-10 text-gray-500 cursor-pointer" />
                   </a>
                 </div>
-              </div>
+              </div>*/}
 
-              {/* Dolna część - Główne kategorie */}
-              <div className="flex justify-center items-center bg-gray-50">
+          {/* Dolna część - Główne kategorie */}
+          {/*<div className="flex justify-center items-center bg-gray-50">
                 <div className="flex justify-between items-center w-full px-4">
                   <nav className="flex space-x-12 justify-start font-light">
                     <a href="#" className="hover:font-bold hover:underline">MEBLE</a>
@@ -132,7 +182,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
 
           {/* Mobile Menu */}
           {menuOpen && (

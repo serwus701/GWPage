@@ -1,0 +1,42 @@
+WA0001,Kreator instalacji urz¹dzenia bezprzewodowego
+WA0002,1.02
+WA0101,Czekaj...
+WA0201,Potwierdzenie instalacji
+WA0202,Podczas instalacji zostan¹ automatycznie wykryte ustawienia sieci bezprzewodowej w komputerze lub bezprzewodowego punktu dostêpowego. Przed pod³¹czeniem urz¹dzenia bezprzewodowego do sieci firmowej nale¿y skontaktowaæ siê z administratorem sieci.
+WA0203,Kreator tymczasowo od³¹czy komputer od sieci bezprzewodowej, aby móc nawi¹zaæ po³¹czenie z urz¹dzeniem.  W tym czasie komputer bêdzie od³¹czony od wszystkich us³ug sieciowych, w tym od Internetu.
+WA0204,SprawdŸ i potwierdŸ
+WA0301,Wykrywanie ustawieñ sieci bezprzewodowej na komputerze
+WA0302,Ustawienia sieci bezprzewodowej lub bezprzewodowego punktu dostêpowego zosta³y wykryte.
+WA0303,Wykryta nazwa sieci bezprzewodowej (bezprzewodowego punktu dostêpowego / routera):
+WA0304,SSID:
+WA0305,Czy chcesz pod³¹czyæ urz¹dzenie do tej sieci bezprzewodowej?
+WA0306,Tak, chcê pod³¹czyæ to urz¹dzenie do tej sieci bezprzewodowej.
+WA0307,Nie, chcê pod³¹czyæ to urz¹dzenie do innej sieci bezprzewodowej.
+WA0401,W³¹cz sieæ bezprzewodow¹
+WA0402,Teraz w³¹cz w urz¹dzeniu obs³ugê po³¹czeñ bezprzewodowych za pomoc¹ panelu sterowania urz¹dzenia. Powinno zostaæ otwarte osobne okno ze szczegó³owymi instrukcjami.
+WA0403,Kiedy w urz¹dzeniu zostanie w³¹czona obs³uga po³¹czeñ bezprzewodowych, ten kreator automatycznie wznowi proces instalacji.
+WA0404,(*) Jeœli zostanie wyœwietlony ekran „Ustaw lokalizacjê sieciow¹”, kliknij przycisk „Anuluj”.
+WA0501,Czekaj, trwa przesy³anie ustawieñ...
+WA0601,SprawdŸ, czy nawi¹zywanie po³¹czenia bezprzewodowego powiod³o siê
+WA0602,Urz¹dzenie wydrukuje „WLAN Report”. Na wydrukowanej stronie znajdŸ sekcjê <Connection> i sprawdŸ opis, aby siê upewniæ, czy po³¹czenie zosta³o nawi¹zane.
+WA0603,* Ten wydruk mo¿e porwaæ 2 minuty.
+WA0604,Wybierz wynik z poni¿szej listy i kliknij przycisk „Dalej”.
+WA0605,"Connection : OK"
+WA0606,"Connection : Failed"
+WA4001,Wyjœcie z instalatora
+WA4002,Instalacja nie zosta³a zakoñczona.
+WA4003,Jeœli zamkniesz teraz instalator, urz¹dzenie bezprzewodowe nie zostanie skonfigurowane.
+WA4004,Aby kontynuowaæ instalacjê, kliknij przycisk „Wznów”.
+WA4005,Aby zamkn¹æ instalator, kliknij przycisk „Zakoñcz”.
+WA5001,Nie mo¿na odnaleŸæ urz¹dzenia
+WA5002,Czy chcesz ponownie wykonaæ tê sam¹ procedurê instalacji, czy spróbowaæ innej?
+WA5003,Spróbuj ponownie
+WA5004,Jeœli chcesz ponowiæ tê sam¹ procedurê instalacji, zalecamy tymczasowe wy³¹czenie wszelkich programów zabezpieczaj¹cych, które mog¹ blokowaæ po³¹czenie, takich jak zapora sieciowa.
+WA5005,Spróbuj innej metody
+WA5101,Nie mo¿na nawi¹zaæ po³¹czenia
+WA5102,Instalator przedstawi kilka opcji umo¿liwiaj¹cych skorzystanie z innej metody nawi¹zywania po³¹czenia.  Kliknij przycisk „Dalej”, aby kontynuowaæ.
+WA9901,< Wstecz
+WA9902,Anuluj
+WA9903,Dalej >
+WA9904,Zakoñcz
+WA9905,Wznów

@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Konfiguracija certifikata</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Konfiguracija certifikata.</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+</td></tr>
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Certifikat stranke</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Izberite certifikat stranke za preverjanje pristnosti EAP-TLS. Najprej pa morate nastaviti certifikat na strani "Konfiguriraj certifikat" z interne spletne strani (EWS) vaše naprave. (Kadar uporabljate metodo pristnosti, ki ni EAP-TLS, vam ni treba izbrati certifikata stranke.)
+<br>
+
+
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Overitev certifikata strežnika</b>
+</td></tr>
+<tr><td width="50"></td><td>Izberite metodo overitve certifikata strežnika. (Kadar uporabljate LEAP, vam ni treba izbrati metode overitve.)<ul>
+<li>
+Brez overitve
+<br>
+Certifikatu strežnika se zaupa brez overitve.
+<br><br>
+
+<li>
+Cert. CA
+<br>
+Certifikat strežnika, ki ga izda CA, je overjen s strani certifikata CA, ki je nameščen v tej napravi. Najprej morate nastaviti certifikat na strani "Konfiguriraj certifikat" z interne spletne strani (EWS) vaše naprave.
+<br><br>
+
+<li>
+Cert. CA + ID strežnika
+<br>
+Potrdita se certifikat strežnika (izda ga CA z uporabo certifikata CA, ki je nameščen v tej napravi) in skupno ime (ID strežnika). Najprej morate nastaviti certifikat na strani "Konfiguriraj certifikat" z interne spletne strani (EWS) vaše naprave.
+<br><br>
+</ul>
+
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>ID strežnika</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Vnesite ID strežnika za overitev certifikata strežnika. ID strežnika je skupno ime certifikata strežnika.
+<br><br>
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Konfiguriraj certifikat</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Če uporabljate certifikat stranke ali certifikat CA, morate najprej nastaviti certifikat na strani "Konfiguriraj certifikat" z interne spletne strani (EWS) vaše naprave.
+<br><br>
+</ul>
+
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

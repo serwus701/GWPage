@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Metoda preverjanja pristnosti in način šifriranja</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Metoda preverjanja pristnosti in način šifriranja</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+Večina brezžičnih omrežij uporablja varnostne nastavitve. Te varnostne nastavitve določajo preverjanje pristnosti (kako se naprava identificira v omrežje) in šifriranje (kako so podatki šifrirani, ko so poslani v omrežje). Če ob konfiguriranju vaše brezžične naprave teh možnosti ne določite pravilno, povezava naprave v brezžično omrežje ne bo mogoča. Zato morate biti ob konfiguriranju teh možnosti previdni. Če vas zanima, katere metode preverjanja pristnosti in šifriranja podpira vaša brezžična naprava, si oglejte spodnje podatke.
+</td></tr>
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Metode preverjanja pristnosti  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+<ul>
+<li>
+Odprt sistem<br>
+Brezžične naprave imajo dovoljen dostop do omrežja brez preverjanja pristnosti. <br><br>
+
+<li>
+Ključ za souporabo (samo način Infrastruktura)<br>
+Vse naprave, ki dostopajo do brezžičnega omrežja, si delijo skrivni, vnaprej določen ključ. <br><br>
+<li>
+WPA/WPA2-PSK<br>
+Vse naprave, ki dostopajo do brezžičnega omrežja, si delijo skrivno, vnaprej določeno dostopno frazo. Ta metoda preverjanja pristnosti omogoča varno komunikacijo z uporabo zmogljive metode šifriranja.  <br>WPA/WPA2-PSK se lahko uporablja samo v brezžičnem infrastrukturnem omrežju.
+<br><br>
+<li>
+LEAP (ni na voljo za nekatere modele)<br>
+
+Cisco® LEAP (Light Extensible Authentication Protocol) za preverjanje pristnosti uporablja ID in geslo uporabnika.
+<br><br>
+<li>
+EAP-FAST/PEAP/EAP-TTLS (ni na voljo za nekatere modele)<br>
+
+Cisco® EAP-FAST (Extensible Authentication Protocol-Flexible Authentication via Secure Tunneling)/ PEAP (Protected Extensible Authentication Protocol) /EAP-TTLS (Extensible Authentication Protocol-Tunneled Transport Layer Security) za preverjanje pristnosti uporablja ID in geslo uporabnika. Certifikat strežnika lahko overite s pomočjo certifikata CA.
+<br><br>
+<li>
+EAP-TLS (ni na voljo za nekatere modele)<br>EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) za preverjanje pristnosti uporablja ID uporabnika in certifikat stranke. Z uporabo certifikata CA lahko preverite tudi certifikat strežnika SSL. <br><br>
+</ul>
+
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Notranje metode preverjanja pristnosti (ni na voljo za nekatere modele)</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Določiti morate eno izmed notranjih metod preverjanja pristnosti glede na izbrano metodo.
+<ul>
+<li>
+BREZ<br>MS-CHAPv2 se uporablja za dodeljevanje, metoda za EAP-FAST pa ustreza drugi fazi preverjanja pristnosti. 
+<br><br>
+
+<li>
+MS-CHAPv2<br>
+MS-CHAPv2(Microsoft-Challenge Handshake Authentication Protocol version 2) je interna metoda preverjanja pristnosti za EAP-FAST/PEAP/EAP-TTLS.<br><br>
+<li>
+GTC<br>
+GTC(Generic Token Card) je interna metoda preverjanja pristnosti za EAP-FAST/PEAP.<br><br>
+<li>
+MS-CHAP<br>
+MS-CHAP(Microsoft-Challenge Handshake Authentication Protocol) je interna metoda preverjanja pristnosti za EAP-TTLS.<br><br>
+<li>
+CHAP<br>
+CHAP(Challenge Handshake Authentication Protocol) je interna metoda preverjanja pristnosti za EAP-TTLS.<br><br>
+<li>
+PAP<br>
+PAP(Password Authentication Protocol) je interna metoda preverjanja pristnosti za EAP-TTLS.<br><br>
+</ul>
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Metode šifriranja  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+
+<ul>
+<li>Brez<br>
+Uporabljena ni nobena metoda šifriranja. <br><br>
+
+<li>WEP (Wired Equivalent Privacy)<br>
+Podatke se prenaša in prejema z varnostnim ključem po izbiri uporabnika.<br><br>
+<li>TKIP<br>
+TKIP (Temporal Key Integrity Protocol) odstranjuje predvidljivost, na katero bi se lahko zanesli vsiljivci in izkoristili varnostne slabosti zaradi ročno dodeljenih ključev WEP. Ključi TKIP se ustvarjajo samodejno in so daljši od ključev WEP.<br><br>
+<li>AES<br>
+AES (Advanced Encryption Standard) je strog standard šifriranja v skladu z Wi-Fi®.<br><br>
+<li>CKIP<br>
+Originalni protokol neokrnjenosti ključa za LEAP podjetja Cisco Systems, Inc.
+</ul>
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

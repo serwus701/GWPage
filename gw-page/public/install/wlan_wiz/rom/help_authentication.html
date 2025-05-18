@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Metodă de autentificare şi mod de criptare</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Metodă de autentificare şi mod de criptare</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+Majoritatea reţelelor wireless utilizează setări de securitate. Aceste setări de securitate definesc autentificarea (modul în care dispozitivul se identifică în reţea) şi criptarea (modul în care datele sunt criptate atunci când sunt trimise în reţea). Dacă nu specificaţi în mod corect aceste opţiuni atunci când configuraţi dispozitivul wireless, acesta nu se va putea conecta la reţeaua wireless. În consecinţă, trebuie să acordaţi o atenţie specială configurării acestor opţiuni. Consultaţi informaţiile de mai jos pentru a afla care sunt metodele de autentificare şi criptare acceptate de dispozitivul wireless.
+</td></tr>
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Metode de autentificare  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+<ul>
+<li>
+Sistem deschis<br>
+Dispozitivele wireless au permisiunea de acces la reţeaua wireless fără nicio autentificare. <br><br>
+
+<li>
+Cheie partajată (numai în modul Infrastructură)<br>
+O cheie secretă predeterminată este partajată de către toate dispozitivele care vor accesa reţeaua wireless. <br><br>
+<li>
+WPA/WPA2-PSK<br>
+O frază secretă de acces, prestabilită, este partajată de către toate dispozitivele care vor accesa reţeaua wireless. Această metodă de autentificare vă permite să comunicaţi în siguranţă folosind o metodă de criptare puternică.  <br>WPA/WPA2-PSK poate fi utilizat numai în cadrul unei reţele cu infrastructură wireless.
+<br><br>
+<li>
+LEAP (Nu este disponibil pentru toate modelele)<br>
+
+Cisco® LEAP (Light Extensible Authentication Protocol) utilizează pentru autentificare un nume de utilizator şi o parolă.
+<br><br>
+<li>
+EAP-FAST/PEAP/EAP-TTLS (Nu este disponibil pentru toate modelele)<br>
+
+Cisco® EAP-FAST (Extensible Authentication Protocol-Flexible Authentication via Secure Tunneling)/ PEAP (Protected Extensible Authentication Protocol) /EAP-TTLS (Extensible Authentication Protocol-Tunneled Transport Layer Security) utilizează pentru autentificare un nume de utilizator şi o parolă. Puteţi verifica certificatul serverului folosind certificatul CA.
+<br><br>
+<li>
+EAP-TLS (Nu este disponibil pentru toate modelele)<br>EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) utilizează pentru autentificare un nume de utilizator şi un certificat pentru client. De asemenea, puteţi verifica certificatul SSL al serverului folosind certificatul CA. <br><br>
+</ul>
+
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Metode interne de autentificare(Nu este disponibil pentru toate modelele)</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Trebuie să specificaţi una dintre metodele de autentificare interne în funcţie de cea pe care aţi selectat-o.
+<ul>
+<li>
+NONE (Niciuna)<br>MS-CHAPv2 este utilizată pentru dimensionarea reţelei, iar metoda pentru EAP-FAST corespunde celei de a doua faze a metodei de autentificare. 
+<br><br>
+
+<li>
+MS-CHAPv2<br>
+MS-CHAPv2 (Microsoft-Challenge Handshake Authentication Protocol version 2) este o metodă internă de autentificare pentru EAP-FAST/PEAP/EAP-TTLS.<br><br>
+<li>
+GTC<br>
+GTC(Generic Token Card) este o metodă internă de autentificare pentru EAP-FAST/PEAP.<br><br>
+<li>
+MS-CHAP<br>
+MS-CHAP (Microsoft-Challenge Handshake Authentication Protocol) este o metodă internă de autentificare pentru EAP-TTLS.<br><br>
+<li>
+CHAP<br>
+CHAP(Challenge Handshake Authentication Protocol) este o metodă internă de autentificare pentru EAP-TTLS.<br><br>
+<li>
+PAP<br>
+PAP(Password Authentication Protocol) este o metodă internă de autentificare pentru EAP-TTLS.<br><br>
+</ul>
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Metode de criptare  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+
+<ul>
+<li>Nici una<br>
+Nu este utilizată nicio metodă de criptare. <br><br>
+
+<li>WEP (Protecţie echivalent cu fir)<br>
+Datele sunt transmise şi primite cu o cheie de securizare aleasă de utilizator.<br><br>
+<li>TKIP<br>
+TKIP (Temporal Key Integrity Protocol) elimină previzibilitatea pe care intruşii se pot baza pentru a exploata problemele de securitate datorate utilizării cheilor WEP alocate manual. Cheile TKIP sunt generate automat şi sunt mai lungi decât cheile WEP<br><br>
+<li>AES<br>
+AES (Advanced Encryption Standard) este un standard puternic de criptare compatibil Wi-Fi®.<br><br>
+<li>CKIP<br>
+Protocolul original pentru LEAP, cu cheie de integritate al Cisco Systems, Inc.
+</ul>
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

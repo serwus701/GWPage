@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Način provjere autentifikacije i način šifriranja</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Način provjere autentifikacije i način šifriranja</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+Većina bežičnih mreža koriste neku vrstu sigurnosnih postavki. Ove sigurnosne postavke definiraju autentifikaciju (kako se uređaj identificira na mreži) i šifriranje (kako su podaci šifrirani i poslani na mrežu). Ako niste točno odredili ove opcije kad ste konfigurirali bežični uređaj, neće se moći povezati na bežičnu mrežu. Stoga budite pažljivi kada konfigurirate ove opcije. Molimo da pogledate informacije u nastavku kako biste pogledali koje načine autentifikacije i šifriranja podržava vaš bežični uređaj.
+</td></tr>
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Načini autentifikacije  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+<ul>
+<li>
+Otvori sustav<br>
+Bežičnim uređajima je dopušten pristup mreži bez autentifikacije. <br><br>
+
+<li>
+Zajednički ključevi (samo u infrastrukturnom načinu)<br>
+Tajne prethodno određene ključeve dijele svi uređaji koji pristupaju bežičnoj mreži. <br><br>
+<li>
+WPA / WPA2-PSK<br>
+Tajne prethodno određene pristupne šifre dijele svi uređaji koji pristupaju bežičnoj mreži. Ovaj način provjere autentifikacije omogućuje vam da sigurno komunicirate korištenjem snažnog načina šifriranja.  <br>WPA/WPA2-PSK se može koristiti samo u bežičnoj infrastrukturnoj mreži.
+<br><br>
+<li>
+LEAP (nije dostupno za neke modele)<br>
+
+Cisco® LEAP (Laki proširivi protokol za autentifikaciju) koristi korisnički ID i lozinku za autentifikaciju.
+<br><br>
+<li>
+EAP-FAST/PEAP/EAP-TTLS (nije dostupno za neke modele)<br>
+
+Cisco® EAP-FAST (Laki proširivi protokol za autentifikaciju-fleksibilna autentifikacija preko sigurnosnog tuneliranja)/ PEAP (Zaštićeni proširivi protokol za autentifikaciju) /EAP-TTLS (Laki proširivi protokol za autentifikaciju-Tunelirana sigurnost prijenosnog sloja) koristi korisnički ID i lozinku za autentifikaciju. Možete potvrditi certifikat poslužitelja korištenjem CA certifikata.
+<br><br>
+<li>
+EAP-TLS (nije dostupno za neke modele)<br>EAP-TLS (Laki proširivi protokol za autentifikaciju-fleksibilna autentifikacija preko sigurnosnog tuneliranja) koristi korisnički ID i certifikat klijenta za autentifikaciju. Možete također potvrditi certifikat SSL poslužitelja tako da koristite CA certifikat. <br><br>
+</ul>
+
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Interni načini autentifikacije (Nije dostupno za neke modele)</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Trebate odrediti jedan od načina interne autentifikacije prema odabranom.
+<ul>
+<li>
+NIŠTA<br>MS-CHAPv2 se koristi za određivanje, a način EAP-FAST odgovara drugoj fazi načina autentifikacije. 
+<br><br>
+
+<li>
+MS-CHAPv2<br>
+MS-CHAPv2 (Protokol za ispitivanje provjere autentičnosti rukovanja, verzija 2) je interni način provjere autentifikacije za EAP-FAST/PEAP/EAP-TTLS.<br><br>
+<li>
+GTC<br>
+GTC (Generička tokenska kartica) je interni način provjere autentifikacije za EAP-FAST/PEAP.<br><br>
+<li>
+MS-CHAP<br>
+MS-CHAP (Protokol za ispitivanje provjere autentičnosti rukovanja) je interni način provjere autentifikacije za EAP-TTLS.<br><br>
+<li>
+CHAP<br>
+CHAP (Protokol za ispitivanje provjere autentičnosti rukovanja) je interni način provjere autentifikacije za EAP-TTLS.<br><br>
+<li>
+PAP<br>
+PAP (Protokol za autentičnost zaporke) je interni način provjere autentifikacije za EAP-TTLS.<br><br>
+</ul>
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Načini šifriranja  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+
+<ul>
+<li>Ništa<br>
+Nikakav način šifriranja se ne koristi. <br><br>
+
+<li>WEP (Privatnost jednaka žičnoj vezi)<br>
+Podaci su prenijeti i primljeni pomoću sigurnosnog ključa po izboru korisnika.<br><br>
+<li>TKIP<br>
+TKIP (Privremeni protokol integriteta ključa) uklanja predviđanja na koja se uljez može osloniti prilikom iskorištavanja sigurnosnih slabosti do kojih dolazi ručnim pridruživanjem WEP ključeva. TKIP ključevi automatski su generirani i dulji od WEP.<br><br>
+<li>AES<br>
+AES (Napredni standard šifriranja) je Wi-Fi® autorizirani neprobojni standard šifriranja.<br><br>
+<li>CKIP<br>
+Originalni protokol integriteta ključa za LEAP od strane tvrtke Cisco Systems, Inc.
+</ul>
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

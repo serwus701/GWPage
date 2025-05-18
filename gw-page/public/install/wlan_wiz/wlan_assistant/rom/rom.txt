@@ -1,0 +1,42 @@
+WA0001,Program asistent pentru configurarea dispozitivelor wireless
+WA0002,1.02
+WA0101,Aºteptaþi...
+WA0201,Confirmarea instalãrii
+WA0202,În timpul instalãrii, setãrile fãrã fir de pe computer sau de pe punctul de acces fãrã fir se vor detecta automat. Înainte de conectarea dispozitivului fãrã fir la o reþea de corporaþie, confirmaþi acest lucru cu administratorul de reþea.
+WA0203,Reþineþi cã expertul vã va deconecta temporar de la reþeaua fãrã fir pentru ca aceasta sã se poatã conecta la dispozitivul dvs.  În acest timp veþi fi deconectat de la toate serviciile de reþea, inclusiv Internetul.
+WA0204,Verificat ºi confirmat
+WA0301,Se detecteazã setãrile de reþea fãrã fir existente pe computer
+WA0302,Setãrile de reþea fãrã fir de pe computer sau de pe punctul de acces fãrã fir au fost detectate.
+WA0303,Numele reþelei fãrã fir detectate (nume router/punct de acces fãrã fir):
+WA0304,SSID:
+WA0305,Doriþi sã conectaþi dispozitivul la aceastã reþea fãrã fir?
+WA0306,Da, doresc sã conectez dispozitivul la aceastã reþea fãrã fir.
+WA0307,Nu, doresc sã conectez dispozitivul la o altã reþea fãrã fir.
+WA0401,Activare funcþie fãrã fir
+WA0402,Acum trebuie sã activaþi funcþia de lucru în reþea fãrã fir de pe dispozitiv utilizând panoul de control al acestuia. Trebuie sã se deschidã o altã fereastrã cu detalii suplimentare privind modul de realizare a acestui lucru.
+WA0403,Când activaþi funcþia de lucru în reþea fãrã fir pe dispozitiv, acest expert va continua automat configurarea.
+WA0404,(*) Dacã apare ecranul „Set Network Location” (Setare locaþie reþea), faceþi clic pe „Cancel” (Revocare).
+WA0501,Se remit setãrile...... Aºteptaþi...
+WA0601,Verificaþi rezultatul de conectare pentru „Wireless Setup” (Configurare fãrã fir)
+WA0602,Pagina „WLAN Report” (Raport WLAN) va fi imprimatã de cãtre dispozitiv. Gãsiþi <Connection> (Conexiune) pe paginã ºi verificaþi descrierea pentru a confirma rezultatul conexiunii.
+WA0603,* Este posibil ca aceastã imprimare sã dureze pânã la 2 minute.
+WA0604,Selectaþi rezultatul din lista de selecþii de mai jos ºi faceþi clic pe „Next” (Urmãtorul).
+WA0605,"Connection : OK"
+WA0606,"Connection : Failed"
+WA4001,Ieºire din configurare
+WA4002,Configurarea nu este terminatã.
+WA4003,Dacã ieºiþi din acest program de configurare, dispozitivul fãrã fir nu va fi configurat.
+WA4004,Pentru a continua acest program de configurare, faceþi clic pe „Reluare”.
+WA4005,Pentru a ieºi din acest program de configurare, faceþi clic pe „Ieºire”.
+WA5001,Gãsirea dispozitivului nu a reuºit
+WA5002,Doriþi sã încercaþi din nou utilizând acelaºi proces de configurare sau sã încercaþi altceva diferit?
+WA5003,Reîncercare
+WA5004,Dacã doriþi sã încercaþi din nou acelaºi proces de configurare, vã recomandãm sã încercaþi dezactivarea temporarã a oricãrui software de securitate, cum ar fi un paravan de protecþie, care poate sã îl blocheze.
+WA5005,Încercaþi altceva diferit
+WA5101,Conectarea nu a reuºit
+WA5102,Programul de instalare vã va oferi anumite opþiuni pentru a încerca o altã metodã de conectare.  Faceþi clic pe „Next” (Urmãtorul) pentru a continua.
+WA9901,< Înapoi
+WA9902,Anulare
+WA9903,Urmatorul >
+WA9904,Ieºire
+WA9905,Reluare

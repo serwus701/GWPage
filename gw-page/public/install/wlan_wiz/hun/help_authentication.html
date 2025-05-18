@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Azonosítási mód és titkosítási mód</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Azonosítási mód és titkosítási mód</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+A legtöbb vezetéknélküli hálózat használ valamilyen biztonsági beállítást. Ezek a vezetéknélküli beállítások határozzák meg az azonosítást (azt, hogy hogyan azonosítja magát az eszköz a hálózaton) és a titkosítást (hogyan vannak titkosítva az adatok, amikor küldésre kerülnek a hálózaton). Ha nem adja meg helyesen ezeket a beállításokat a vezetéknélküli eszköz konfigurálásakor, akkor az nem fog tudni a vezetéknélküli hálózathoz kapcsolódni. Ezért körültekintően kell eljárni ezen beállítások konfigurálásakor. A vezetéknélküli eszköz azonosítási és titkosítási módok támogatásáról olvassa el az alábbiakat.
+</td></tr>
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Azonosítási módok  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+<ul>
+<li>
+Nyílt rendszer<br>
+A vezetéknélküli eszközök mindenféle azonosítás nélkül hozzáférhetnek a hálózathoz. <br><br>
+
+<li>
+Megosztott kulcs (csak infrastrukturális)<br>
+Egy titkos előre meghatározott kulcs van megosztva az eszközök között, amelyek hozzáférhetnek a hálózathoz. <br><br>
+<li>
+WPA/WPA2-PSK<br>
+Egy titkos, előre meghatározott kulcs került megosztásra azon eszközök között, amelyek hozzáférhetnek a hálózathoz. Ez a hitelesítési módszer hatékony titkosítás használatával teszi lehetővé a biztonságos kommunikációt.  <br>A WPA/WPA2-PSK csak vezetéknélküli infrstrukturális hálózatokban használható.
+<br><br>
+<li>
+LEAP (nem elérhető egyes típusokban)<br>
+
+A Cisco® LEAP (Light Extensible Authentication Protocol) protokoll felhasználói azonosítókat és jelszavakat használ a hitelesítéshez.
+<br><br>
+<li>
+EAP-FAST/PEAP/EAP-TTLS (nem elérhető egyes típusokban)<br>
+
+A Cisco® EAP-FAST (Extensible Authentication Protocol-Flexible Authentication via Secure Tunneling)/ PEAP (Protected Extensible Authentication Protocol) /EAP-TTLS (Extensible Authentication Protocol-Tunneled Transport Layer Security) protokollok felhasználói azonosítókat és jelszavakat használnak a hitelesítéshez. A szervertanúsítvány a CA-tanúsítvány segítségével ellenőrizhető.
+<br><br>
+<li>
+EAP-TLS (nem elérhető egyes típusokban)<br>Az EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) protokoll felhasználói azonosítókat és klienstanúsítványokat használ a hitelesítéshez. Az SSL-szervertanúsítvány CA-tanúsítvány segítségével is ellenőrizhető. <br><br>
+</ul>
+
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Belső hitelesítési módszerek(nem elérhető egyes típusokban)</b>
+</td></tr>
+<tr><td width="50"></td><td>
+A kiválasztottnak megfelelően meg kell adnia egy belső hitelesítési módszert.
+<ul>
+<li>
+Nincs<br>Az MS-CHAPv2 egy hitelesítési protokoll, az EAP-FAST pedig egy olyan módszer, amely a hitelesítés második fázisában kerül használatra. 
+<br><br>
+
+<li>
+MS-CHAPv2<br>
+Az MS-CHAPv2 (Microsoft-Challenge Handshake Authentication Protocol version 2) egy belső hitelesítési módszer az EAP-FAST/PEAP/EAP-TTLS szabványokhoz.<br><br>
+<li>
+GTC<br>
+A GTC (Generic Token Card) egy belső hitelesítési módszer az EAP-FAST/PEAP szabványokhoz.<br><br>
+<li>
+MS-CHAP<br>
+Az MS-CHAP (Microsoft-Challenge Handshake Authentication Protocol) egy belső hitelesítési módszer az EAP-TTLS szabványhoz.<br><br>
+<li>
+CHAP<br>
+A CHAP (Challenge Handshake Authentication Protocol) egy belső hitelesítési módszer az EAP-TTLS szabványhoz.<br><br>
+<li>
+PAP<br>
+PAP (Password Authentication Protocol) egy belső hitelesítési módszer az EAP-TTLS szabványhoz.<br><br>
+</ul>
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Titkosítási módok  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+
+<ul>
+<li>Nincs<br>
+Nincs titkosítási mód használatban. <br><br>
+
+<li>WEP (vezetékessel egyenértékű titoktartás, Wired Equivalent Privacy)<br>
+Az adatok küldése és fogadása a felhasználó által választott biztonsági kulccsal történik.<br><br>
+<li>TKIP<br>
+A TKIP (Temporal Key Integrity Protocol) lehetetlenné teszi a statisztikai megfigyelések és előrejelzések alapján történő támadásokat, így megszünteti a kézzel kijelölt WEP-kulcsok használatából adódó támadási lehetőségeket. A TKIP-kulcsok automatikusan jönnek létre és hosszabbak a WEP-kulcsoknál<br><br>
+<li>AES<br>
+Az AES (Advanced Encryption Standard) egy Wi-Fi(R) rendszerekben használatos, hatékony titkosítási szabvány.<br><br>
+<li>CKIP<br>
+Az eredeti Kulcs Integritás Protokoll a LEAP-hez, melyet a Cisco Systems Inc. fejlesztett ki.
+</ul>
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

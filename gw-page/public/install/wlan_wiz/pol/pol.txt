@@ -1,0 +1,160 @@
+WS01000010,Kreator instalacji urz¹dzenia bezprzewodowego
+WS01000040,2.02
+WS02010010,Witamy
+WS02010020,Witamy w Kreatorze instalacji urz¹dzenia bezprzewodowego
+WS04000010,Konfiguracja adresu IP
+WS04000020,Skonfiguruj adres IP urz¹dzenia bezprzewodowego
+WS04000030,Pobierz adres IP automatycznie.
+WS04000050,Ustaw statyczny adres IP
+WS04000060,Adres IP
+WS04000070,Maska podsieci
+WS04000080,Brama
+WS05020010,Nazwa sieci bezprzewodowej
+WS05020020,Skonfiguruj nazwê sieci bezprzewodowej, z któr¹ zostanie skojarzone urz¹dzenie.
+WS05020030,Nazwa (SSID)
+WS05020040,To jest sieæ Ad-hoc bez punktu dostêpu.
+WS05020060,Kana³
+WS05030010,Wyszukiwanie sieci bezprzewodowych...
+WS05040010,Dostêpne sieci bezprzewodowe
+WS05040020,Wybierz uprzednio sprawdzony identyfikator SSID.
+WS05040040,Nazwa (SSID)
+WS05040050,Kana³
+WS05040060,Tryb bezprzewodowy
+WS05040070,Sygna³
+WS05040080,Punkt dostêpu / Stacja bazowa
+WS05040090,Sieæ w trybie Ad-hoc
+WS05040100,Je¿eli identyfikator SSID (Identyfikator twojego Bezprzewodowego punktu dostêpu) nie pojawi siê na liœcie, lub jeœli jest  ukryty, mo¿na go skonfigurowaæ klikaj¹c na przycisk „Zaawansowany”.
+WS05040110,802.11b/g (11 Mb/s / 54 Mb/s)
+WS05040120,802.11b (11 Mb/s)
+WS05040130,802.11g (54 Mb/s)
+WS05040140,802.11b/g/n
+WS05040150,802.11n
+WS05060010,UWAGA!
+WS05060020,Ta sieæ bezprzewodowa nie jest bezpieczna. Nie korzysta ona z bezpiecznego uwierzytelniania i szyfrowania.
+WS05060030,Czy chcesz kontynuowaæ konfiguracjê?
+WS05060040,Nazwa (SSID):
+WS06000010,Metoda uwierzytelniania i tryb szyfrowania
+WS06000020,Skonfiguruj metodê uwierzytelniania i tryb szyfrowania
+WS06000030,Metoda uwierzytelniania
+WS06000040,Tryb szyfrowania
+WS06000050,Klucz sieci
+WS06000070,Nazwa (SSID):
+WS06000080,Metoda wewnêtrznego uwierzytelniania
+WS07000010,Potwierdzenie ustawieñ sieci bezprzewodowej
+WS07000020,Kliknij przycisk Dalej, aby wys³aæ poni¿sze ustawienia do urz¹dzenia
+WS07000060,Tryb komunikacji
+WS07000070,Tryb Infrastrukturalny
+WS07000080,Ad-hoc
+WS07000090,Nazwa (SSID)
+WS07000150,Automatyczny
+WS07000190,Adres IP
+WS07000200,Maska podsieci
+WS07000210,Brama
+WS07000220,Kana³
+WS07000230,Metoda uwierzytelniania
+WS07000240,Tryb szyfrowania
+WS07000270,Zmieñ adres IP
+WS07000280,Metoda wewnêtrznego uwierzytelniania
+WS08010010,Wysy³anie ustawieñ... Czekaj...
+WS21000010,Uwierzytelnianie u¿ytkownika
+WS21000020,Skonfiguruj metodê uwierzytelniania i tryb szyfrowania
+WS21000030,Nazwa (SSID):
+WS21000040,Uwierzytelnianie u¿ytkownika
+WS21000050,Identyfikator u¿ytkownika
+WS21000060,Has³o u¿ytkownika
+WS43000000,Konfiguracja klucza sieci
+WS43000010,WprowadŸ klucz bezpieczeñstwa sieci sprawdzony wczeœniej.
+WS43000020,U¿ywany typ uwierzytelniania i szyfrowania bezprzewodowego zostanie wykryty automatycznie. Wystarczy wprowadziæ klucz sieci.
+WS44000010,Konfiguracja certyfikatu
+WS44000020,Konfiguracja certyfikatu klienta i weryfikacja certyfikatu serwera.
+WS44000030,Nazwa (SSID):
+WS44000040,Certyfikat klienta
+WS44000050,Weryfikacja certyfikatu serwera
+WS44000051,Brak weryfikacji
+WS44000052,Certyfikat CA
+WS44000053,Certyfikat CA i identyfikator serwera
+WS44000060,Identyfikator serwera
+WS46000010,Nawi¹zanie po³¹czenia z sieci¹ bezprzewodow¹ nie by³o mo¿liwe.
+WS46000020,SprawdŸ poni¿sze elementy i kliknij przycisk Spróbuj ponownie.
+WS46000230,Nie mo¿na wykryæ bezprzewodowego punktu dostêpowego lub routera. (TS-02)
+WS46000240,Wykonaj nastêpuj¹ce czynnoœci:
+WS46000250,- SprawdŸ, czy wybierasz prawid³owy identyfikator SSID (nazwê sieci) oraz czy podany klucz sieciowy jest poprawny.
+WS46000260,- SprawdŸ, czy bezprzewodowy punkt dostêpowy/ router nie u¿ywa ¿adnych dodatkowych ustawieñ zabezpieczeñ, np. filtrowania adresów MAC.
+WS46000270,- Przenieœ urz¹dzenie bli¿ej bezprzewodowego punktu dostêpowego / routera.  Kiedy po³¹czenie zostanie nawi¹zane, prawdopodobnie bêdzie mo¿na przenieœæ urz¹dzenie z powrotem do miejsca, w którym siê pierwotnie znajdowa³o.
+WS46000280,Adres MAC:
+WS46000330,Urz¹dzenie nie mo¿e nawi¹zaæ po³¹czenia z bezprzewodowym punktem dostêpowym / routerem. (TS-03)
+WS46000340,- SprawdŸ, czy wybierasz prawid³owy identyfikator SSID (nazwê sieci) oraz czy podany klucz sieciowy jest poprawny.
+WS46000350,- Jeœli nie masz tych informacji, poszukaj ich w dokumentacji producenta lub dostawcy bezprzewodowego punktu dostêpowego / routera.
+WS46000430,W bezprzewodowym punkcie dostêpowym / routerze wykryto nieobs³ugiwan¹ metodê uwierzytelniania lub szyfrowania. (TS-04)
+WS46000440,- Bezprzewodowy punkt dostêpowy / router u¿ywa metody uwierzytelniania lub szyfrowania, której urz¹dzenie nie obs³uguje. SprawdŸ, czy wybierasz prawid³owy identyfikator SSID (nazwê sieci).
+WS46000530,Okreœlony identyfikator SSID i klucz sieciowy s¹ niepoprawne. (TS-05)
+WS46000540,- SprawdŸ, czy wybierasz prawid³owy identyfikator SSID (nazwê sieci) oraz czy podany klucz sieciowy jest poprawny.
+WS46000630,Podane informacje o zabezpieczeniach sieci bezprzewodowej s¹ niepoprawne. (TS-06)
+WS46000640,- SprawdŸ wybran¹ metodê uwierzytelniania / szyfrowania i upewnij siê, ¿e podany klucz sieciowy jest poprawny.
+WS50000010,Potwierdzenie instalacji
+WS50000020,W trakcie instalacji ustawienia bezprzewodowe komputera lub bezprzewodowego punktu dostêpu/routera zostan¹ automatycznie wykryte. Przed pod³¹czeniem urz¹dzenia bezprzewodowego do sieci firmowej skontaktuj siê z administratorem sieci.
+WS50000030,Administrator nie zg³osi³ zastrze¿eñ.
+WS51000010,Wykrywanie istniej¹cej konfiguracji sieci bezprzewodowej na komputerze
+WS51000020,Ustawienia sieci bezprzewodowej na komputerze lub bezprzewodowego punktu dostêpu/routera zosta³y wykryte.
+WS51000030,Wykryta nazwa sieci bezprzewodowej (punktu dostêpu/routera):
+WS51000040,SSID:
+WS51000050,Czy chcesz u¿yæ tych ustawieñ do po³¹czenia siê z sieci¹ bezprzewodow¹?
+WS51000060,Tak
+WS51000070,Nie
+WS98050010,Nieprawid³owy klucz sieci
+WS98050020,(Klucz WEP ASCII)
+WS98050030,Nie wprowadzono poprawnych danych klucza WEP.
+WS98050040,64(40)-bitowy klucz WEP: „Czeœæ”
+WS98050050,128(104)-bitowy klucz WEP: „Bezprzewodowa”
+WS98050060,WprowadŸ od 5 do 13 znaków. Na przyk³ad:
+WS98060010,Nieprawid³owy klucz sieci
+WS98060020,(Klucz WEP w formacie szesnastkowym)
+WS98060030,Nie wprowadzono poprawnych danych klucza WEP.
+WS98060040,WprowadŸ od 10 do 26 cyfr szesnastkowych. Na przyk³ad:
+WS98060050,64(40)-bitowy klucz WEP: „71f2234aba”
+WS98060060,128(104)-bitowy klucz WEP: „71f2234ab56cd709e5412aa3ba”
+WS98070010,Zamknij program
+WS98070020,Instalacja nie zosta³a ukoñczona.
+WS98070030,Jeœli zamkniesz program instalacyjny, urz¹dzenie bezprzewodowe nie zostanie skonfigurowane.
+WS98070040,Aby kontynuowaæ pracê z programem instalacyjnym, kliknij przycisk Wznów.
+WS98070050,Aby zakoñczyæ dzia³anie programu instalacyjnego, kliknij przycisk Zamknij.
+WS98100010,Nieprawid³owy klucz sieci
+WS98100020,D³ugie has³o to ci¹g 8–63 znaków ASCII.
+WS98150010,Nieprawid³owy klucz sieci
+WS98150020,Wprowadzony klucz sieci jest niepoprawny.Zale¿nie od stosowanej metody ochrony, wprowadŸ 5 lub od 8 do 63 znaków.
+WS98150030,Dalsze informacje zawiera tekst pomocy.
+WS98160010,B³¹d po³¹czenia USB
+WS98160020,SprawdŸ, czy do urz¹dzenia pod³¹czony jest kabel USB.
+WS98160030,SprawdŸ, czy urz¹dzenie jest w³¹czone.
+WS99010010,OK
+WS99010020,Anuluj
+WS99010030,Zamknij
+WS99010040,< Wstecz
+WS99010050,Dalej >
+WS99010060,Pomoc
+WS99010070,Odœwie¿
+WS99010090,Wznów
+WS99010100,Zaawansowany
+WS99010130,Gdzie mo¿na znaleŸæ nazwê SSID?
+WS99010140,Gdzie mo¿na znaleŸæ klucz sieci?
+WS99010150,Ponów >
+WS99020100,System otwarty
+WS99020110,Klucz wspó³dzielony
+WS99020120,WPA / WPA2-PSK
+WS99020160,LEAP
+WS99020170,EAP-FAST
+WS99020180,PEAP
+WS99020190,EAP-TTLS
+WS99020200,Brak
+WS99020210,WEP
+WS99020220,TKIP
+WS99020230,AES
+WS99020240,CKIP
+WS99020250,TKIP+AES
+WS99020500,EAP-TLS
+WS99030100,Brak
+WS99030110,GTC
+WS99030120,MS-CHAPv2
+WS99030130,CHAP
+WS99030140,MS-CHAP
+WS99030150,PAP

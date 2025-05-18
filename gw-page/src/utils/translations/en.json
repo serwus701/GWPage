@@ -1,5 +1,21 @@
 {
-    "homepage":{
+
+    "navbar":{
+        "whereToFindUs":"Where to find us",
+        "login":"Log in",
+        "recents":"RECENTS",
+        "doors":"DOORS",
+        "kitchens":"KITCHENS",
+        "furniture":"FURNITURE",
+        "lighting":"LIGHTINF",
+        "decor":"DECOR",
+        "office":"OFIICE",
+        "brands":"BRANDS",
+        "outdoor":"OUTDOOR",
+        "outlet":"OUTLET"
+    },
+        "homepage":{
         "login":"Log in"
     }
+    
 }

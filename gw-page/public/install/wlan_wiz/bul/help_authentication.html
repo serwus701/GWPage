@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Метод на удостоверяване и режим на криптиране</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Метод на удостоверяване и режим на криптиране</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+Почечето Безжични мрежи използват някакъв вид настройки за защита. Тези настройки за защита дефинират удостоверяването (как устройството се идентифицира пред мрежата) и криптирането (как данните се криптират, когато се изпрашат по мрежата). Ако не посочите тези опции правилно, когато конфигурирате безжичното си устройство, той няма да може да се свърже с безжичната мрежа. Следователно, трябва да внимавате, когато конфигурирате тези опции. Моля, вижте долната информация, за да разберете какви методи за удостоверяване и криптиране поддържа безжичното ви устройство.
+</td></tr>
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Методи на удостоверяване  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+<ul>
+<li>
+Отворена система<br>
+Безжичните устройства получават достъп до мрежата без никакво удостоверяване. <br><br>
+
+<li>
+Споделен ключ (само в режим Инфраструктура)<br>
+Всички устройства, които ще упражняват достъп до безжичната мрежа, споделят таен предварително определен ключ. <br><br>
+<li>
+WPA/WPA2-PSK<br>
+Тайна, предварително зададена фраза се споделя от всички устройства, които ще имат достъп до безжичната мрежа. Този метод на удостоверяване ви позволява да комуникирате безопасно с използване на мощен метод за кодиране.  <br>WPA/WPA2-PSK могат да бъдат използвани само в инфраструктура на безжична мрежа.
+<br><br>
+<li>
+LEAP (не е наличен при някои модели)<br>
+
+Cisco® LEAP (Light Extensible Authentication Protocol) (лек разширен протокол за удостоверяване) използва ID на потребител и парола за удостоверяване.
+<br><br>
+<li>
+EAP-FAST/PEAP/EAP-TTLS (не е наличен при някои модели)<br>
+
+Cisco® EAP-FAST (Extensible Authentication Protocol-Flexible Authentication via Secure Tunneling) (разширен протокол за удостоверяване-гъвкаво удостоверяване чрез сигурна тунелна работа)/ PEAP (Protected Extensible Authentication Protocol) (защитен разширен протокол за удостоверяване) /EAP-TTLS (Extensible Authentication Protocol-Tunneled Transport Layer Security) (разширен протокол за удостоверяване- тунелна защита на транспортен слой) използва ID на потребител и парола за удостоверяване. Можете да проверите сървърния сертификат посредством CA сертификата.
+<br><br>
+<li>
+EAP-TLS (не е наличен при някои модели)<br>EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) (разширен протокол за удостоверяване-защита на транспортен слой) използва ID на потребител и сертификат на клиента за удостоверяване. Можете също така да проверите сертификата на SSL сървъра с помощта на CA сертификат. <br><br>
+</ul>
+
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Методи на вътрешно удостоверяване (не е наличен при някои модели)</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Трябва да посочите един от методите на вътрешно удостоверяване съгласно този, който сте избрали.
+<ul>
+<li>
+НЯМА<br>MS-CHAPv2 се използва за осигуряване, а методът на EAP-FAST отговаря на метода за удостоверяване във втора фаза. 
+<br><br>
+
+<li>
+MS-CHAPv2<br>
+MS-CHAPv2(Microsoft-Challenge Handshake Authentication Protocol version 2) (протокол за удостоверяване при квитиране на Microsoft-Challenge, версия 2) е метод на вътрешно удостоверяване за EAP-FAST/PEAP/EAP-TTLS.<br><br>
+<li>
+GTC<br>
+GTC(Generic Token Card) (обща маркерна карта) е метод на вътрешно удостоверяване за EAP-FAST/PEAP.<br><br>
+<li>
+MS-CHAP<br>
+MS-CHAP(Microsoft-Challenge Handshake Authentication Protocol) (протокол за удостоверяване при квитиране на предизвикателство на Microsoft) е метод на вътрешно удостоверяване за EAP-TTLS.<br><br>
+<li>
+CHAP<br>
+CHAP(Challenge Handshake Authentication Protocol) (протокол за начално удостоверяване) е метод на вътрешно удостоверяване за EAP-TTLS.<br><br>
+<li>
+PAP<br>
+PAP(Password Authentication Protocol) (протокол за удостоверяване с парола) е метод на вътрешно удостоверяване за EAP-TTLS.<br><br>
+</ul>
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Методи на криптиране  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+
+<ul>
+<li>Без<br>
+Не се използва метод на криптиране. <br><br>
+
+<li>WEP (Wired Equivalent Privacy, Еквивалент на жична защита)<br>
+Данните се прехвърлят и получават със защитен ключ по избор на потребителя.<br><br>
+<li>TKIP<br>
+TKIP (Temporal Key Integrity Protocol) (протокол за временна цялостност на ключа) премахва предсказуемостта, на която би могло да разчитат хакерите, за да използват слабостта в сигурността, внасяна от употребата на ръчно задавани WEP ключове. 
+TKIP ключовете се генерират автоматично и са по-дълги от WEP ключовете<br><br>
+<li>AES<br>
+AES (Advanced Encryption Standard) е стандарт Wi-Fi® за удостоверено защитено кодиране.<br><br>
+<li>CKIP<br>
+Оригиналният протокол за цялост на ключ за LEAP на Cisco Systems, Inc.
+</ul>
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

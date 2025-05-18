@@ -1,0 +1,42 @@
+WA0001,Èarobnjak za podešavanje bežiènog ureðaja
+WA0002,1.02
+WA0101,Prièekajte...
+WA0201,Potvrda instalacije
+WA0202,Tijekom instalacije, postavke bežiène veze na vašem raèunalu ili pristupna toèka bežiène veze automatski su detektirani. Prije povezivanja bežiènog ureðaja na korporacijsku mrežu potvrdite s administratorom mreže.
+WA0203,Imajte na umu da æe vas èarobnjak privremeno odspojiti iz bežiène mreže kako bi se povezao na vaš ureðaj.  Tijekom tog vremena bit æete odspojeni iz svih usluga mreže, ukljuèujuæi iz Interneta.
+WA0204,Provjereno i potvrðeno
+WA0301,Detektiranje postojeæih postavki bežiène mreže na raèunalu
+WA0302,Postavke bežiène mreže raèunala i pristupna toèka bežiène veze su detektirani.
+WA0303,Detektiran naziv bežiène mreže (pristupna toèka bežiène veze/naziv usmjernika):
+WA0304,SSID:
+WA0305,Želite li ureðaj povezati na ovu bežiènu mrežu?
+WA0306,Da, želim ureðaj povezati na ovu bežiènu mrežu.
+WA0307,Ne, želim ureðaj povezati na drugu bežiènu mrežu.
+WA0401,Omoguæi bežiènu vezu
+WA0402,Bežièno umrežavanje na ureðaju možete omoguæiti korištenjem njegove upravljaèke ploèe. Otvara se drugi prozor s dodatnim detaljima kako to uèiniti.
+WA0403,Kada omoguæite bežièno umrežavanje na ureðaju, èarobnjak automatski nastavlja s podešavanjem.
+WA0404,(*) Ako je pojavi zaslon „Postavi novu lokaciju”, kliknite na „Poništi”.
+WA0501,Slanje postavki......prièekajte...
+WA0601,Provjera rezultata veze „Podešavanje bežiène veze”
+WA0602,Ureðaj æe ispisati stranicu „WLAN Report”. Pronaðite <Connection> na stranici i provjerite opis za potvrdu rezultata veze.
+WA0603,* Ovaj ispis može trajati do 2 minute.
+WA0604,Odaberite rezultat iz popisa odabira u nastavku i kliknite na „Dalje”.
+WA0605,"Connection : OK"
+WA0606,"Connection : Failed"
+WA4001,Izlaz iz podešavanja
+WA4002,Podešavanje nije dovršeno.
+WA4003,Ako prekinete ovaj program za podešavanje, bežièni ureðaj nije konfiguriran.
+WA4004,Za nastavak ovog programa za podešavanje kliknite na „Nastavak”.
+WA4005,Za prekid ovog programa za podešavanje kliknite na „Izlaz”.
+WA5001,Ureðaj nije pronaðen
+WA5002,Želite li pokušati ponovno korištenjem istog postupka podešavanja ili nešto drugo?
+WA5003,Ponovno
+WA5004,Ako želite pokušati isti postupak podešavanja, preporuèujemo da privremeno onemoguæite sav sigurnosni softver, poput vatrozida, koji ga možda blokira.
+WA5005,Pokušaj nešto drugo
+WA5101,Neuspjelo povezivanje
+WA5102,Instalacija vam daje neke opcije za pokušaj drugog naèina povezivanja.  Za nastavak kliknite na „Dalje”.
+WA9901,< Natrag
+WA9902,Prekid
+WA9903,Dalje >
+WA9904,Izlaz
+WA9905,Nastavak

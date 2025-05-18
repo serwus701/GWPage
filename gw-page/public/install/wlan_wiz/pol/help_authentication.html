@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Metoda uwierzytelniania i tryb szyfrowania</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Metoda uwierzytelniania i tryb szyfrowania</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+Większość sieci bezprzewodowych korzysta z jakiegoś rodzaju ustawień bezpieczeństwa. Ustawienia bezpieczeństwa określają uwierzytelnianie (sposób, w jaki urządzenie przedstawia się sieci) oraz szyfrowanie (sposób szyfrowania danych przesyłanych w sieci). Jeśli opcje te nie zostaną prawidłowo określone podczas konfiguracji urządzenia bezprzewodowego, urządzenie nie będzie w stanie nawiązać połączenia z siecią bezprzewodową. Dlatego też należy zachować ostrożność przy konfigurowaniu tych opcji. Zapoznaj się z poniższymi informacjami, aby dowiedzieć się, jakie metody uwierzytelniania i szyfrowania są obsługiwane przez dane urządzenie bezprzewodowe.
+</td></tr>
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Metody uwierzytelniania  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+<ul>
+<li>
+System otwarty<br>
+Urządzenia bezprzewodowe uzyskują dostęp do sieci bez uwierzytelniania. <br><br>
+
+<li>
+Klucz współdzielony (tylko tryb infrastrukturalny)<br>
+Wszystkie urządzenia uzyskujące dostęp do sieci bezprzewodowej współdzielą poufny, ustalony z góry klucz. <br><br>
+<li>
+WPA/WPA2-PSK<br>
+Wszystkie urządzenia uzyskujące dostęp do sieci bezprzewodowej współdzielą tajne, wstępnie ustalone hasło. Ta metoda uwierzytelniania umożliwia bezpieczną komunikację za pomocą silnej metody szyfrowania.  <br>Z protokołu WPA/WPA2-PSK można korzystać tylko w infrastrukturze sieci bezprzewodowej.
+<br><br>
+<li>
+LEAP (niedostępny w niektórych modelach)<br>
+
+Protokół Cisco® LEAP wykorzystuje do uwierzytelniania identyfikator użytkownika i hasło.
+<br><br>
+<li>
+EAP-FAST/PEAP/EAP-TTLS (niedostępny w niektórych modelach)<br>
+
+Protokół Cisco® EAP-FAST (Extensible Authentication Protocol-Flexible Authentication via Secure Tunneling)/ PEAP (Protected Extensible Authentication Protocol) /EAP-TTLS (Extensible Authentication Protocol-Tunneled Transport Layer Security) wykorzystuje podczas uwierzytelniania identyfikator użytkownika i hasło.
+<br><br>
+<li>
+EAP-TLS (niedostępny w niektórych modelach)<br>Protokół EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) wykorzystuje podczas uwierzytelniania identyfikator użytkownika i certyfikat klienta. Certyfikat serwera SSL można również zweryfikować za pomocą certyfikatu UC <br><br>
+</ul>
+
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Wewnętrzne metody uwierzytelniania (niedostępny w niektórych modelach)</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Konieczne jest określenie jednej z wewnętrznych metod uwierzytelniania, zgodnej z wybraną.
+<ul>
+<li>
+BRAK<br>Protokół MS-CHAPv2 jest używany do dostarczania, a metoda EAP-FAST jest zgodna z metodą uwierzytelniania fazy drugiej. 
+<br><br>
+
+<li>
+MS-CHAPv2<br>
+MS-CHAPv2(Microsoft-Challenge Handshake Authentication Protocol version 2) jest wewnętrzną metodą uwierzytelniania dla protokołu EAP-FAST/PEAP/EAP-TTLS.<br><br>
+<li>
+GTC<br>
+GTC(Generic Token Card) jest wewnętrzną metodą uwierzytelniania dla protokołu EAP-FAST/PEAP.<br><br>
+<li>
+MS-CHAP<br>
+MS-CHAP(Microsoft-Challenge Handshake Authentication Protocol) jest wewnętrzną metodą uwierzytelniania dla protokołu EAP-TTLS.<br><br>
+<li>
+CHAP<br>
+CHAP(Challenge Handshake Authentication Protocol) jest wewnętrzną metodą uwierzytelniania dla protokołu EAP-TTLS.<br><br>
+<li>
+PAP<br>
+PAP(Password Authentication Protocol) jest wewnętrzną metodą uwierzytelniania dla protokołu EAP-TTLS.<br><br>
+</ul>
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Metody szyfrowania  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+
+<ul>
+<li>Brak<br>
+Nie jest używana żadna metoda szyfrowania. <br><br>
+
+<li>WEP (Wired Equivalent Privacy)<br>
+Dane są przesyłane i odbierane za pośrednictwem bezpiecznego klucza wybranego przez użytkownika.<br><br>
+<li>TKIP<br>
+Metoda TKIP usuwa przewidywalność, za pomocą której agresor mógłby wykorzystać słabszą stronę zabezpieczenia związaną z wykorzystaniem ręcznie przydzielanych kluczy WEP. Klucze TKIP są generowane automatycznie i są dłuższe od kluczy WEP.<br><br>
+<li>AES<br>
+AES (Advanced Encryption Standard) to standard silnego szyfrowania autoryzowany przez stowarzyszenie Wi-Fi®.<br><br>
+<li>CKIP<br>
+Oryginalny protokół spójności klucza dla protokołu LEAP firmy Cisco Systems, Inc.
+</ul>
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

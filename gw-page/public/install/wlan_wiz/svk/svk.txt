@@ -1,0 +1,160 @@
+WS01000010,Sprievodca nastavením bezdrôtového zariadenia
+WS01000040,2.02
+WS02010010,Vitajte
+WS02010020,Víta vás sprievodca nastavením bezdrôtového zariadenia
+WS04000010,Konfigurácia adresy IP
+WS04000020,Konfigurácia adresy IP bezdrôtového zariadenia
+WS04000030,Získa adresu IP automaticky.
+WS04000050,Nastavi statickú adresu IP
+WS04000060,Adresa IP
+WS04000070,Maska podsiete
+WS04000080,Brána
+WS05020010,Názov bezdrôtovej siete
+WS05020020,Konfigurácia názvu bezdrôtovej siete, ku ktorej bude zariadenie priradené.
+WS05020030,Názov (SSID)
+WS05020040,Toto je sie Ad-hoc bez prístupového bodu.
+WS05020060,Kanál
+WS05030010,H¾adá sa bezdrôtová sie...
+WS05040010,Dostupné bezdrôtové siete
+WS05040020,Vyberte názov SSID, ktorı ste si vopred zistili.
+WS05040040,Názov (SSID)
+WS05040050,Kanál
+WS05040060,Bezdrôtovı reim
+WS05040070,Signál
+WS05040080,Prístupovı bod/základòová stanica
+WS05040090,Sie Ad-hoc
+WS05040100,Ak sa názov SSID (identifikácia vášho bezdrôtového prístupového bodu) nezobrazí na tomto zozname, alebo ak ho skrıvate, stále ho môete nastavi kliknutím na tlaèidlo Rozšírené.
+WS05040110,802.11b/g (11 Mb/s/54 Mb/s)
+WS05040120,802.11b (11 Mb/s)
+WS05040130,802.11g (54 Mb/s)
+WS05040140,802.11b/g/n
+WS05040150,802.11n
+WS05060010,POZOR!
+WS05060020,Táto bezdrôtová sie nie je zabezpeèená. Nepouíva zabezpeèené overovanie a šifrovanie.
+WS05060030,Chcete pokraèova v nastavení?
+WS05060040,Názov (SSID):
+WS06000010,Metóda overovania a reim šifrovania
+WS06000020,Konfigurácia metódy overovania a reimu šifrovania
+WS06000030,Metóda overovania
+WS06000040,Reim šifrovania
+WS06000050,Sieovı k¾úè
+WS06000070,Názov (SSID):
+WS06000080,Vnútorná metóda overovania
+WS07000010,Potvrdenie nastavení bezdrôtovej siete
+WS07000020,Kliknutím na tlaèidlo Ïalej odošlite nasledujúce nastavenia do zariadenia
+WS07000060,Reim komunikácie
+WS07000070,Infraštruktúra
+WS07000080,Ad-hoc
+WS07000090,Názov (SSID)
+WS07000150,Automaticky
+WS07000190,Adresa IP
+WS07000200,Maska podsiete
+WS07000210,Brána
+WS07000220,Kanál
+WS07000230,Metóda overovania
+WS07000240,Reim šifrovania
+WS07000270,Zmeni adresu IP
+WS07000280,Vnútorná metóda overovania
+WS08010010,Odosielajú sa nastavenia... Èakajte...
+WS21000010,Overenie pouívate¾a
+WS21000020,Konfigurácia metódy overovania a reimu šifrovania
+WS21000030,Názov (SSID):
+WS21000040,Overenie pouívate¾a
+WS21000050,Identifikácia pouívate¾a
+WS21000060,Pouívate¾ské heslo
+WS43000000,Konfigurácia sieového k¾úèa
+WS43000010,Zadajte bezpeènostnı sieovı k¾úè, ktorı ste predtım skontrolovali.
+WS43000020,Overovanie bezdrôtovej siete a typ šifrovania sa automaticky zistia. Potrebujete zada iba sieovı k¾úè.
+WS44000010,Konfigurácia certifikátu
+WS44000020,Nakonfigurujte overenie certifikátu klienta a certifikátu servera.
+WS44000030,Názov (SSID):
+WS44000040,Certifikát klienta
+WS44000050,Overenie certifikátu servera
+WS44000051,iadne overovanie
+WS44000052,Certifikát CA
+WS44000053,Certifikát CA + ID servera
+WS44000060,ID servera
+WS46000010,Nepodarilo sa pripoji do siete
+WS46000020,Potvrïte nasledujúce údaje a kliknite na poloku Skúsi znovu.
+WS46000230,Váš bezdrôtovı prístupovı bod/smerovaè nemono rozpozna.(TS-02)
+WS46000240,Skúste nasledujúce:
+WS46000250,– Skontrolujte, èi ste zadali správny SSID (názov siete) a správny sieovı k¾úè.
+WS46000260,– Skontrolujte, èi bezdrôtovı prístupovı bod/smerovaè nepouíva ïalšie bezpeènostné nastavenia, ako je filtrovanie adries MAC.
+WS46000270,– Skúste presunú zariadenie blišie k bezdrôtovému prístupovému bodu/smerovaèu.  Po pripojení na sie by malo by moné presunú ho spä na pôvodné miesto.
+WS46000280,MAC adresa:
+WS46000330,Zariadenie sa nemôe pripoji k bezdrôtovému prístupovému bodu/smerovaèu.(TS-03)
+WS46000340,– Skontrolujte, èi ste zadali správny SSID (názov siete) a správny sieovı k¾úè.
+WS46000350,– Ak tieto údaje nepoznáte, pozrite si dokumentáciu od vırobcu alebo predajcu vášho bezdrôtového prístupového bodu/smerovaèa.
+WS46000430,Na bezdrôtovom prístupovom bode/smerovaèi sa zistila nepodporovaná metóda overenia/šifrovania.(TS-04)
+WS46000440,– Váš bezdrôtovı prístupovı bod/smerovaè pouíva metódu overenia/šifrovania, ktorú zariadenie nepodporuje. Overte, e ste vybrali správny SSID (názov siete).
+WS46000530,Zadanı SSID a k¾úè siete nie sú správne.(TS-05)
+WS46000540,– Skontrolujte, èi ste zadali správny SSID (názov siete) a správny sieovı k¾úè.
+WS46000630,Zadané údaje o zabezpeèení bezdrôtového pripojenia nie sú správne.(TS-06)
+WS46000640,– Skontrolujte pouívanú metódu overenia/šifrovania a uistite sa, e ste zadali správny k¾úè siete.
+WS50000010,Potvrdenie inštalácie
+WS50000020,Poèas inštalácie sa budú automaticky zisova nastavenia bezdrôtovej siete v poèítaèi alebo detekovanı bezdrôtovı prístupovı bod. Skôr ne pripojíte bezdrôtové zariadenie do firemnej siete, obráte sa na správcu siete.
+WS50000030,Overené a potvrdené
+WS51000010,Zisovanie existujúcich nastavení bezdrôtovej siete v poèítaèi
+WS51000020,Zistili sa nastavenia bezdrôtovej siete v poèítaèi alebo bezdrôtovı prístupovı bod.
+WS51000030,Zistenı názov bezdrôtovej siete (názov prístupového bodu do bezdrôtovej siete alebo smerovaèa):
+WS51000040,SSID:
+WS51000050,Chcete sa pripoji do bezdrôtovej siete pomocou tıchto nastavení?
+WS51000060,Áno
+WS51000070,Nie
+WS98050010,Neplatnı sieovı k¾úè
+WS98050020,(ASCII k¾uè WEP)
+WS98050030,Nezadali ste správne informácie o k¾úèi WEP.
+WS98050040,64(40) bit WEP: „Hello“
+WS98050050,128(104) bit WEP: „Wirelesscomms“
+WS98050060,Zadajte 5 alebo 13 textovıch znakov. Napríklad:
+WS98060010,Neplatnı sieovı k¾úè
+WS98060020,(Hex. k¾úè WEP)
+WS98060030,Nezadali ste správne informácie o k¾úèi WEP.
+WS98060040,Zadajte 10 alebo 26 znakov údajov v šestnástkovej sústave. Napríklad:
+WS98060050,64(40) bit WEP: „71f2234aba“
+WS98060060,128(104) bit WEP: „71f2234ab56cd709e5412aa3ba“
+WS98070010,Ukonèenie nastavenia
+WS98070020,Nastavenie nie je dokonèené.
+WS98070030,Ak ukonèíte tento nastavovací program, bezdrôtové zariadenie nebude nakonfigurované.
+WS98070040,Ak chcete pokraèova v tomto nastavovacom programe, kliknite na tlaèidlo Pokraèova.
+WS98070050,Ak chcete ukonèi tento nastavovací program, kliknite na tlaèidlo Skonèi.
+WS98100010,Neplatnı sieovı k¾úè
+WS98100020,Prístupovı k¾úè je reazec 8–63 znakov ASCII.
+WS98150010,Neplatnı sieovı k¾úè
+WS98150020,Nezadali ste správne sieovı k¾úè. V závislosti od metódy zabezpeèenia zadajte 5 alebo 8-63 znakov.
+WS98150030,Viac informácií nájdete v texte Pomocníka.
+WS98160010,Chyba pripojenia USB
+WS98160020,Skontrolujte, èi je k zariadeniu pripojenı kábel USB.
+WS98160030,Skontrolujte, èi je zariadenie zapnuté.
+WS99010010,OK
+WS99010020,Zruši
+WS99010030,Skonèi
+WS99010040,< Naspä
+WS99010050,Ïalej >
+WS99010060,Pomocník
+WS99010070,Obnovi
+WS99010090,Pokraèova
+WS99010100,Rozšírené
+WS99010130,Kde je moja sie SSID?
+WS99010140,Kde je môj sieovı k¾úè?
+WS99010150,Skúsi znovu >
+WS99020100,Otvorenı systém
+WS99020110,Zdie¾anı k¾úè
+WS99020120,WPA/WPA2-PSK
+WS99020160,LEAP
+WS99020170,EAP-FAST
+WS99020180,PEAP
+WS99020190,EAP-TTLS
+WS99020200,iadne
+WS99020210,WEP
+WS99020220,TKIP
+WS99020230,AES
+WS99020240,CKIP
+WS99020250,TKIP+AES
+WS99020500,EAP-TLS
+WS99030100,iadne
+WS99030110,GTC
+WS99030120,MS-CHAPv2
+WS99030130,CHAP
+WS99030140,MS-CHAP
+WS99030150,PAP

@@ -1,0 +1,13 @@
+Recycled paper
+The machine is designed to use regular paper and also recycled paper which complies with EN 12281:2002 or similar.
+Additionally, Laser/LED machines are able to print on 64g/m2 (Bond 17 lb) paper. This paper contains less raw materials and represents a significant resource saving.
+
+Duplex printing
+Duplex printing enables both sides of a sheet of paper to be used. This saves paper and reduces the size of printed documents, as fewer paper sheets are used. We recommend that this feature is enabled whenever you print, if supported by your machine. 
+
+ENERGY STAR(R)
+To save energy, look for the ENERGY STAR mark on products. ENERGY STAR compliant products are designed to be among the best on the market in terms of energy consumption. 
+
+Power management
+The machine automatically switches to "Ready" after the last print job. After a default time, the device will automatically switch to lower power modes using its Power Management function.
+In these modes the machine's energy consumption is reduced.

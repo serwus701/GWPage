@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+<title>Způsob ověřování a režim šifrování</title>
+
+
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="basic.css" type="text/css">
+
+
+
+</head>
+<body bgcolor="#FFFFFF">
+
+<!--top bar-->
+<IFRAME src="top_bar.html" name="top_bar" scrolling="NO" frameborder="0" width="100%" height="60"></IFRAME>
+<!--top bar end-->
+
+<br>
+
+<!--text-->
+<table border="0" cellspacing="0" cellpadding="5" width="580">
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+<span style="font-size: 120%;"><b>Způsob ověřování a režim šifrování</b></span>
+</td></tr>
+<tr><td colspan=2 height="10"></td></tr>
+<tr><td colspan=2></td></tr>
+<tr><td width="50"></td><td>
+Většina bezdrátových sítí používá určitý druh nastavení zabezpečení. Tato nastavení zabezpečení definují ověřování (způsob identifikace zařízení v síti) a šifrování (způsob šifrování dat při odesílání do sítě). Pokud při konfiguraci zařízení nezadáte tyto možnosti správně, nebude se zařízení moci připojit k bezdrátové síti. Je proto třeba tyto možnosti konfigurovat pečlivě. Prostudujte si v následující části způsoby ověřování a šifrování, které podporuje vaše bezdrátové zařízení.
+</td></tr>
+
+
+<tr><td colspan=2 height="30"></td></tr>	
+<tr><td width="50"></td><td>
+<b>Způsoby ověřování  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+<ul>
+<li>
+Otevřený systém<br>
+Bezdrátová zařízení mají povolen přístup k síti bez jakéhokoliv ověřování. <br><br>
+
+<li>
+Sdílený klíč (pouze v režimu Infrastruktura)<br>
+Tajný přednastavený klíč je sdílen všemi zařízeními, která budou mít přístup k bezdrátové síti. <br><br>
+<li>
+WPA/WPA2-PSK<br>
+Tajné přednastavené heslo je sdíleno všemi zařízeními, která budou mít přístup k bezdrátové síti. Tato metoda ověření vám umožní bezpečně komunikovat s využitím výkonné metody šifrování.  <br>WPA/WPA2-PSK lze využívat pouze v bezdrátových sítích typu Infrastruktura.
+<br><br>
+<li>
+LEAP (u některých modelů není k dispozici)<br>
+
+Cisco® LEAP (Light Extensible Authentication Protocol) využívá pro ověření ID uživatele a heslo.
+<br><br>
+<li>
+EAP-FAST/PEAP/EAP-TTLS (u některých modelů není k dispozici)<br>
+
+Cisco® EAP-FAST (Extensible Authentication Protocol-Flexible Authentication via Secure Tunneling)/ PEAP (Protected Extensible Authentication Protocol) /EAP-TTLS (Extensible Authentication Protocol-Tunneled Transport Layer Security) využívá ID uživatele a heslo pro identifikaci. Můžete ověřit certifikát serveru pomocí certifikátu CA.
+<br><br>
+<li>
+EAP-TLS (u některých modelů není k dispozici)<br>EAP-TLS (Extensible Authentication Protocol-Transport Layer Security) využívá pro ověření ID uživatele a certifikát klienta. Můžete rovněž ověřit certifikát serveru SSL pomocí certifikátu CÚ. <br><br>
+</ul>
+
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Vnitřní metody ověřování (u některých modelů není k dispozici)</b>
+</td></tr>
+<tr><td width="50"></td><td>
+Je třeba určit jednu z vnitřních metod ověřování podle toho co jste vybrali.
+<ul>
+<li>
+ŽÁDNÉ<br>MS-CHAPv2 se používá k zajišťování a metoda pro EAP-FAST odpovídající druhé fázi metody ověřování. 
+<br><br>
+
+<li>
+MS-CHAPv2<br>
+MS-CHAPv2 (Microsoft-Challenge Handshake Authentication Protocol version 2) je vnitřní metoda ověřování pro EAP-FAST/PEAP/EAP-TTLS.<br><br>
+<li>
+GTC<br>
+GTC (Generic Token Card) je vnitřní metoda ověřování pro EAP-FAST/PEAP.<br><br>
+<li>
+MS-CHAP<br>
+MS-CHAP (Microsoft-Challenge Handshake Authentication Protocol) je vnitřní metoda ověřování pro EAP-TTLS.<br><br>
+<li>
+CHAP<br>
+CHAP (Challenge Handshake Authentication Protocol) je vnitřní metoda ověřování pro EAP-TTLS.<br><br>
+<li>
+PAP<br>
+PAP (Password Authentication Protocol) je vnitřní metoda ověřování pro EAP-TTLS.<br><br>
+</ul>
+
+
+
+
+<tr><td width="50"></td><td>
+<b>Způsoby šifrování  </b>
+</td></tr>
+<tr><td width="50"></td><td>
+
+<ul>
+<li>Není<br>
+Není používán žádný způsob šifrování. <br><br>
+
+<li>WEP (Wired Equivalent Privacy)<br>
+Data jsou přenášena a přijímána pomocí zabezpečeného klíče podle výběru uživatele.<br><br>
+<li>TKIP<br>
+TKIP (Temporal Key Integrity Protocol) eliminuje pravděpodobnost, že by se narušitelé mohli spoléhat na zneužívání bezpečnostních nedostatků, které s sebou přináší používání ručně přiřazených klíčů WEP. Klíče TKIP jsou generovány automaticky a jsou delší, než klíče WEP<br><br>
+<li>AES<br>
+AES (Advanced Encryption Standard) je standard vysokého stupně šifrování s autorizací Wi-Fi®.<br><br>
+<li>CKIP<br>
+Původní protokol CKIP (Cisco Key Integrity Protocol) LEAP od společnosti Cisco Systems, Inc.
+</ul>
+
+</td></tr>
+<tr><td width="50"></td><td>
+
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tr><td width="70"></td><td>
+	<img src="img/key.gif" width="107" height="90" border="0" alt="image">
+	</td></tr></table>
+
+
+</td></tr>
+<tr><td colspan=2 height="10">
+</td></tr></table>
+
+<hr>
+
+<!--Copyright-->
+<IFRAME src="copy.html" name="copyright" align="middle" scrolling="NO" frameborder="0" width="100%" height="40"></IFRAME>
+
+</body>
+</html>

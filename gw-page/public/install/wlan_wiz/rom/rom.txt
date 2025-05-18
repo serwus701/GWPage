@@ -1,0 +1,160 @@
+WS01000010,Program asistent pentru configurarea dispozitivelor wireless
+WS01000040,2.02
+WS02010010,Bine aþi venit
+WS02010020,Bun venit la programul asistent pentru configurarea dispozitivelor wireless
+WS04000010,Configurare adresã IP
+WS04000020,Configurare adresã IP a dispozitivului wireless
+WS04000030,Obþinere automatã adresã IP
+WS04000050,Setare adresã IP staticã
+WS04000060,Adresã IP
+WS04000070,Mascã de subreþea
+WS04000080,Adresã gateway
+WS05020010,Nume reþea wireless
+WS05020020,Configuraþi numele reþelei wireless cu care va fi asociat dispozitivul.
+WS05020030,Nume (SSID)
+WS05020040,Aceasta este o reþea ad-hoc ºi nu are punct de acces.
+WS05020060,Canal
+WS05030010,Cãutare reþele wireless...
+WS05040010,Reþele wireless disponibile
+WS05040020,Selectaþi numele de reþea SSID pe care l-aþi bifat în avans.
+WS05040040,Nume (SSID)
+WS05040050,Canal
+WS05040060,Mod wireless
+WS05040070,Semnal
+WS05040080,Punct de acces / Staþie de bazã
+WS05040090,Reþea ad-hoc
+WS05040100,Dacã numele SSID (punctul de acces wireless) nu apare în listã sau dacã îl ascundeþi, îl puteþi totuºi configura dând clic pe butonul „Avansat”.
+WS05040110,802.11b/g (11 Mbps / 54 Mbps)
+WS05040120,802.11b (11 Mbps)
+WS05040130,802.11g (54 Mbps)
+WS05040140,802.11b/g/n
+WS05040150,802.11n
+WS05060010,ATENÞIE!
+WS05060020,Aceastã reþea wireless nu este securizatã. Aceastã reþea nu utilizeazã criptarea ºi autentificarea securizate.
+WS05060030,Doriþi sã continuaþi configurarea?
+WS05060040,Nume (SSID):
+WS06000010,Metodã de autentificare ºi mod de criptare
+WS06000020,Configuraþi metoda de autentificare ºi modul de criptare
+WS06000030,Metodã de autentificare
+WS06000040,Mod de criptare
+WS06000050,Cheie reþea
+WS06000070,Nume (SSID):
+WS06000080,Metodã internã de autentificare
+WS07000010,Confirmare setãri reþea wireless
+WS07000020,Faceþi clic pe butonul „Urmatorul” pentru a trimite urmãtoarele setãri cãtre dispozitiv
+WS07000060,Mod de comunicare
+WS07000070,Infrastructurã
+WS07000080,Ad-hoc
+WS07000090,Nume (SSID)
+WS07000150,Automat
+WS07000190,Adresã IP
+WS07000200,Mascã de subreþea
+WS07000210,Adresã gateway
+WS07000220,Canal
+WS07000230,Metodã de autentificare
+WS07000240,Mod de criptare
+WS07000270,Schimbare adresã IP
+WS07000280,Metodã internã de autentificare
+WS08010010,Trimitere setãri ...... Vã rugãm sã aºteptaþi...
+WS21000010,Autentificarea utilizatorului
+WS21000020,Configuraþi metoda de autentificare ºi modul de criptare
+WS21000030,Nume (SSID):
+WS21000040,Autentificarea utilizatorului
+WS21000050,ID utilizator
+WS21000060,Parolã utilizator
+WS43000000,Configurarea cheii de reþea
+WS43000010,Vã rugãm sã introduceþi cheia de securitate de reþea pe care aþi verificat-o anterior.
+WS43000020,Tipul de autentificare ºi de criptare al reþelei fãrã fir va fi detectat automat. Trebuie numai sã introduceþi cheia reþelei.
+WS44000010,Configurarea certificatului
+WS44000020,Configuraþi certificatul de client ºi verificarea certificatului de server.
+WS44000030,Nume (SSID):
+WS44000040,Certificat client
+WS44000050,Verificare certificat server
+WS44000051,Fãrã verificare
+WS44000052,Cert. CA
+WS44000053,Cert. CA + ID server
+WS44000060,ID server
+WS46000010,Conectarea la reþea a eºuat
+WS46000020,Confirmaþi urmãtoarele ºi apoi faceþi clic pe Retry (Reîncercare).
+WS46000230,Router-ul/punctul de acces fãrã fir nu a putut fi detectat.(TS-02)
+WS46000240,Încercaþi urmãtoarele:
+WS46000250,- Verificaþi dacã aþi selectat SSID-ul (nume reþea) corect ºi aþi introdus cheia de reþea corectã
+WS46000260,Verificaþi dacã router-ul/punctul de acces fãrã fir nu utilizeazã orice setãri de securitate suplimentare, cum ar fi filtrarea adresei MAC
+WS46000270,Încercaþi sã deplasaþi dispozitivul mai aproape de router-ul/punctul de acces fãrã fir.  Odatã ce sunteþi conectat la reþea, trebuie sã puteþi sã îl deplasaþi înapoi în locaþia sa anterioarã
+WS46000280,Adresa MAC:
+WS46000330,Dispozitivul nu reuºeºte sã se conecteze la router-ul/punctul de acces fãrã fir.(TS-03)
+WS46000340,- Verificaþi dacã aþi selectat SSID-ul (nume reþea) corect ºi aþi introdus cheia de reþea corectã
+WS46000350,Dacã nu cunoaºteþi aceste informaþii, consultaþi documentaþia din partea producãtorului sau a furnizorului routeru-lui/punctului de acces fãrã fir
+WS46000430,S-a detectat o metodã de autentificare/criptare neacceptatã pe router-ul/punctul de acces fãrã fir.(TS-04)
+WS46000440,Router-ul/punctul de acces fãrã fir utilizeazã o metodã de autentificare/criptare care nu este acceptatã de dispozitiv. Verificaþi dacã aþi selectat SSID-ul (nume reþea) corect
+WS46000530,SSID-ul ºi cheia de reþea specificate sunt incorecte.(TS-05)
+WS46000540,- Verificaþi dacã aþi selectat SSID-ul (nume reþea) corect ºi aþi introdus cheia de reþea corectã
+WS46000630,Informaþiile de securitate fãrã fir specificate sunt incorecte.(TS-06)
+WS46000640,- Verificaþi metoda de autentificare/criptare pe care o selectaþi ºi asiguraþi-vã cã aþi introdus cheia de reþea corectã
+WS50000010,Confirmarea instalãrii
+WS50000020,În timpul instalãrii, setãrile reþelei fãrã fir de pe calculatorul dumneavoastrã sau punctul de acces fãrã fir vor fi detectate automat.Înainte de a conecta dispozitivul fãrã fir la reþeaua unei companii, vã rugãm sã cereþi acordul administratorului de reþea.
+WS50000030,Verificat ºi confirmat
+WS51000010,Detectarea setãrilor actuale ale reþelei fãrã fir pe calculatorul dumneavoastrã.
+WS51000020,Setãrile reþelei fãrã fir de pe calculatorul dumneavoastrã sau punctul de acces fãrã fir au fost detectate.
+WS51000030,Numele reþelei fãrã fir a fost detectat (nume punct de acces fãrã fir/ruter):
+WS51000040,SSID:
+WS51000050,Doriþi sã vã conectaþi la reþeaua fãrã fir folosind aceste setãri?
+WS51000060,Da
+WS51000070,Nu
+WS98050010,Cheie de reþea invalidã
+WS98050020,(cheie ASCII WEP)
+WS98050030,Nu aþi introdus corect informaþiile privind cheia WEP.
+WS98050040,WEP de 64(40) biþi: „Salut”
+WS98050050,WEP de 128(104) biþi: „Comunwireless”
+WS98050060,Introduceþi 5 sau 13 caractere de text. De exemplu:
+WS98060010,Cheie de reþea invalidã
+WS98060020,(Cheie WEP hexazecimalã)
+WS98060030,Nu aþi introdus corect informaþiile privind cheia WEP.
+WS98060040,Introduceþi 10 sau 26 cifre de date hexazecimale. De exemplu:
+WS98060050,WEP de 64(40) biþi: „71f2234aba”
+WS98060060,WEP de 128(104) biþi: „71f2234ab56cd709e5412aa3ba”
+WS98070010,Ieºire din programul de configurare
+WS98070020,Configurarea nu este completã.
+WS98070030,Dacã ieºiþi din programul de configurare, dispozitivul wireless nu va fi configurat.
+WS98070040,Pentru a continua acest program de configurare, faceþi clic pe butonul „Reluare”.
+WS98070050,Pentru a ieºi din acest program de configurare, faceþi clic pe butonul „Ieºire”.
+WS98100010,Cheie de reþea invalidã
+WS98100020,Fraza secretã este un ºir ASCII de 8 – 63 de caractere.
+WS98150010,Cheie de reþea invalidã
+WS98150020,Nu aþi introdus corect cheia de reþea.În funcþie de metoda de securitate, trebuie sã introduceþi 5 sau 8-63 caractere.
+WS98150030,Pentru mai multe informaþii consultaþi indicaþiile din Ajutor.
+WS98160010,Eroare de conectare USB
+WS98160020,Vã rugãm sã verificaþi dacã la dispozitivul dumneavoastrã este conectat un cablu USB.
+WS98160030,Vã rugãm sã verificaþi dacã dispozitivul dumneavoastrã este pornit.
+WS99010010,OK
+WS99010020,Anulare
+WS99010030,Ieºire
+WS99010040,< Înapoi
+WS99010050,Urmatorul >
+WS99010060,Ajutor
+WS99010070,Reactualizare
+WS99010090,Reluare
+WS99010100,Avansat
+WS99010130,Unde este identificatorul meu SSID?
+WS99010140,Unde este cheia mea de reþea?
+WS99010150,Reîncercare >
+WS99020100,Sistem deschis
+WS99020110,Cheie partajatã
+WS99020120,WPA / WPA2-PSK
+WS99020160,LEAP
+WS99020170,EAP-FAST
+WS99020180,PEAP
+WS99020190,EAP-TTLS
+WS99020200,Nimic
+WS99020210,WEP
+WS99020220,TKIP
+WS99020230,AES
+WS99020240,CKIP
+WS99020250,TKIP+AES
+WS99020500,EAP-TLS
+WS99030100,NONE (Niciuna)
+WS99030110,GTC
+WS99030120,MS-CHAPv2
+WS99030130,CHAP
+WS99030140,MS-CHAP
+WS99030150,PAP

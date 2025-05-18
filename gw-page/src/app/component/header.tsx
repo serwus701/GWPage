@@ -8,8 +8,11 @@ import { useState } from "react";
 const Header = () => {
   const { t, i18n } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [language, setLanguage] = useState("PL");
-  const [currency, setCurrency] = useState("PLN");
+
+  const handleLanguageChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const lang = e.target.value;
+    i18n.changeLanguage(lang);
+  };
 
   return (
     <>
@@ -25,7 +28,7 @@ const Header = () => {
           {/* Jak dojechać po prawej */}
           <div className="flex items-center space-x-2">
             <img src="/odwiedzNasWhite.svg" alt="Jak dojechać" className="w-4 h-4" />
-            <span>Jak dojechać</span>
+            <span>{t('navbar.whereToFindUs')}</span>
           </div>
         </div>
 
@@ -47,24 +50,26 @@ const Header = () => {
           {/* Prawa sekcja */}
           <div className="flex items-center space-x-4 pr-8">
             <a href="#" className="flex items-center space-x-2 hover:underline">
-              <span>ZALOGUJ SIĘ</span>
+              <span>{t('navbar.login')}</span>
               <img src="/user.svg" alt="Logowanie" className="w-6 h-6" />
             </a>
             <div className="mx-4">|</div>
             <select
               className="bg-black text-gray-400 border-none p-1 rounded appearance-none focus:outline-none focus:ring-0"
-              value={language}
-              onChange={(e) => setLanguage(e.target.value)}
+              value={i18n.language}
+              onChange={handleLanguageChange}
             >
-              <option className="bg-white text-black" value="PL">POLSKI</option>
-              <option className="bg-white text-black" value="EN">ENGLISH</option>
+              <option className="bg-white text-black" value="pl">POLSKI</option>
+              <option className="bg-white text-black" value="en">ENGLISH</option>
             </select>
           </div>
         </div>
 
 
         {/* Główna nawigacja */}
-        <div className="w-full bg-gray-50 text-black px-4 md:px-8 flex flex-col h-auto lg:h-[120px] relative">
+        <div className="w-full bg-gray-50 text-black px-4 md:px-8 flex flex-col h-auto lg:h-[140px] relative">
+
+
 
           {/* Logo i Mobile Menu (tylko mobile) */}
           <div className="w-full lg:hidden h-[85px] flex justify-between items-center p-4">
@@ -79,46 +84,117 @@ const Header = () => {
             </div>
           </div>
 
+
+
           {/* Nawigacja górna i dolna (tylko desktop) */}
-          <div className="hidden lg:flex w-full bg-gray-50 text-black px-8 h-[120px]">
+          <div className="hidden lg:flex w-full bg-white text-black px-8 h-[140px]">
+            <div className="w-full h-full grid grid-rows-2">
+
+              {/* Górna część */}
+              <div className="grid grid-cols-3 items-center bg-white w-full px-4 py-2">
+                {/* Lewa strona (np. menu, pusta przestrzeń) */}
+                <div className="flex justify-start min-w-[4rem]">{/* zostawione miejsce */}</div>
+
+                {/* Środkowe logo */}
+                <div className="flex justify-center">
+                  <img
+                    src="/foto/xml-shop-logo.webp"
+                    alt="Logo"
+                    className="h-16 object-contain"
+                  />
+                </div>
+
+                {/* Wyszukiwarka po prawej */}
+                <div className="flex justify-end">
+                  <div className="relative w-full max-w-sm">
+                    <input
+                      type="text"
+                      placeholder="Szukaj w naszym katalogu"
+                      className="w-full border border-gray-400 rounded px-4 py-2 pr-10 text-sm text-gray-700 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black"
+                    />
+                    <div className="absolute inset-y-0 right-3 flex items-center pointer-events-none">
+                      <svg
+                        className="w-4 h-4 text-gray-700"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M21 21l-4.35-4.35m0 0A7.5 7.5 0 1010.5 18.5a7.5 7.5 0 006.15-3.85z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              {/* Dolna część - Główne kategorie */}
+              <div className="flex justify-center items-center bg-white">
+                <nav className="flex flex-wrap gap-x-8 justify-center font-light text-sm text-center">
+                  <Link href="/news" className="hover:font-bold hover:underline">{t('navbar.recents')}</Link>
+                  <Link href="/drzwi" className="hover:font-bold hover:underline">{t('navbar.doors')}</Link>
+                  <Link href="/kuchnie" className="hover:font-bold hover:underline">{t('navbar.kitchens')}</Link>
+                  <Link href="/meble" className="hover:font-bold hover:underline">{t('navbar.furniture')}</Link>
+                  <Link href="/oswietlenie" className="hover:font-bold hover:underline">{t('navbar.lighting')}</Link>
+                  <Link href="/dekoracje" className="hover:font-bold hover:underline">{t('navbar.decor')}</Link>
+                  <Link href="/office" className="hover:font-bold hover:underline">{t('navbar.office')}</Link>
+                  <Link href="/brands" className="hover:font-bold hover:underline">{t('navbar.brands')}</Link>
+                  <Link href="/outdoor" className="hover:font-bold hover:underline">{t('navbar.outdoor')}</Link>
+                  <Link href="/Outlet" className="hover:font-bold hover:underline">{t('navbar.outlet')}</Link>
+                </nav>
+              </div>
+
+            </div>
+          </div>
+
+
+
+
+
+          {/* Nawigacja górna i dolna (tylko desktop) */}
+          {/*} <div className="hidden lg:flex w-full bg-gray-50 text-black px-8 h-[120px]">
             {/* Logo */}
-            <div className="w-1/4 h-full flex justify-end items-center p-4">
+          {/*<div className="w-1/4 h-full flex justify-end items-center p-4">
               <Link href="/" className="text-4xl font-serif font-light">Galeria Wnętrza</Link>
             </div>
 
             {/* Nawigacja */}
-            <div className="w-3/4 h-full grid grid-rows-2">
+          {/*<div className="w-3/4 h-full grid grid-rows-2">
               {/* Górna część - Linki i wyszukiwanie */}
-              <div className="relative flex justify-center items-center bg-gray-50 w-full px-4">
+          {/*<div className="relative flex justify-center items-center bg-gray-50 w-full px-4">
                 {/* Linia oddzielająca */}
-                <div className="absolute bottom-0 left-0 right-[200px] border-b border-gray-300"></div>
+          {/*<div className="absolute bottom-0 left-0 right-[200px] border-b border-gray-300"></div>
 
                 <div className="flex items-center w-full gap-x-6">
                   <nav className="flex space-x-6 justify-start font-bold">
                     <Link href="/brands" className="hover:underline">MARKI</Link>
-                    <Link href="/stories" className="hover:underline">HISTORIE</Link>
+                    <Link href="/news" className="hover:underline">AKTUALNOSCI</Link>
                     <Link href="/Outlet" className="hover:underline">OUTLET</Link>
                   </nav>
 
                   {/* Pasek wyszukiwania */}
-                  <div className="flex items-center border bg-gray-200 border-gray-400 rounded px-2 py-1 w-3/5">
+          {/*<div className="flex items-center border bg-gray-200 border-gray-400 rounded px-2 py-1 w-3/5">
                     <input
                       type="text"
                       placeholder="komoda..."
                       className="w-full bg-transparent focus:outline-none px-2"
                     />
                     <img src="/lupa.svg" alt="Szukaj" className="w-5 h-5 text-gray-500 cursor-pointer" />
-                  </div>
+                  </div>*/}
 
-                  {/* Ikona serca (ulubione) */}
-                  <a href="#" className="ml-4">
+          {/* Ikona serca (ulubione) */}
+          {/*<a href="#" className="ml-4">
                     <img src="/serce.svg" alt="Ulubione" className="w-10 h-10 text-gray-500 cursor-pointer" />
                   </a>
                 </div>
-              </div>
+              </div>*/}
 
-              {/* Dolna część - Główne kategorie */}
-              <div className="flex justify-center items-center bg-gray-50">
+          {/* Dolna część - Główne kategorie */}
+          {/*<div className="flex justify-center items-center bg-gray-50">
                 <div className="flex justify-between items-center w-full px-4">
                   <nav className="flex space-x-12 justify-start font-light">
                     <a href="#" className="hover:font-bold hover:underline">MEBLE</a>
@@ -132,7 +208,7 @@ const Header = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
 
           {/* Mobile Menu */}
           {menuOpen && (

@@ -1,0 +1,42 @@
+WA0001,Prùvodce nastavením bezdrátového zaøízení
+WA0002,1.02
+WA0101,Èekejte prosím...
+WA0201,Potvrzení instalace
+WA0202,Bìhem instalace budou automaticky zjištìna bezdrátová nastavení poèítaèe nebo bezdrátového pøístupového bodu. Pøed pøipojením bezdrátového zaøízení k podnikové síti kontaktujte správce sítì.
+WA0203,Upozoròujeme vás, e budete prùvodcem doèasnì odpojeni od bezdrátové sítì, aby mohlo probìhnou pøipojení k zaøízení.  Bìhem této doby budete odpojeni od všech síovıch slueb, vèetnì Internetu.
+WA0204,Zkontrolováno a potvrzeno
+WA0301,Rozpoznávání existujících nastavení bezdrátové sítì ve vašem poèítaèi
+WA0302,Ve vašem poèítaèi byla rozpoznána nastavení bezdrátové sítì nebo bezdrátovı pøístupovı bod.
+WA0303,Zjištìnı název bezdrátové sítì (název bezdrátového pøístupového bodu/routeru):
+WA0304,Název SSID:
+WA0305,Chcete zaøízení pøipojit k této bezdrátové síti?
+WA0306,Ano, chci zaøízení pøipojit k této bezdrátové síti.
+WA0307,Ne, chci zaøízení pøipojit k jiné bezdrátové síti.
+WA0401,Povolit bezdrátové pøipojení
+WA0402,Nyní byste mìli zapnout bezdrátovou sí v zaøízení pomocí ovládacího panelu. Podrobnìjší postup této akce naleznete v dalším oknì, které by se mìlo otevøít.
+WA0403,Jakmile ve svém zaøízení povolíte bezdrátovou sí, prùvodce automaticky dokonèí proces nastavení.
+WA0404,(*) Pokud se objeví obrazovka „Nastavení síového umístìní“, kliknìte na tlaèítko „Storno“.
+WA0501,Uplatòování nastavení... Èekejte prosím...
+WA0601,Zkontrolujte vısledek pøipojení „Nastavení bezdrátového pøipojení“.
+WA0602,Zaøízení vytiskne stránku „WLAN Report“. Vyhledejte na této stránce poloku <Connection> a zkontrolujte popis, abyste ovìøili pøipojení.
+WA0603,* Tento tisk mùe trvat a 2 minuty.
+WA0604,Vyberte vısledek ze seznamu vıbìrù a kliknìte na tlaèítko „Další“.
+WA0605,"Connection : OK"
+WA0606,"Connection : Failed"
+WA4001,Ukonèení nastavování
+WA4002,Proces nastavení nebyl dokonèen.
+WA4003,Pokud ukonèíte tento instalaèní program, nastavení zaøízení nebude dokonèeno.
+WA4004,Chcete-li pokraèovat v instalaci, kliknìte na tlaèítko „Pokraèovat“.
+WA4005,Chcete-li tento instalaèní program ukonèit, kliknìte na tlaèítko „Konec“.
+WA5001,Vyhledání zaøízení selhalo.
+WA5002,Chcete zkusit akci opakovat pomocí stejného postupu nastavení, nebo chcete vyzkoušet jinı postup?
+WA5003,Zkusit znovu
+WA5004,Pokud chcete opakovat stejnı postup nastavení, zkuste doèasnì vypnout veškerı software zabezpeèení, napøíklad bránu Firewall, která by ho mohla blokovat.
+WA5005,Vyzkoušet jinı postup
+WA5101,Pøipojení selhalo.
+WA5102,Instalaèní aplikace vám poskytne nìkteré monosti jinıch metod pøipojení.  Pokraèujte kliknutím na tlaèítko „Další“.
+WA9901,< Zpìt
+WA9902,Zrušit
+WA9903,Další >
+WA9904,Konec
+WA9905,Pokraèovat

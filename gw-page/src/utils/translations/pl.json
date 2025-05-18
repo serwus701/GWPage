@@ -1,5 +1,19 @@
 {
     "homepage":{
-        "login":"zaloguj się"
+        "login":"Log in"
+    },
+    "navbar":{
+        "whereToFindUs":"Jak dojechać?",
+        "login":"Zaloguj się",
+        "recents":"AKTUALNOŚCI",
+        "doors":"DRZWI",
+        "kitchens":"KUCHNIE",
+        "furniture":"MEBLE",
+        "lighting":"OŚWIETLENIE",
+        "decor":"DEKORACJE",
+        "office":"OFFICE",
+        "brands":"MARKI",
+        "outdoor":"OUTDOOR",
+        "outlet":"OUTLET"
     }
 }

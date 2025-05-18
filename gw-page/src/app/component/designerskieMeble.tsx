@@ -9,7 +9,7 @@ const DesignerskieMeble = () => {
 
             {/* Desktop version */}
             <div className="hidden md:flex flex-col w-full h-[400px] bg-white items-center justify-center">
-                <div id="custom-text" className="text-center max-w-6xl px-4 font-sans ">
+                <div id="custom-text" className="text-center max-w-6xl px-4 font-sans text-black">
                     <h3 className="text-3xl font-bold mb-4">Designerskie meble, kuchnie i oświetlenie</h3>
                     <p className="text-center">Galeria Wnętrza we Wrocławiu, Poznaniu i Warszawie to salony sprzedaży, gdzie na dużych spójnie zaaranżowanych przestrzeniach</p>
                     <p className="text-center">zobaczycie Państwo luksusowe meble, zarówno te do salonu, jak i sypialni oraz kuchni.</p>

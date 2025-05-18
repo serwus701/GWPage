@@ -2,7 +2,7 @@ import React from "react";
 const MarkiSection = () => {
     return (
 
-        <div className="w-screen h-[70px] flex flex-col bg-white items-center mt-8 relative w-full">
+        <div className="w-screen h-[70px] flex flex-col bg-white items-center mt-8 relative">
             <a href="#" className="underline italic font-serif font-normal text-center text-2xl block hover:no-underline">
                 Zobacz wszystkie marki
             </a>
